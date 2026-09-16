@@ -1,8 +1,47 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1789573511,
-  "cash": 10021.681710017423,
-  "open_positions": [],
+  "last_rash_trade_ts": 1789598692,
+  "cash": 8157.648911954183,
+  "open_positions": [
+    {
+      "id": "A_1789596331_5044683562",
+      "strategy": "A",
+      "asset": "50446835623128661528780391265807942031239042380415821206277656954305701272288",
+      "condition": "0xd7ce01db85d5d91214fc29d453a219fc48760b7abdbd5c02f61481e5cbbd0e0f",
+      "outcome": "NIP",
+      "title": "Counter-Strike: NIP vs M80 (BO1) - Logitech G Play Connect Group A",
+      "entry_price": 0.5640000000000001,
+      "entry_time": 1789596331,
+      "fill_usdc": 932.0163990316204,
+      "shares_gross": 1652.5113458007452,
+      "fee_shares": 20.317957498889324,
+      "net_shares": 1632.1933883018557,
+      "rash_trade_price": 0.55,
+      "rash_trade_usdc": 3209.8770000000004,
+      "rash_trade_ts": 1789595991,
+      "kelly_target_usdc": 932.0163990316204,
+      "exit_type": "resolution"
+    },
+    {
+      "id": "A_1789596974_5688930799",
+      "strategy": "A",
+      "asset": "56889307991515384921745193890950048873231233179317993402635507437117611630820",
+      "condition": "0x8c270f5fafd9166ddc8614008caf0c6e5757cf8b58717e8521d2cd23b204a3fd",
+      "outcome": "B8",
+      "title": "Counter-Strike: B8 vs GamerLegion (BO1) - Logitech G Play Connect Group A",
+      "entry_price": 0.554,
+      "entry_time": 1789596974,
+      "fill_usdc": 932.0163990316204,
+      "shares_gross": 1682.3400704541882,
+      "fee_shares": 20.78396569840513,
+      "net_shares": 1661.556104755783,
+      "rash_trade_price": 0.55,
+      "rash_trade_usdc": 3310.7525000000005,
+      "rash_trade_ts": 1789596892,
+      "kelly_target_usdc": 932.0163990316204,
+      "exit_type": "resolution"
+    }
+  ],
   "closed_positions": [
     {
       "id": "D_1788974548_1804645493",
@@ -2087,9 +2126,235 @@
       "ts": 1789572466,
       "kind": "SKIP_D",
       "msg": "depth thin on crash 6405482597: $20"
+    },
+    {
+      "ts": 1789596331,
+      "kind": "FILL_A",
+      "msg": "BUY $932 @ 0.564 (best 0.560+slip, kelly target $932) bucket 0.6 (1652.5 shares) \u2014 Counter-Strike: NIP vs M80 (BO1) - Logitech G Play Connect G",
+      "asset": "50446835623128661528",
+      "entry": 0.5640000000000001,
+      "size": 932.0163990316204
+    },
+    {
+      "ts": 1789596974,
+      "kind": "FILL_A",
+      "msg": "BUY $932 @ 0.554 (best 0.550+slip, kelly target $932) bucket 0.6 (1682.3 shares) \u2014 Counter-Strike: B8 vs GamerLegion (BO1) - Logitech G Play Co",
+      "asset": "56889307991515384921",
+      "entry": 0.554,
+      "size": 932.0163990316204
+    },
+    {
+      "ts": 1789596974,
+      "kind": "SKIP_A",
+      "msg": "already have position on 5044683562..."
+    },
+    {
+      "ts": 1789596974,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.90 not in [0.6, 0.7] (Rash entry $2363 @ 0.870)"
+    },
+    {
+      "ts": 1789596975,
+      "kind": "SKIP_A",
+      "msg": "effective_ask 0.624 (best 0.620 + slip) > limit 0.622 (bucket 0.6)"
+    },
+    {
+      "ts": 1789596975,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $1934 @ 0.410)"
+    },
+    {
+      "ts": 1789597371,
+      "kind": "SKIP_D",
+      "msg": "crash 0.610->0.485 but effective_ask 0.684 > limit 0.490"
+    },
+    {
+      "ts": 1789597888,
+      "kind": "SKIP_A",
+      "msg": "already have position on 5688930799..."
+    },
+    {
+      "ts": 1789597890,
+      "kind": "SKIP_D",
+      "msg": "crash 0.260->0.205 but effective_ask 0.234 > limit 0.210"
+    },
+    {
+      "ts": 1789597955,
+      "kind": "SKIP_D",
+      "msg": "crash 0.330->0.215 but effective_ask 0.244 > limit 0.220"
+    },
+    {
+      "ts": 1789598087,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 1000127264: $8"
+    },
+    {
+      "ts": 1789598152,
+      "kind": "SKIP_D",
+      "msg": "crash 0.355->0.135 but effective_ask 0.154 > limit 0.140"
+    },
+    {
+      "ts": 1789598218,
+      "kind": "SKIP_D",
+      "msg": "crash 0.345->0.135 but effective_ask 0.144 > limit 0.140"
+    },
+    {
+      "ts": 1789598283,
+      "kind": "SKIP_D",
+      "msg": "crash 0.355->0.135 but effective_ask 0.174 > limit 0.140"
+    },
+    {
+      "ts": 1789598285,
+      "kind": "SKIP_D",
+      "msg": "crash 0.715->0.375 but effective_ask 0.414 > limit 0.380"
+    },
+    {
+      "ts": 1789598349,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 1000127264: $1"
+    },
+    {
+      "ts": 1789598352,
+      "kind": "SKIP_D",
+      "msg": "crash 0.740->0.375 but effective_ask 0.414 > limit 0.380"
+    },
+    {
+      "ts": 1789598415,
+      "kind": "SKIP_D",
+      "msg": "crash 0.345->0.140 but effective_ask 0.154 > limit 0.145"
+    },
+    {
+      "ts": 1789598417,
+      "kind": "SKIP_D",
+      "msg": "crash 0.625->0.375 but effective_ask 0.414 > limit 0.380"
+    },
+    {
+      "ts": 1789598480,
+      "kind": "SKIP_D",
+      "msg": "crash 0.410->0.140 but effective_ask 0.174 > limit 0.145"
+    },
+    {
+      "ts": 1789598483,
+      "kind": "SKIP_D",
+      "msg": "crash 0.725->0.375 but effective_ask 0.414 > limit 0.380"
+    },
+    {
+      "ts": 1789598545,
+      "kind": "SKIP_D",
+      "msg": "crash 0.390->0.135 but effective_ask 0.144 > limit 0.140"
+    },
+    {
+      "ts": 1789598548,
+      "kind": "SKIP_D",
+      "msg": "crash 0.725->0.375 but effective_ask 0.414 > limit 0.380"
+    },
+    {
+      "ts": 1789598611,
+      "kind": "SKIP_D",
+      "msg": "crash 0.450->0.165 but effective_ask 0.174 > limit 0.170"
+    },
+    {
+      "ts": 1789598614,
+      "kind": "SKIP_D",
+      "msg": "crash 0.820->0.375 but effective_ask 0.414 > limit 0.380"
+    },
+    {
+      "ts": 1789598677,
+      "kind": "SKIP_D",
+      "msg": "crash 0.415->0.150 but effective_ask 0.164 > limit 0.155"
+    },
+    {
+      "ts": 1789598679,
+      "kind": "SKIP_D",
+      "msg": "crash 0.775->0.375 but effective_ask 0.414 > limit 0.380"
+    },
+    {
+      "ts": 1789598742,
+      "kind": "SKIP_D",
+      "msg": "crash 0.390->0.155 but effective_ask 0.164 > limit 0.160"
+    },
+    {
+      "ts": 1789598745,
+      "kind": "SKIP_D",
+      "msg": "crash 0.665->0.375 but effective_ask 0.424 > limit 0.380"
+    },
+    {
+      "ts": 1789598806,
+      "kind": "SKIP_A",
+      "msg": "already have position on 5688930799..."
+    },
+    {
+      "ts": 1789598808,
+      "kind": "SKIP_D",
+      "msg": "crash 0.375->0.160 but effective_ask 0.194 > limit 0.165"
+    },
+    {
+      "ts": 1789598810,
+      "kind": "SKIP_D",
+      "msg": "crash 0.700->0.425 but effective_ask 0.494 > limit 0.430"
+    },
+    {
+      "ts": 1789598873,
+      "kind": "SKIP_D",
+      "msg": "crash 0.325->0.180 but effective_ask 0.194 > limit 0.185"
+    },
+    {
+      "ts": 1789598876,
+      "kind": "SKIP_D",
+      "msg": "crash 0.625->0.455 but effective_ask 0.494 > limit 0.460"
+    },
+    {
+      "ts": 1789598938,
+      "kind": "SKIP_D",
+      "msg": "crash 0.330->0.180 but effective_ask 0.194 > limit 0.185"
+    },
+    {
+      "ts": 1789598941,
+      "kind": "SKIP_D",
+      "msg": "crash 0.640->0.455 but effective_ask 0.494 > limit 0.460"
+    },
+    {
+      "ts": 1789599004,
+      "kind": "SKIP_D",
+      "msg": "crash 0.225->0.180 but effective_ask 0.194 > limit 0.185"
+    },
+    {
+      "ts": 1789599069,
+      "kind": "SKIP_D",
+      "msg": "crash 0.285->0.180 but effective_ask 0.194 > limit 0.185"
+    },
+    {
+      "ts": 1789599134,
+      "kind": "SKIP_D",
+      "msg": "crash 0.285->0.190 but effective_ask 0.204 > limit 0.195"
+    },
+    {
+      "ts": 1789599199,
+      "kind": "SKIP_D",
+      "msg": "crash 0.345->0.190 but effective_ask 0.204 > limit 0.195"
+    },
+    {
+      "ts": 1789599202,
+      "kind": "SKIP_D",
+      "msg": "crash 0.650->0.455 but effective_ask 0.494 > limit 0.460"
+    },
+    {
+      "ts": 1789599264,
+      "kind": "SKIP_D",
+      "msg": "crash 0.305->0.190 but effective_ask 0.204 > limit 0.195"
+    },
+    {
+      "ts": 1789599267,
+      "kind": "SKIP_D",
+      "msg": "crash 0.590->0.455 but effective_ask 0.494 > limit 0.460"
+    },
+    {
+      "ts": 1789599330,
+      "kind": "SKIP_D",
+      "msg": "crash 0.275->0.190 but effective_ask 0.204 > limit 0.195"
     }
   ],
-  "iterations": 1455,
+  "iterations": 1510,
   "cum_pnl": 21.68171001742335,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506
@@ -2240,6 +2505,23 @@
     "0x3f627befebe5b27ca62d24658eab1f7e85d9d048b47fb5279dab7407e32b35c7",
     "0x67334ed24ed13ce59ba31a2cb3ae6ef622bfd7f448b088d6b7fb23b99a93af44",
     "0xe9064726623d5eca7877b778c1cb0ae8ead2bc44750fd3bc7b2d923c29ba9b62",
-    "0x38f17c849d26aef6a3eb35de7df495ab0bc5b40d91e47a3b935453d49062b246"
+    "0x38f17c849d26aef6a3eb35de7df495ab0bc5b40d91e47a3b935453d49062b246",
+    "0x7ec66f619884ab7c3d492fbbac7a24dba4f2541c4039fdeddc8aa8f183f28569",
+    "0x62f32a3d146bfd5d1e04862612ddac5730c9a80511249159b75c692add4921b3",
+    "0x1a4f746468de569dc9feac83c9ffd355bbe7f1e056b9f6978bedd7b5f2f51469",
+    "0x34e5584747933e70c1e89ac2a622be6fe6445730cc87cce7ebd4cfec3e83e07c",
+    "0x676a90af9ad6e4c60ffa1483faa7b9c721c5d5f4d5cc082a878abaffcd756881",
+    "0x19b46fec61d639403ec7781703f9dc8be5b86459dff40e838bc86450a9248269",
+    "0x8127883025e3f4396202f056e48db2168b37f57ce07cfc98396dbd9934dc71d9",
+    "0xb4b6487df34449b65d52acf99b58dd00ab30a437a642a48237965638f7cb5360",
+    "0x55a90771daf8e77e41d65123e32c04621aa15f73a493df02ea4293a29fbd819e",
+    "0xe122c7cac1c28b68df727309d59ba6686e168078207fc995e2abc1fd935bcf37",
+    "0x269b25ec40c5e01f89a065a87d8405fdc4c8212b07a19c6a46f6ec428e2b4292",
+    "0x0beef63759a2417191afda5c7d312dd45d5831a745e82dee575ebadef9de0d42",
+    "0x6593620e879207ac982303b6f7cd4dd275f4dc896bd9f814402407646dd1c8da",
+    "0xea0b98b0d0cbc9028fbc44e05cb8cff64adf7de00bf4726739616e53e23b915d",
+    "0x0b3f95fa7a322498bb4eebfb3d710efccb85941821e6787f019d29d7045d5105",
+    "0xe7db528b7fb211ea0f11c64439e4a76c19c5251b9578ab887c003aece1465719",
+    "0x616f782ecd6d12ae937f0318be0858011314af7190a4303b9eb57975fa18966c"
   ]
 }
