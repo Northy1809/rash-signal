@@ -1,27 +1,8 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1789659009,
+  "last_rash_trade_ts": 1789676083,
   "cash": 7269.447112391768,
   "open_positions": [
-    {
-      "id": "A_1789643504_8683486692",
-      "strategy": "A",
-      "asset": "86834866922827467009725973395433266887405246862601527653915639501125000982652",
-      "condition": "0x8824f3353d4a2e65ebc1517e3633587ffd6adb0fcfbd03fea5dce6995db29341",
-      "outcome": "NIP",
-      "title": "Counter-Strike: Luminosity vs NIP (BO1) - Logitech G Play Connect Group A",
-      "entry_price": 0.5640000000000001,
-      "entry_time": 1789643504,
-      "fill_usdc": 218.7756,
-      "shares_gross": 387.9,
-      "fee_shares": 4.76930808,
-      "net_shares": 383.13069192,
-      "rash_trade_price": 0.55,
-      "rash_trade_usdc": 2536.0115000000005,
-      "rash_trade_ts": 1789627521,
-      "kelly_target_usdc": 932.0163990316204,
-      "exit_type": "resolution"
-    },
     {
       "id": "D_1789646934_1098206692",
       "strategy": "D",
@@ -35,26 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1789666371
-    },
-    {
-      "id": "A_1789662496_1139355735",
-      "strategy": "A",
-      "asset": "113935573540480500971122052562552075887436639070583665821231492805445002273757",
-      "condition": "0xb4991eee22a6d3d7f454f9fb3192c02200db834b13361374834d6174979620a4",
-      "outcome": "Nexus",
-      "title": "Counter-Strike: Nexus vs Spirit Academy (BO3) - CCT Europe Series #9 Group Stage",
-      "entry_price": 0.604,
-      "entry_time": 1789662496,
-      "fill_usdc": 843.7970906615526,
-      "shares_gross": 1397.01505076416,
-      "fee_shares": 16.70718239509874,
-      "net_shares": 1380.3078683690612,
-      "rash_trade_price": 0.59,
-      "rash_trade_usdc": 2643.4478,
-      "rash_trade_ts": 1789654512,
-      "kelly_target_usdc": 843.7970906615526,
-      "exit_type": "resolution"
+      "exit_at": 1789679303
     }
   ],
   "closed_positions": [
@@ -258,47 +220,53 @@
       "exit_time": 1789662501,
       "exit_price": 0.0,
       "pnl": -438.5905
+    },
+    {
+      "id": "A_1789643504_8683486692",
+      "strategy": "A",
+      "asset": "86834866922827467009725973395433266887405246862601527653915639501125000982652",
+      "condition": "0x8824f3353d4a2e65ebc1517e3633587ffd6adb0fcfbd03fea5dce6995db29341",
+      "outcome": "NIP",
+      "title": "Counter-Strike: Luminosity vs NIP (BO1) - Logitech G Play Connect Group A",
+      "entry_price": 0.5640000000000001,
+      "entry_time": 1789643504,
+      "fill_usdc": 218.7756,
+      "shares_gross": 387.9,
+      "fee_shares": 4.76930808,
+      "net_shares": 383.13069192,
+      "rash_trade_price": 0.55,
+      "rash_trade_usdc": 2536.0115000000005,
+      "rash_trade_ts": 1789627521,
+      "kelly_target_usdc": 932.0163990316204,
+      "exit_type": "resolution",
+      "exit_time": 1789675434,
+      "exit_price": 0.0,
+      "pnl": -218.7756
+    },
+    {
+      "id": "A_1789662496_1139355735",
+      "strategy": "A",
+      "asset": "113935573540480500971122052562552075887436639070583665821231492805445002273757",
+      "condition": "0xb4991eee22a6d3d7f454f9fb3192c02200db834b13361374834d6174979620a4",
+      "outcome": "Nexus",
+      "title": "Counter-Strike: Nexus vs Spirit Academy (BO3) - CCT Europe Series #9 Group Stage",
+      "entry_price": 0.604,
+      "entry_time": 1789662496,
+      "fill_usdc": 843.7970906615526,
+      "shares_gross": 1397.01505076416,
+      "fee_shares": 16.70718239509874,
+      "net_shares": 1380.3078683690612,
+      "rash_trade_price": 0.59,
+      "rash_trade_usdc": 2643.4478,
+      "rash_trade_ts": 1789654512,
+      "kelly_target_usdc": 843.7970906615526,
+      "exit_type": "resolution",
+      "exit_time": 1789675434,
+      "exit_price": 0.0,
+      "pnl": -843.7970906615526
     }
   ],
   "decisions": [
-    {
-      "ts": 1788969492,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.440 > limit 0.431 (bucket 0.4)"
-    },
-    {
-      "ts": 1788969492,
-      "kind": "FILL_A",
-      "msg": "BUY $100 @ 0.710 bucket 0.7 (140.8 shares, fee 1.45) \u2014 Counter-Strike: 9z vs G2 (BO3) - FISSURE PLAYGROUND Group A",
-      "asset": "58403296199962146576",
-      "entry": 0.71,
-      "size": 100
-    },
-    {
-      "ts": 1788969492,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.4, 0.6, 0.7] (Rash entry $3107 @ 0.480)"
-    },
-    {
-      "ts": 1788969492,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.440 > limit 0.431 (bucket 0.4)"
-    },
-    {
-      "ts": 1788969492,
-      "kind": "SKIP_A",
-      "msg": "already have position on 5840329619..."
-    },
-    {
-      "ts": 1788969492,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.650 > limit 0.622 (bucket 0.6)"
-    },
-    {
-      "ts": 1788969493,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.740 > limit 0.716 (bucket 0.7)"
-    },
     {
       "ts": 1788969493,
       "kind": "SKIP_A",
@@ -2818,10 +2786,74 @@
       "ts": 1789666031,
       "kind": "SKIP_D",
       "msg": "crash 0.795->0.610 but effective_ask 0.954 > limit 0.615"
+    },
+    {
+      "ts": 1789675434,
+      "kind": "EXIT_A_RES",
+      "msg": "resolved 0 \u2192 pnl $-218.78 (Counter-Strike: Luminosity vs NIP (BO1) - Logitech)",
+      "asset": "86834866922827467009",
+      "pnl": -218.7756
+    },
+    {
+      "ts": 1789675434,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789675435,
+      "kind": "EXIT_A_RES",
+      "msg": "resolved 0 \u2192 pnl $-843.80 (Counter-Strike: Nexus vs Spirit Academy (BO3) - CC)",
+      "asset": "11393557354048050097",
+      "pnl": -843.7970906615526
+    },
+    {
+      "ts": 1789676085,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789676737,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789677390,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789678045,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789678703,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789678767,
+      "kind": "SKIP_D",
+      "msg": "crash 0.805->0.580 but effective_ask 0.694 > limit 0.585"
+    },
+    {
+      "ts": 1789678833,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 8779805093: $21"
+    },
+    {
+      "ts": 1789678899,
+      "kind": "SKIP_D",
+      "msg": "crash 0.810->0.465 but effective_ask 0.494 > limit 0.470"
+    },
+    {
+      "ts": 1789678965,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 8779805093: $16"
     }
   ],
-  "iterations": 1675,
-  "cum_pnl": -1567.9801969466787,
+  "iterations": 1730,
+  "cum_pnl": -2630.5528876082312,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
     "59791274182564502652034972722656381080188306472031620654012968744576890493920": 1789644222
@@ -3072,6 +3104,7 @@
     "0x3ad7e56afd58f550b53bc33fbab207fa8262d444f3e8c7414b2cb6f9ae4bea73",
     "0xab313e508d342c0a3698f9cbc54ccf7e7a8e90f593adaf189b9120980742c1b1",
     "0xea4502fb245ae36cefc2eb37a0b8bef8130464794260557cb0c48e6ab6cee872",
-    "0x0d1da0867df6a0c039402d74c820652656a45d1ed9942bef6fb59efa7cd468bb"
+    "0x0d1da0867df6a0c039402d74c820652656a45d1ed9942bef6fb59efa7cd468bb",
+    "0x34453358a1616687c2ec0c35b88e5367b21040dfeeacabd8eee5a5503f78991e"
   ]
 }
