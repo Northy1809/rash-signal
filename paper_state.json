@@ -1,7 +1,7 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1789755270,
-  "cash": 6254.585838699185,
+  "last_rash_trade_ts": 1789766064,
+  "cash": 7532.414105346925,
   "open_positions": [
     {
       "id": "D_1789646934_1098206692",
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1789756675
+      "exit_at": 1789767384
     },
     {
       "id": "A_1789721520_9245618006",
@@ -35,25 +35,6 @@
       "rash_trade_usdc": 2417.9916000000003,
       "rash_trade_ts": 1789718422,
       "kelly_target_usdc": 869.5947592622286,
-      "exit_type": "resolution"
-    },
-    {
-      "id": "A_1789723902_8482767230",
-      "strategy": "A",
-      "asset": "84827672305462416628946082378039684639833351046161923602817929282740691397716",
-      "condition": "0xefedb5dae26095dc687e78714ffd21ca5088f87822f95038d689928ff20ae862",
-      "outcome": "3DMAX",
-      "title": "Counter-Strike: Infinite vs 3DMAX (BO1) - Logitech G Play Connect Group B",
-      "entry_price": 0.674,
-      "entry_time": 1789723902,
-      "fill_usdc": 867.4342855310657,
-      "shares_gross": 1286.994488918495,
-      "fee_shares": 14.139178854156372,
-      "net_shares": 1272.8553100643387,
-      "rash_trade_price": 0.67,
-      "rash_trade_usdc": 2544.5260000000003,
-      "rash_trade_ts": 1789723831,
-      "kelly_target_usdc": 867.4342855310657,
       "exit_type": "resolution"
     },
     {
@@ -526,89 +507,50 @@
       "exit_price": 0.086,
       "exit_reason": "SL",
       "pnl": -18.01645538792863
+    },
+    {
+      "id": "A_1789723902_8482767230",
+      "strategy": "A",
+      "asset": "84827672305462416628946082378039684639833351046161923602817929282740691397716",
+      "condition": "0xefedb5dae26095dc687e78714ffd21ca5088f87822f95038d689928ff20ae862",
+      "outcome": "3DMAX",
+      "title": "Counter-Strike: Infinite vs 3DMAX (BO1) - Logitech G Play Connect Group B",
+      "entry_price": 0.674,
+      "entry_time": 1789723902,
+      "fill_usdc": 867.4342855310657,
+      "shares_gross": 1286.994488918495,
+      "fee_shares": 14.139178854156372,
+      "net_shares": 1272.8553100643387,
+      "rash_trade_price": 0.67,
+      "rash_trade_usdc": 2544.5260000000003,
+      "rash_trade_ts": 1789723831,
+      "kelly_target_usdc": 867.4342855310657,
+      "exit_type": "resolution",
+      "exit_time": 1789763638,
+      "exit_price": 1.0,
+      "pnl": 405.421024533273
+    },
+    {
+      "id": "D_1789764458_5946708476",
+      "strategy": "D",
+      "asset": "59467084765198838045789087897384283903227855414602138564190633074091574749217",
+      "entry_price": 0.554,
+      "entry_time": 1789764458,
+      "fill_usdc": 100,
+      "shares_gross": 180.50541516245485,
+      "fee_shares": 2.2299999999999995,
+      "net_shares": 178.27541516245486,
+      "crash_from": 0.725,
+      "crash_to": 0.565,
+      "exit_type": "time",
+      "exit_at": 1789768058,
+      "exit_time": 1789764521,
+      "exit_price": 0.596,
+      "exit_reason": "TP",
+      "pnl": 4.972956583401697
     }
   ],
   "decisions": [
-    {
-      "ts": 1788984030,
-      "kind": "EXIT_D_TIME",
-      "msg": "sold @ 0.460 after 60min \u2192 pnl $-7.83",
-      "asset": "41167061535991692679",
-      "pnl": -7.8271629796649975
-    },
-    {
-      "ts": 1788984045,
-      "kind": "EXIT_D_TIME",
-      "msg": "sold @ 0.460 after 60min \u2192 pnl $-7.83",
-      "asset": "41167061535991692679",
-      "pnl": -7.8271629796649975
-    },
-    {
-      "ts": 1788984057,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.90 not in [0.4, 0.6, 0.7] (Rash entry $2626 @ 0.890)"
-    },
-    {
-      "ts": 1788984061,
-      "kind": "EXIT_D_TIME",
-      "msg": "sold @ 0.460 after 60min \u2192 pnl $-7.83",
-      "asset": "41167061535991692679",
-      "pnl": -7.8271629796649975
-    },
-    {
-      "ts": 1788984076,
-      "kind": "EXIT_D_TIME",
-      "msg": "sold @ 0.530 after 60min \u2192 pnl $+0.87",
-      "asset": "41167061535991692679",
-      "pnl": 0.8745201245793766
-    },
-    {
-      "ts": 1788984091,
-      "kind": "EXIT_D_TIME",
-      "msg": "sold @ 0.540 after 60min \u2192 pnl $+2.12",
-      "asset": "41167061535991692679",
-      "pnl": 2.120286936915008
-    },
-    {
-      "ts": 1789123800,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.4, 0.6, 0.7] (Rash entry $3186 @ 0.460)"
-    },
-    {
-      "ts": 1789123800,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.4, 0.6, 0.7] (Rash entry $2977 @ 0.467)"
-    },
-    {
-      "ts": 1789123800,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.4, 0.6, 0.7] (Rash entry $3236 @ 0.470)"
-    },
-    {
-      "ts": 1789123800,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.4, 0.6, 0.7] (Rash entry $3282 @ 0.470)"
-    },
-    {
-      "ts": 1789123800,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.460 > limit 0.431 (bucket 0.4)"
-    },
-    {
-      "ts": 1789123800,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.4, 0.6, 0.7] (Rash entry $3126 @ 0.470)"
-    },
-    {
-      "ts": 1789123800,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.460 > limit 0.431 (bucket 0.4)"
-    },
-    {
-      "ts": 1789123801,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.740 > limit 0.716 (bucket 0.7)"
-    },
     {
       "ts": 1789123801,
       "kind": "SKIP_A",
@@ -3129,17 +3071,93 @@
       "ts": 1789756075,
       "kind": "WAIT_D",
       "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789763638,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789763639,
+      "kind": "EXIT_A_RES",
+      "msg": "resolved 1 \u2192 pnl $+405.42 (Counter-Strike: Infinite vs 3DMAX (BO1) - Logitech)",
+      "asset": "84827672305462416628",
+      "pnl": 405.421024533273
+    },
+    {
+      "ts": 1789764143,
+      "kind": "SKIP_D",
+      "msg": "crash 0.810->0.610 but effective_ask 0.634 > limit 0.615"
+    },
+    {
+      "ts": 1789764269,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789764458,
+      "kind": "FILL_D",
+      "msg": "CRASH-BUY $100 @ 0.554 (best 0.550+slip, crashed 0.725->0.565)",
+      "asset": "59467084765198838045"
+    },
+    {
+      "ts": 1789764522,
+      "kind": "EXIT_D_TP",
+      "msg": "sold @ 0.596 (TP, R=+7.6%) \u2192 pnl $+4.97",
+      "asset": "59467084765198838045",
+      "pnl": 4.972956583401697
+    },
+    {
+      "ts": 1789764898,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789765210,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.30 not in [0.6, 0.7] (Rash entry $3007 @ 0.310)"
+    },
+    {
+      "ts": 1789765274,
+      "kind": "SKIP_D",
+      "msg": "crash 0.445->0.325 but effective_ask 0.504 > limit 0.330"
+    },
+    {
+      "ts": 1789765527,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789766153,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.30 not in [0.6, 0.7] (Rash entry $2888 @ 0.310)"
+    },
+    {
+      "ts": 1789766156,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789766784,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789767035,
+      "kind": "SKIP_D",
+      "msg": "crash 0.685->0.525 but effective_ask 0.534 > limit 0.530"
     }
   ],
-  "iterations": 2005,
-  "cum_pnl": -416.6025642057389,
+  "iterations": 2060,
+  "cum_pnl": -6.208583089064177,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
     "59791274182564502652034972722656381080188306472031620654012968744576890493920": 1789644222,
     "77843171615736301173318601294134946372724814183842455582840145806322075156064": 1789722881,
     "22700216107736259097533333071860163308056109202851379655710049698612476411498": 1789738684,
     "54336411291029638588514384223949756349891959814335116800402076113621679343738": 1789739837,
-    "16620345733096114565092519984054055785423318055696863885204226637404673084694": 1789752856
+    "16620345733096114565092519984054055785423318055696863885204226637404673084694": 1789752856,
+    "59467084765198838045789087897384283903227855414602138564190633074091574749217": 1789764521
   },
   "seen_tx_hashes": [
     "0xd1f2b78a0aaef2e9c5b5062b9dd0c3e4a4b316a038c9534f0c43d5d6dfd329d2",
@@ -3619,6 +3637,16 @@
     "0x9dfca9612fb7ae6108b3d9c9a89dcebc5f5d9da35c8d1645817d1658270a71bd",
     "0xc2525b25975b0ec3c973f29205b89ba92182ba6d5f8575b7d34e966376701c59",
     "0xb25f775982ab59e1909460cc440a9d018f7f5634e303b5c1efbdd9fac3b2a2f1",
-    "0x064233f73e1283842c377d2738ae2e9dedbc2a3acff79ec65c0332ce780f6cd8"
+    "0x064233f73e1283842c377d2738ae2e9dedbc2a3acff79ec65c0332ce780f6cd8",
+    "0x6c85f490cecda00a27f7f875cc1a4ac94179780bab610c6762fecbe6734fd0e3",
+    "0x2e80575960e61f8001146415372b126b9ee4f4c70d71f94e16ec4278f77b8d6d",
+    "0xdd81ced7037a2f82036df28d7365fb270407e05000681365e3869c7eff653761",
+    "0x68d75a12adf0fa41547e08d8aeb5cae3abe6241e8dc775e15083462f331cfce7",
+    "0x41e90bef5ad9d4bff39753b7c0f82dfc66ac513867977199ff2c8c1afb1256c5",
+    "0x4c12db35e90c4b8a830288eb113e78c86bf3c23a150686522038ca42a55eb834",
+    "0xd87464e500c900adb02bd9959a1d36807402f6bcfc3e4725ba43cc760cab6f75",
+    "0x38c7d692837cc77c9be210e917532f2a19c144f272deec2776e6f4911671cef2",
+    "0x4dbee437e1b17e98cafe0e2209e9b9d3d712d791765bca67d08eee36083c10aa",
+    "0x28f42e5accb3b421595f5618b85489793111d32dbbb7591df77aca088f663c33"
   ]
 }
