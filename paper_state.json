@@ -1,7 +1,7 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1789676083,
-  "cash": 7269.447112391768,
+  "last_rash_trade_ts": 1789690513,
+  "cash": 5898.7299494869,
   "open_positions": [
     {
       "id": "D_1789646934_1098206692",
@@ -16,7 +16,45 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1789679303
+      "exit_at": 1789691448
+    },
+    {
+      "id": "A_1789687558_9649476514",
+      "strategy": "A",
+      "asset": "96494765140841406357562434967800873472545442337261006799894148005167163497299",
+      "condition": "0x183c1c4c2305f16fd21f880fcf3355d30a9e462c7c0d163101fe2ec30d232d1f",
+      "outcome": "3DMAX",
+      "title": "Counter-Strike: 3DMAX vs EYEBALLERS (BO1) - Logitech G Play Connect Group B",
+      "entry_price": 0.604,
+      "entry_time": 1789687558,
+      "fill_usdc": 685.3585814524345,
+      "shares_gross": 1134.6996381662823,
+      "fee_shares": 13.570099912758204,
+      "net_shares": 1121.129538253524,
+      "rash_trade_price": 0.58,
+      "rash_trade_usdc": 4471.278,
+      "rash_trade_ts": 1789679677,
+      "kelly_target_usdc": 685.3585814524345,
+      "exit_type": "resolution"
+    },
+    {
+      "id": "A_1789687558_9456530885",
+      "strategy": "A",
+      "asset": "94565308855205585088568856767733356802119277044929599717061527086508278855514",
+      "condition": "0x050e46a4764d6d8499bb089e565ebd5115a7c75a2571d88c881080f4b5254990",
+      "outcome": "BBL",
+      "title": "Counter-Strike: BBL vs Infinite (BO1) - Logitech G Play Connect Group B",
+      "entry_price": 0.574,
+      "entry_time": 1789687558,
+      "fill_usdc": 685.3585814524345,
+      "shares_gross": 1194.0044973038928,
+      "fee_shares": 14.598137784936855,
+      "net_shares": 1179.406359518956,
+      "rash_trade_price": 0.55,
+      "rash_trade_usdc": 2233.3575,
+      "rash_trade_ts": 1789683271,
+      "kelly_target_usdc": 685.3585814524345,
+      "exit_type": "resolution"
     }
   ],
   "closed_positions": [
@@ -267,86 +305,6 @@
     }
   ],
   "decisions": [
-    {
-      "ts": 1788969493,
-      "kind": "SKIP_A",
-      "msg": "already have position on 5840329619..."
-    },
-    {
-      "ts": 1788969493,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.440 > limit 0.431 (bucket 0.4)"
-    },
-    {
-      "ts": 1788969493,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.650 > limit 0.622 (bucket 0.6)"
-    },
-    {
-      "ts": 1788969493,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.450 > limit 0.431 (bucket 0.4)"
-    },
-    {
-      "ts": 1788969493,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.740 > limit 0.716 (bucket 0.7)"
-    },
-    {
-      "ts": 1788969672,
-      "kind": "SKIP_A",
-      "msg": "already have position on 5840329619..."
-    },
-    {
-      "ts": 1788969672,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.440 > limit 0.431 (bucket 0.4)"
-    },
-    {
-      "ts": 1788969672,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.740 > limit 0.716 (bucket 0.7)"
-    },
-    {
-      "ts": 1788969673,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.450 > limit 0.431 (bucket 0.4)"
-    },
-    {
-      "ts": 1788970594,
-      "kind": "SKIP_A",
-      "msg": "already have position on 5840329619..."
-    },
-    {
-      "ts": 1788970594,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.440 > limit 0.431 (bucket 0.4)"
-    },
-    {
-      "ts": 1788970594,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.730 > limit 0.716 (bucket 0.7)"
-    },
-    {
-      "ts": 1788971527,
-      "kind": "SKIP_A",
-      "msg": "already have position on 5840329619..."
-    },
-    {
-      "ts": 1788971527,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.440 > limit 0.431 (bucket 0.4)"
-    },
-    {
-      "ts": 1788971527,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.720 > limit 0.716 (bucket 0.7)"
-    },
-    {
-      "ts": 1788971527,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.4, 0.6, 0.7] (Rash entry $7454 @ 0.490)"
-    },
     {
       "ts": 1788972433,
       "kind": "SKIP_A",
@@ -2850,9 +2808,95 @@
       "ts": 1789678965,
       "kind": "SKIP_D",
       "msg": "depth thin on crash 8779805093: $16"
+    },
+    {
+      "ts": 1789687558,
+      "kind": "FILL_A",
+      "msg": "BUY $685 @ 0.604 (best 0.600+slip, kelly target $685) bucket 0.6 (1134.7 shares) \u2014 Counter-Strike: 3DMAX vs EYEBALLERS (BO1) - Logitech G Play ",
+      "asset": "96494765140841406357",
+      "entry": 0.604,
+      "size": 685.3585814524345
+    },
+    {
+      "ts": 1789687558,
+      "kind": "SKIP_A",
+      "msg": "already have position on 9649476514..."
+    },
+    {
+      "ts": 1789687558,
+      "kind": "FILL_A",
+      "msg": "BUY $685 @ 0.574 (best 0.570+slip, kelly target $685) bucket 0.6 (1194.0 shares) \u2014 Counter-Strike: BBL vs Infinite (BO1) - Logitech G Play Conn",
+      "asset": "94565308855205585088",
+      "entry": 0.574,
+      "size": 685.3585814524345
+    },
+    {
+      "ts": 1789687558,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2558 @ 0.440)"
+    },
+    {
+      "ts": 1789687563,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789688019,
+      "kind": "SKIP_A",
+      "msg": "already have position on 9649476514..."
+    },
+    {
+      "ts": 1789688221,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789688878,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789688939,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.30 not in [0.6, 0.7] (Rash entry $2307 @ 0.340)"
+    },
+    {
+      "ts": 1789688939,
+      "kind": "SKIP_A",
+      "msg": "already have position on 9649476514..."
+    },
+    {
+      "ts": 1789689534,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789689924,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.30 not in [0.6, 0.7] (Rash entry $1817 @ 0.340)"
+    },
+    {
+      "ts": 1789689924,
+      "kind": "SKIP_A",
+      "msg": "already have position on 9649476514..."
+    },
+    {
+      "ts": 1789690191,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789690843,
+      "kind": "SKIP_A",
+      "msg": "already have position on 9649476514..."
+    },
+    {
+      "ts": 1789690848,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
     }
   ],
-  "iterations": 1730,
+  "iterations": 1785,
   "cum_pnl": -2630.5528876082312,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
@@ -3105,6 +3149,22 @@
     "0xab313e508d342c0a3698f9cbc54ccf7e7a8e90f593adaf189b9120980742c1b1",
     "0xea4502fb245ae36cefc2eb37a0b8bef8130464794260557cb0c48e6ab6cee872",
     "0x0d1da0867df6a0c039402d74c820652656a45d1ed9942bef6fb59efa7cd468bb",
-    "0x34453358a1616687c2ec0c35b88e5367b21040dfeeacabd8eee5a5503f78991e"
+    "0x34453358a1616687c2ec0c35b88e5367b21040dfeeacabd8eee5a5503f78991e",
+    "0x1474b217866ea3d5ca77495b15d51a2055b589c53eb3be1eb34b589152f2adae",
+    "0x4461fe2529ea91dba3b6e5a039823a52913063e7f70238e9728d2200a5d26a1e",
+    "0xcdddc90f7e61d1b5bc0b0a996cb5d2906da22175fb910595e4e858b949114ce2",
+    "0x175a2ef584dd68b52325fa69d2766ebecbf417e11a75b50c428a4e2c04d79548",
+    "0x8e81a6ee10db99ce2aaaf1cc841912fe5391e1cd1c182136562b4cc8b146a42a",
+    "0x36983a2266764a1f2dcc667f3fbbcbed1505d7a95e2c5e465f68b69af5915deb",
+    "0x2470f2c73650fefa17eaa8f0ca9bc6772c5ac4537b928f2d6448bcec4e639568",
+    "0xbc219bf3012f54e925d2053e430f0d28193d7bd44031f9774c888527fe9b9b92",
+    "0xa4250ac4144c102dfa6ddb56ae73f4b7a3034c6a0d3762aaccfbf77b2d5d5e02",
+    "0x3378ee9884d3cb4bae16f8320bd0811cd3136600fdd16705afd612937fc1ae23",
+    "0xc8716c87d326125f814c748eb09875129294b5ca132a1f7aeecbf323327dd46b",
+    "0xa0e1592d072c7b8f56c8de30d9012f16739cf230c3e6680a676cdef9d16205d3",
+    "0xed4ad9b6138e2615867dc8f4cea8fd0e9b8df14777a87dc3aad148f766d8427f",
+    "0x9a285110e3d94493993910f157ebed34bbc9f1dc0a8d8604ec8f16d0b394b4d6",
+    "0x29e07f9caeaa7b9d4e2d3d7774328b78182735b1539d77bd676ffe511c2266f9",
+    "0x4fc2460a2d1090ba21df9e69a66bf0ae5dadd6b829fa99686cf8eb9c93001bc4"
   ]
 }
