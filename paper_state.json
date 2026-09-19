@@ -1,7 +1,7 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1789766064,
-  "cash": 7532.414105346925,
+  "last_rash_trade_ts": 1789775071,
+  "cash": 8754.763931407328,
   "open_positions": [
     {
       "id": "D_1789646934_1098206692",
@@ -16,26 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1789767384
-    },
-    {
-      "id": "A_1789721520_9245618006",
-      "strategy": "A",
-      "asset": "9245618006946842670393796049367745685256583149405826706372947746242549457210",
-      "condition": "0x45bea60f34b12ed7163368556bdcfb3a47f160985c1df79815385708abd64b51",
-      "outcome": "Color",
-      "title": "Counter-Strike: Color vs SPARTA (BO3) - NODWIN Clutch Series Group Stage",
-      "entry_price": 0.704,
-      "entry_time": 1789721520,
-      "fill_usdc": 869.5947592622286,
-      "shares_gross": 1235.219828497484,
-      "fee_shares": 12.870002437080988,
-      "net_shares": 1222.349826060403,
-      "rash_trade_price": 0.68,
-      "rash_trade_usdc": 2417.9916000000003,
-      "rash_trade_ts": 1789718422,
-      "kelly_target_usdc": 869.5947592622286,
-      "exit_type": "resolution"
+      "exit_at": 1789776454
     },
     {
       "id": "A_1789752852_4521923938",
@@ -548,72 +529,31 @@
       "exit_price": 0.596,
       "exit_reason": "TP",
       "pnl": 4.972956583401697
+    },
+    {
+      "id": "A_1789721520_9245618006",
+      "strategy": "A",
+      "asset": "9245618006946842670393796049367745685256583149405826706372947746242549457210",
+      "condition": "0x45bea60f34b12ed7163368556bdcfb3a47f160985c1df79815385708abd64b51",
+      "outcome": "Color",
+      "title": "Counter-Strike: Color vs SPARTA (BO3) - NODWIN Clutch Series Group Stage",
+      "entry_price": 0.704,
+      "entry_time": 1789721520,
+      "fill_usdc": 869.5947592622286,
+      "shares_gross": 1235.219828497484,
+      "fee_shares": 12.870002437080988,
+      "net_shares": 1222.349826060403,
+      "rash_trade_price": 0.68,
+      "rash_trade_usdc": 2417.9916000000003,
+      "rash_trade_ts": 1789718422,
+      "kelly_target_usdc": 869.5947592622286,
+      "exit_type": "resolution",
+      "exit_time": 1789772737,
+      "exit_price": 1.0,
+      "pnl": 352.7550667981744
     }
   ],
   "decisions": [
-    {
-      "ts": 1789123801,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.4, 0.6, 0.7] (Rash entry $1864 @ 0.470)"
-    },
-    {
-      "ts": 1789123801,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.460 > limit 0.431 (bucket 0.4)"
-    },
-    {
-      "ts": 1789123801,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.740 > limit 0.716 (bucket 0.7)"
-    },
-    {
-      "ts": 1789123801,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.460 > limit 0.431 (bucket 0.4)"
-    },
-    {
-      "ts": 1789123802,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.480 > limit 0.431 (bucket 0.4)"
-    },
-    {
-      "ts": 1789123802,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.460 > limit 0.431 (bucket 0.4)"
-    },
-    {
-      "ts": 1789123802,
-      "kind": "SKIP_A",
-      "msg": "best_ask 0.460 > limit 0.431 (bucket 0.4)"
-    },
-    {
-      "ts": 1789123806,
-      "kind": "FILL_D",
-      "msg": "CRASH-BUY $55 @ 0.340 (crashed 0.600->0.335)",
-      "asset": "95060268091389260460"
-    },
-    {
-      "ts": 1789123807,
-      "kind": "EXIT_A_RES",
-      "msg": "resolved 1 \u2192 pnl $+39.40 (Counter-Strike: 9z vs G2 (BO3) - FISSURE PLAYGROUN)",
-      "asset": "58403296199962146576",
-      "pnl": 39.39507042253524
-    },
-    {
-      "ts": 1789123808,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (4116706153)"
-    },
-    {
-      "ts": 1789124409,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (4116706153)"
-    },
-    {
-      "ts": 1789124439,
-      "kind": "SKIP_D",
-      "msg": "crash 0.755->0.500 but ask 0.760 > limit 0.505"
-    },
     {
       "ts": 1789124455,
       "kind": "SKIP_D",
@@ -3146,10 +3086,72 @@
       "ts": 1789767035,
       "kind": "SKIP_D",
       "msg": "crash 0.685->0.525 but effective_ask 0.534 > limit 0.530"
+    },
+    {
+      "ts": 1789772735,
+      "kind": "SKIP_A",
+      "msg": "effective_ask 0.654 (best 0.650 + slip) > limit 0.622 (bucket 0.6)"
+    },
+    {
+      "ts": 1789772735,
+      "kind": "SKIP_A",
+      "msg": "effective_ask 0.654 (best 0.650 + slip) > limit 0.622 (bucket 0.6)"
+    },
+    {
+      "ts": 1789772737,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789772737,
+      "kind": "EXIT_A_RES",
+      "msg": "resolved 1 \u2192 pnl $+352.76 (Counter-Strike: Color vs SPARTA (BO3) - NODWIN Clu)",
+      "asset": "92456180069468426703",
+      "pnl": 352.7550667981744
+    },
+    {
+      "ts": 1789773355,
+      "kind": "SKIP_A",
+      "msg": "effective_ask 0.654 (best 0.650 + slip) > limit 0.622 (bucket 0.6)"
+    },
+    {
+      "ts": 1789773357,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789773981,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789774291,
+      "kind": "SKIP_A",
+      "msg": "effective_ask 0.664 (best 0.660 + slip) > limit 0.622 (bucket 0.6)"
+    },
+    {
+      "ts": 1789774606,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789775230,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789775416,
+      "kind": "SKIP_D",
+      "msg": "crash 0.675->0.505 but effective_ask 0.664 > limit 0.510"
+    },
+    {
+      "ts": 1789775854,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
     }
   ],
-  "iterations": 2060,
-  "cum_pnl": -6.208583089064177,
+  "iterations": 2115,
+  "cum_pnl": 346.54648370911025,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
     "59791274182564502652034972722656381080188306472031620654012968744576890493920": 1789644222,
@@ -3647,6 +3649,18 @@
     "0xd87464e500c900adb02bd9959a1d36807402f6bcfc3e4725ba43cc760cab6f75",
     "0x38c7d692837cc77c9be210e917532f2a19c144f272deec2776e6f4911671cef2",
     "0x4dbee437e1b17e98cafe0e2209e9b9d3d712d791765bca67d08eee36083c10aa",
-    "0x28f42e5accb3b421595f5618b85489793111d32dbbb7591df77aca088f663c33"
+    "0x28f42e5accb3b421595f5618b85489793111d32dbbb7591df77aca088f663c33",
+    "0x82d92e48f77ddc74a0cf21ebf76b877435e1468d21cf42ac0094bc2c4e492e65",
+    "0xc2d09cf980d8c437a811016df29164bc368097fbe2b3a55c744d025944e476c0",
+    "0x369cbb7c46daebc2e7df8aa83b4cde4096a4719368151e2f78ae470260e4ca04",
+    "0x7dcb7556b32b5cdf024b3d5be57358e6d5b6b35d7ca3b053981c9874fc27531c",
+    "0xa54b8cccd85ff6110de55015ea15a7726fcdeccb3547716361fed84e4aba34d7",
+    "0xb1b71953214656ea19ca104f99e9894a9580b71eecda7d1eb02b318d0f087697",
+    "0x7ff8d847c30002eb3bf996e899008b0fb1c71748a5f2f2deab066b5a355ed030",
+    "0xa01927954b33020425135b242cbf590fc69f0d50468148ac9daa7752b34a21d3",
+    "0x1d41e8d48467c3f4a867d87816ca3775a12179e143c66556fef2c41f004210d1",
+    "0xaa6eaa12badf6cc37fa36237f14c7bb5477650c2110cf426080294c925e51f69",
+    "0xee6febcbd87c9710ec45ab69e33bf20fb18c7440af26c2d692c42426b491983c",
+    "0x4408e08b4802a9aaa07126319e446b83f6327f4a9fa794372637b52c1fc2fde0"
   ]
 }
