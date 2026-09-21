@@ -1,7 +1,7 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1789949672,
-  "cash": 10031.067222053774,
+  "last_rash_trade_ts": 1789965889,
+  "cash": 11855.185744069904,
   "open_positions": [
     {
       "id": "D_1789646934_1098206692",
@@ -16,26 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1789952300
-    },
-    {
-      "id": "A_1789929064_5004023160",
-      "strategy": "A",
-      "asset": "50040231606034313460772029784102703589198395559312793949837778281696176123129",
-      "condition": "0xa82cb857be0aa4db247b07314db409e0d9709d3624e9ad132f480a42ced7950d",
-      "outcome": "BESTIA",
-      "title": "Counter-Strike: Bounty Hunters Esports vs BESTIA (BO3) - Circuit X Curitiba Playoffs",
-      "entry_price": 0.5640000000000001,
-      "entry_time": 1789929064,
-      "fill_usdc": 1041.6096453283385,
-      "shares_gross": 1846.825612284288,
-      "fee_shares": 22.707090268157774,
-      "net_shares": 1824.11852201613,
-      "rash_trade_price": 0.5593494406,
-      "rash_trade_usdc": 7191.175400174592,
-      "rash_trade_ts": 1789928973,
-      "kelly_target_usdc": 1041.6096453283385,
-      "exit_type": "resolution"
+      "exit_at": 1789966680
     }
   ],
   "closed_positions": [
@@ -775,65 +756,31 @@
       "exit_price": 0.146,
       "exit_reason": "SL",
       "pnl": -21.03912824794481
+    },
+    {
+      "id": "A_1789929064_5004023160",
+      "strategy": "A",
+      "asset": "50040231606034313460772029784102703589198395559312793949837778281696176123129",
+      "condition": "0xa82cb857be0aa4db247b07314db409e0d9709d3624e9ad132f480a42ced7950d",
+      "outcome": "BESTIA",
+      "title": "Counter-Strike: Bounty Hunters Esports vs BESTIA (BO3) - Circuit X Curitiba Playoffs",
+      "entry_price": 0.5640000000000001,
+      "entry_time": 1789929064,
+      "fill_usdc": 1041.6096453283385,
+      "shares_gross": 1846.825612284288,
+      "fee_shares": 22.707090268157774,
+      "net_shares": 1824.11852201613,
+      "rash_trade_price": 0.5593494406,
+      "rash_trade_usdc": 7191.175400174592,
+      "rash_trade_ts": 1789928973,
+      "kelly_target_usdc": 1041.6096453283385,
+      "exit_type": "resolution",
+      "exit_time": 1789962873,
+      "exit_price": 1.0,
+      "pnl": 782.5088766877916
     }
   ],
   "decisions": [
-    {
-      "ts": 1789835958,
-      "kind": "SKIP_D",
-      "msg": "crash 0.695->0.500 but effective_ask 0.994 > limit 0.505"
-    },
-    {
-      "ts": 1789835960,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 1084866701: $6"
-    },
-    {
-      "ts": 1789836023,
-      "kind": "SKIP_D",
-      "msg": "crash 0.700->0.500 but effective_ask 0.994 > limit 0.505"
-    },
-    {
-      "ts": 1789836024,
-      "kind": "FILL_D",
-      "msg": "CRASH-BUY $73 @ 0.544 (best 0.540+slip, crashed 0.840->0.580)",
-      "asset": "10848667018091628877"
-    },
-    {
-      "ts": 1789836154,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1789836217,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 2771183931: $23"
-    },
-    {
-      "ts": 1789836281,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 2771183931: $8"
-    },
-    {
-      "ts": 1789836284,
-      "kind": "SKIP_D",
-      "msg": "crash 0.655->0.505 but effective_ask 0.994 > limit 0.510"
-    },
-    {
-      "ts": 1789836346,
-      "kind": "SKIP_D",
-      "msg": "crash 0.405->0.180 but effective_ask 0.294 > limit 0.185"
-    },
-    {
-      "ts": 1789836348,
-      "kind": "SKIP_D",
-      "msg": "crash 0.645->0.510 but effective_ask 0.994 > limit 0.515"
-    },
-    {
-      "ts": 1789836411,
-      "kind": "SKIP_D",
-      "msg": "crash 0.645->0.485 but effective_ask 0.614 > limit 0.490"
-    },
     {
       "ts": 1789836412,
       "kind": "SKIP_D",
@@ -3313,10 +3260,67 @@
       "ts": 1789951701,
       "kind": "WAIT_D",
       "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789962869,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2647 @ 0.440)"
+    },
+    {
+      "ts": 1789962869,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2684 @ 0.440)"
+    },
+    {
+      "ts": 1789962873,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789962874,
+      "kind": "EXIT_A_RES",
+      "msg": "resolved 1 \u2192 pnl $+782.51 (Counter-Strike: Bounty Hunters Esports vs BESTIA ()",
+      "asset": "50040231606034313460",
+      "pnl": 782.5088766877916
+    },
+    {
+      "ts": 1789963255,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2727 @ 0.440)"
+    },
+    {
+      "ts": 1789963517,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789964160,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789964221,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2774 @ 0.440)"
+    },
+    {
+      "ts": 1789964800,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789965440,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1789966080,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
     }
   ],
-  "iterations": 2830,
-  "cum_pnl": 1172.676867382114,
+  "iterations": 2885,
+  "cum_pnl": 1955.1857440699057,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
     "59791274182564502652034972722656381080188306472031620654012968744576890493920": 1789644222,
@@ -4204,6 +4208,24 @@
     "0x90f060af8b3a3b1104eb86202525eba3affc8b8ff40260b0c64613857456af31",
     "0xc69f18e78b948e6735c953d1f23ecc8a5442ccfa5472e9b899fb1c36580156f5",
     "0xd29ff106327a3f455370d59f681732f2267120f620cc170060c2945cb883fe3a",
-    "0xb5977e3e9fdab4d9f52aa242943c94b3fbf92a75161cc45f69c7d8765a50ac78"
+    "0xb5977e3e9fdab4d9f52aa242943c94b3fbf92a75161cc45f69c7d8765a50ac78",
+    "0x0a6584c7eab17ac16f761d0a0efd09cdfca1700dc60e3d43379f35dc28037756",
+    "0xbccb0464bc489c4a32e41bc82eff329a53e297e0717801026387ea3bfbb5cd68",
+    "0x699584990016538b0c4081c432e8149dc01c95f77054e2ef198ddaedc7ada8d7",
+    "0x434e91d8830aa9c7aaf6ac691ef0c871753be71b526b7000a3867119600d76e3",
+    "0xffe4da835fbd24e059c3b62dd824500254a4bff86fb9811ee8f0c202e11b1413",
+    "0xd5764eb16d88fa103d111b0095f900daa2525c93a40f3bea714decfa822a896d",
+    "0x2d4f0d8044cfd39ea0b40548b40ca16694ce242e04f81b318507a0256c265417",
+    "0x0c99eae9bd12aba1515489169635755f5e0e9aded7ded80830d1e078d58806ac",
+    "0x8c35e0bd75feebdf53e21e39e27d125e1068a9d93999a25201e6f9973b71ad39",
+    "0x4f918ea12af3e807800258887e93b3b10d648fde663fca72cdd6ec439f755026",
+    "0xab6a77b096dea9613afaf636a90a9151c76c6f3fb9d9fbc05b589aeb352e4a6d",
+    "0x493c2d3b0323b53ae37ab64fba8112485bd9c035afc52e00358609dfa8054267",
+    "0x6c34b9ade4183d65599e2ca8dd679a7590f28d2c05339f4f0b61ec20930be965",
+    "0xb21668b4582537b7ef44c6086402509c70c0c77970b6a6d09d0aa2964b33ba2b",
+    "0x8987758b367e886b97e21aa24bd185a87789416972feba3b3d4b9976933f77d6",
+    "0x1ef4304d8504031983e1602e347eb109709774a0abadb57c03ad7519c7ffc27a",
+    "0xd5e80c71a0656ae85781d66546dafa878b83cf54beb88f6cccfa2d327ea6005c",
+    "0x09e07eb597c78f467634cd4a3136cd2f989b2ef3054bca634f3d36c143254f09"
   ]
 }
