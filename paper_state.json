@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1790011204
+      "exit_at": 1790027554
     }
   ],
   "closed_positions": [
@@ -781,36 +781,6 @@
     }
   ],
   "decisions": [
-    {
-      "ts": 1789846665,
-      "kind": "SKIP_D",
-      "msg": "crash 0.550->0.440 but effective_ask 0.744 > limit 0.445"
-    },
-    {
-      "ts": 1789846728,
-      "kind": "SKIP_D",
-      "msg": "crash 0.575->0.440 but effective_ask 0.744 > limit 0.445"
-    },
-    {
-      "ts": 1789846791,
-      "kind": "SKIP_D",
-      "msg": "crash 0.575->0.440 but effective_ask 0.744 > limit 0.445"
-    },
-    {
-      "ts": 1789846855,
-      "kind": "SKIP_D",
-      "msg": "crash 0.590->0.440 but effective_ask 0.744 > limit 0.445"
-    },
-    {
-      "ts": 1789846918,
-      "kind": "SKIP_D",
-      "msg": "crash 0.585->0.440 but effective_ask 0.744 > limit 0.445"
-    },
-    {
-      "ts": 1789846981,
-      "kind": "SKIP_D",
-      "msg": "crash 0.565->0.440 but effective_ask 0.744 > limit 0.445"
-    },
     {
       "ts": 1789847045,
       "kind": "SKIP_D",
@@ -3315,9 +3285,39 @@
       "ts": 1790010604,
       "kind": "WAIT_D",
       "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790023847,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790024468,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790025090,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790025711,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790026333,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790026954,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
     }
   ],
-  "iterations": 2995,
+  "iterations": 3050,
   "cum_pnl": 1955.1857440699057,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
