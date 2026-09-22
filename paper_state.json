@@ -1,6 +1,6 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1790071287,
+  "last_rash_trade_ts": 1790090155,
   "cash": 10616.712669871404,
   "open_positions": [
     {
@@ -16,26 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1790071850
-    },
-    {
-      "id": "A_1790034797_2789116947",
-      "strategy": "A",
-      "asset": "27891169476017012513149509779682963669112196406942145012723061480347302880480",
-      "condition": "0x4bfce06f424ab535a2df539dc394bf900495ad19ea088da3fa33c495db65262d",
-      "outcome": "Virtus.pro",
-      "title": "Counter-Strike: Virtus.pro vs BBL (BO3) - Stake Pulse Beat II Group B",
-      "entry_price": 0.594,
-      "entry_time": 1790034797,
-      "fill_usdc": 126.64079999999998,
-      "shares_gross": 213.2,
-      "fee_shares": 2.5708082400000003,
-      "net_shares": 210.62919176,
-      "rash_trade_price": 0.57,
-      "rash_trade_usdc": 4172.810399999999,
-      "rash_trade_ts": 1790028021,
-      "kelly_target_usdc": 1111.8322741985012,
-      "exit_type": "resolution"
+      "exit_at": 1790090969
     },
     {
       "id": "A_1790048992_3972296186",
@@ -816,583 +797,31 @@
       "exit_time": 1789962873,
       "exit_price": 1.0,
       "pnl": 782.5088766877916
+    },
+    {
+      "id": "A_1790034797_2789116947",
+      "strategy": "A",
+      "asset": "27891169476017012513149509779682963669112196406942145012723061480347302880480",
+      "condition": "0x4bfce06f424ab535a2df539dc394bf900495ad19ea088da3fa33c495db65262d",
+      "outcome": "Virtus.pro",
+      "title": "Counter-Strike: Virtus.pro vs BBL (BO3) - Stake Pulse Beat II Group B",
+      "entry_price": 0.594,
+      "entry_time": 1790034797,
+      "fill_usdc": 126.64079999999998,
+      "shares_gross": 213.2,
+      "fee_shares": 2.5708082400000003,
+      "net_shares": 210.62919176,
+      "rash_trade_price": 0.57,
+      "rash_trade_usdc": 4172.810399999999,
+      "rash_trade_ts": 1790028021,
+      "kelly_target_usdc": 1111.8322741985012,
+      "exit_type": "resolution",
+      "exit_time": 1790087165,
+      "exit_price": 0.0,
+      "pnl": -126.64079999999998
     }
   ],
   "decisions": [
-    {
-      "ts": 1789885153,
-      "kind": "SKIP_D",
-      "msg": "crash 0.615->0.460 but effective_ask 0.474 > limit 0.465"
-    },
-    {
-      "ts": 1789885217,
-      "kind": "SKIP_D",
-      "msg": "crash 0.615->0.460 but effective_ask 0.474 > limit 0.465"
-    },
-    {
-      "ts": 1789885281,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 5484625615: $3"
-    },
-    {
-      "ts": 1789885281,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1789885344,
-      "kind": "SKIP_D",
-      "msg": "crash 0.615->0.455 but effective_ask 0.464 > limit 0.460"
-    },
-    {
-      "ts": 1789885407,
-      "kind": "SKIP_D",
-      "msg": "crash 0.570->0.455 but effective_ask 0.544 > limit 0.460"
-    },
-    {
-      "ts": 1789885408,
-      "kind": "SKIP_D",
-      "msg": "crash 0.615->0.455 but effective_ask 0.464 > limit 0.460"
-    },
-    {
-      "ts": 1789885472,
-      "kind": "SKIP_D",
-      "msg": "crash 0.615->0.455 but effective_ask 0.464 > limit 0.460"
-    },
-    {
-      "ts": 1789885536,
-      "kind": "SKIP_D",
-      "msg": "crash 0.615->0.425 but effective_ask 0.464 > limit 0.430"
-    },
-    {
-      "ts": 1789885600,
-      "kind": "SKIP_D",
-      "msg": "crash 0.615->0.455 but effective_ask 0.464 > limit 0.460"
-    },
-    {
-      "ts": 1789885664,
-      "kind": "SKIP_D",
-      "msg": "crash 0.615->0.450 but effective_ask 0.464 > limit 0.455"
-    },
-    {
-      "ts": 1789885727,
-      "kind": "SKIP_D",
-      "msg": "crash 0.615->0.455 but effective_ask 0.464 > limit 0.460"
-    },
-    {
-      "ts": 1789885918,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1789886106,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $3691 @ 0.470)"
-    },
-    {
-      "ts": 1789886553,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1789901439,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $3057 @ 0.490)"
-    },
-    {
-      "ts": 1789901439,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $3038 @ 0.500)"
-    },
-    {
-      "ts": 1789901439,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $2380 @ 0.510)"
-    },
-    {
-      "ts": 1789901439,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $2308 @ 0.520)"
-    },
-    {
-      "ts": 1789901439,
-      "kind": "SKIP_A",
-      "msg": "already have position on 1899577284..."
-    },
-    {
-      "ts": 1789901439,
-      "kind": "SKIP_A",
-      "msg": "already have position on 1899577284..."
-    },
-    {
-      "ts": 1789901439,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $2204 @ 0.520)"
-    },
-    {
-      "ts": 1789901439,
-      "kind": "FILL_A",
-      "msg": "BUY $1373 @ 0.664 (best 0.660+slip, kelly target $1373) bucket 0.7 (2067.5 shares) \u2014 Counter-Strike: Brute vs BET-M 33 (BO3) - NODWIN Clutch Seri",
-      "asset": "76827040058214877358",
-      "entry": 0.664,
-      "size": 1372.83466397571
-    },
-    {
-      "ts": 1789901439,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $2084 @ 0.520)"
-    },
-    {
-      "ts": 1789901439,
-      "kind": "SKIP_A",
-      "msg": "already have position on 7682704005..."
-    },
-    {
-      "ts": 1789901439,
-      "kind": "SKIP_A",
-      "msg": "already have position on 7682704005..."
-    },
-    {
-      "ts": 1789901439,
-      "kind": "SKIP_D",
-      "msg": "crash 0.305->0.240 but effective_ask 0.274 > limit 0.245"
-    },
-    {
-      "ts": 1789901442,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1789901503,
-      "kind": "FILL_D",
-      "msg": "CRASH-BUY $64 @ 0.174 (best 0.170+slip, crashed 0.285->0.215)",
-      "asset": "37165661035264561258"
-    },
-    {
-      "ts": 1789901506,
-      "kind": "EXIT_D_SL",
-      "msg": "sold @ 0.146 (SL, R=-16.1%) \u2192 pnl $-11.05",
-      "asset": "37165661035264561258",
-      "pnl": -11.047804609180929
-    },
-    {
-      "ts": 1789902072,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1789902196,
-      "kind": "SKIP_A",
-      "msg": "already have position on 7682704005..."
-    },
-    {
-      "ts": 1789902196,
-      "kind": "SKIP_D",
-      "msg": "crash 0.375->0.265 but effective_ask 0.274 > limit 0.270"
-    },
-    {
-      "ts": 1789902197,
-      "kind": "SKIP_D",
-      "msg": "crash 0.350->0.240 but effective_ask 0.294 > limit 0.245"
-    },
-    {
-      "ts": 1789902259,
-      "kind": "SKIP_D",
-      "msg": "crash 0.375->0.280 but effective_ask 0.294 > limit 0.285"
-    },
-    {
-      "ts": 1789902260,
-      "kind": "SKIP_D",
-      "msg": "crash 0.350->0.240 but effective_ask 0.294 > limit 0.245"
-    },
-    {
-      "ts": 1789902322,
-      "kind": "SKIP_D",
-      "msg": "crash 0.375->0.280 but effective_ask 0.294 > limit 0.285"
-    },
-    {
-      "ts": 1789902323,
-      "kind": "SKIP_D",
-      "msg": "crash 0.350->0.265 but effective_ask 0.284 > limit 0.270"
-    },
-    {
-      "ts": 1789902385,
-      "kind": "FILL_D",
-      "msg": "CRASH-BUY $100 @ 0.244 (best 0.240+slip, crashed 0.375->0.245)",
-      "asset": "10947539080678775825"
-    },
-    {
-      "ts": 1789902386,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 9273354487: $37"
-    },
-    {
-      "ts": 1789902449,
-      "kind": "SKIP_D",
-      "msg": "crash 0.350->0.185 but effective_ask 0.264 > limit 0.190"
-    },
-    {
-      "ts": 1789902450,
-      "kind": "EXIT_D_TP",
-      "msg": "sold @ 0.266 (TP, R=+9.0%) \u2192 pnl $+6.96",
-      "asset": "10947539080678775825",
-      "pnl": 6.956489303413392
-    },
-    {
-      "ts": 1789902512,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 9273354487: $17"
-    },
-    {
-      "ts": 1789902575,
-      "kind": "SKIP_D",
-      "msg": "crash 0.350->0.180 but effective_ask 0.234 > limit 0.185"
-    },
-    {
-      "ts": 1789902638,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 9273354487: $44"
-    },
-    {
-      "ts": 1789902700,
-      "kind": "SKIP_D",
-      "msg": "crash 0.350->0.130 but effective_ask 0.144 > limit 0.135"
-    },
-    {
-      "ts": 1789902701,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1789902763,
-      "kind": "SKIP_D",
-      "msg": "crash 0.355->0.115 but effective_ask 0.144 > limit 0.120"
-    },
-    {
-      "ts": 1789902826,
-      "kind": "SKIP_D",
-      "msg": "crash 0.335->0.105 but effective_ask 0.184 > limit 0.110"
-    },
-    {
-      "ts": 1789902889,
-      "kind": "SKIP_D",
-      "msg": "crash 0.340->0.160 but effective_ask 0.214 > limit 0.165"
-    },
-    {
-      "ts": 1789902890,
-      "kind": "SKIP_D",
-      "msg": "crash 0.420->0.315 but effective_ask 0.364 > limit 0.320"
-    },
-    {
-      "ts": 1789902951,
-      "kind": "SKIP_D",
-      "msg": "crash 0.355->0.180 but effective_ask 0.214 > limit 0.185"
-    },
-    {
-      "ts": 1789902952,
-      "kind": "SKIP_D",
-      "msg": "crash 0.755->0.490 but effective_ask 0.774 > limit 0.495"
-    },
-    {
-      "ts": 1789903014,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 9273354487: $4"
-    },
-    {
-      "ts": 1789903077,
-      "kind": "SKIP_D",
-      "msg": "crash 0.360->0.210 but effective_ask 0.274 > limit 0.215"
-    },
-    {
-      "ts": 1789903138,
-      "kind": "SKIP_A",
-      "msg": "already have position on 7682704005..."
-    },
-    {
-      "ts": 1789903140,
-      "kind": "SKIP_D",
-      "msg": "crash 0.360->0.245 but effective_ask 0.284 > limit 0.250"
-    },
-    {
-      "ts": 1789903203,
-      "kind": "SKIP_D",
-      "msg": "crash 0.360->0.255 but effective_ask 0.384 > limit 0.260"
-    },
-    {
-      "ts": 1789903203,
-      "kind": "SKIP_D",
-      "msg": "crash 0.755->0.430 but effective_ask 0.914 > limit 0.435"
-    },
-    {
-      "ts": 1789903266,
-      "kind": "SKIP_D",
-      "msg": "crash 0.755->0.600 but effective_ask 0.974 > limit 0.605"
-    },
-    {
-      "ts": 1789903329,
-      "kind": "SKIP_D",
-      "msg": "crash 0.755->0.600 but effective_ask 0.984 > limit 0.605"
-    },
-    {
-      "ts": 1789903330,
-      "kind": "SKIP_D",
-      "msg": "crash 0.460->0.350 but effective_ask 0.374 > limit 0.355"
-    },
-    {
-      "ts": 1789903330,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1789903456,
-      "kind": "SKIP_D",
-      "msg": "crash 0.755->0.570 but effective_ask 0.984 > limit 0.575"
-    },
-    {
-      "ts": 1789903519,
-      "kind": "SKIP_D",
-      "msg": "crash 0.755->0.500 but effective_ask 0.984 > limit 0.505"
-    },
-    {
-      "ts": 1789903582,
-      "kind": "SKIP_D",
-      "msg": "crash 0.765->0.505 but effective_ask 0.974 > limit 0.510"
-    },
-    {
-      "ts": 1789903582,
-      "kind": "SKIP_D",
-      "msg": "crash 0.490->0.360 but effective_ask 0.424 > limit 0.365"
-    },
-    {
-      "ts": 1789903645,
-      "kind": "SKIP_D",
-      "msg": "crash 0.765->0.550 but effective_ask 0.974 > limit 0.555"
-    },
-    {
-      "ts": 1789903646,
-      "kind": "SKIP_D",
-      "msg": "crash 0.500->0.365 but effective_ask 0.404 > limit 0.370"
-    },
-    {
-      "ts": 1789903708,
-      "kind": "SKIP_D",
-      "msg": "crash 0.765->0.505 but effective_ask 0.984 > limit 0.510"
-    },
-    {
-      "ts": 1789903771,
-      "kind": "SKIP_D",
-      "msg": "crash 0.765->0.590 but effective_ask 0.974 > limit 0.595"
-    },
-    {
-      "ts": 1789903834,
-      "kind": "SKIP_D",
-      "msg": "crash 0.585->0.325 but effective_ask 0.394 > limit 0.330"
-    },
-    {
-      "ts": 1789903834,
-      "kind": "SKIP_D",
-      "msg": "crash 0.760->0.580 but effective_ask 0.984 > limit 0.585"
-    },
-    {
-      "ts": 1789903835,
-      "kind": "SKIP_D",
-      "msg": "crash 0.480->0.375 but effective_ask 0.424 > limit 0.380"
-    },
-    {
-      "ts": 1789903897,
-      "kind": "SKIP_D",
-      "msg": "crash 0.470->0.300 but effective_ask 0.344 > limit 0.305"
-    },
-    {
-      "ts": 1789903897,
-      "kind": "SKIP_D",
-      "msg": "crash 0.760->0.520 but effective_ask 0.974 > limit 0.525"
-    },
-    {
-      "ts": 1789903960,
-      "kind": "SKIP_D",
-      "msg": "crash 0.505->0.270 but effective_ask 0.344 > limit 0.275"
-    },
-    {
-      "ts": 1789903961,
-      "kind": "SKIP_D",
-      "msg": "crash 0.760->0.560 but effective_ask 0.984 > limit 0.565"
-    },
-    {
-      "ts": 1789903961,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1789904024,
-      "kind": "SKIP_D",
-      "msg": "crash 0.760->0.525 but effective_ask 0.974 > limit 0.530"
-    },
-    {
-      "ts": 1789904085,
-      "kind": "SKIP_A",
-      "msg": "already have position on 7682704005..."
-    },
-    {
-      "ts": 1789904087,
-      "kind": "SKIP_D",
-      "msg": "crash 0.760->0.510 but effective_ask 0.984 > limit 0.515"
-    },
-    {
-      "ts": 1789904150,
-      "kind": "SKIP_D",
-      "msg": "crash 0.760->0.510 but effective_ask 0.984 > limit 0.515"
-    },
-    {
-      "ts": 1789904213,
-      "kind": "SKIP_D",
-      "msg": "crash 0.760->0.505 but effective_ask 0.984 > limit 0.510"
-    },
-    {
-      "ts": 1789904213,
-      "kind": "FILL_D",
-      "msg": "CRASH-BUY $85 @ 0.404 (best 0.400+slip, crashed 0.525->0.415)",
-      "asset": "24503265908629533560"
-    },
-    {
-      "ts": 1789904276,
-      "kind": "SKIP_D",
-      "msg": "crash 0.760->0.365 but effective_ask 0.974 > limit 0.370"
-    },
-    {
-      "ts": 1789904278,
-      "kind": "EXIT_D_SL",
-      "msg": "sold @ 0.356 (SL, R=-11.9%) \u2192 pnl $-11.85",
-      "asset": "24503265908629533560",
-      "pnl": -11.854880825872968
-    },
-    {
-      "ts": 1789904340,
-      "kind": "SKIP_D",
-      "msg": "crash 0.760->0.510 but effective_ask 0.974 > limit 0.515"
-    },
-    {
-      "ts": 1789904403,
-      "kind": "SKIP_D",
-      "msg": "crash 0.760->0.500 but effective_ask 0.984 > limit 0.505"
-    },
-    {
-      "ts": 1789904466,
-      "kind": "SKIP_D",
-      "msg": "crash 0.760->0.500 but effective_ask 0.964 > limit 0.505"
-    },
-    {
-      "ts": 1789904529,
-      "kind": "SKIP_D",
-      "msg": "crash 0.760->0.505 but effective_ask 0.984 > limit 0.510"
-    },
-    {
-      "ts": 1789904592,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1789904655,
-      "kind": "SKIP_D",
-      "msg": "crash 0.760->0.535 but effective_ask 0.984 > limit 0.540"
-    },
-    {
-      "ts": 1789904781,
-      "kind": "SKIP_D",
-      "msg": "crash 0.755->0.560 but effective_ask 0.984 > limit 0.565"
-    },
-    {
-      "ts": 1789904843,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 9273354487: $2"
-    },
-    {
-      "ts": 1789904844,
-      "kind": "SKIP_D",
-      "msg": "crash 0.755->0.565 but effective_ask 0.974 > limit 0.570"
-    },
-    {
-      "ts": 1789914883,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $2503 @ 0.520)"
-    },
-    {
-      "ts": 1789914883,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $2439 @ 0.520)"
-    },
-    {
-      "ts": 1789914883,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $2522 @ 0.520)"
-    },
-    {
-      "ts": 1789914884,
-      "kind": "SKIP_D",
-      "msg": "crash 0.605->0.335 but effective_ask 0.614 > limit 0.340"
-    },
-    {
-      "ts": 1789914886,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1789914887,
-      "kind": "EXIT_A_RES",
-      "msg": "resolved 0 \u2192 pnl $-1081.98 (Map Handicap: VIT (-1.5) vs FURIA (+1.5))",
-      "asset": "18995772848680227862",
-      "pnl": -1081.979862285941
-    },
-    {
-      "ts": 1789914948,
-      "kind": "SKIP_D",
-      "msg": "crash 0.605->0.390 but effective_ask 0.584 > limit 0.395"
-    },
-    {
-      "ts": 1789915013,
-      "kind": "SKIP_D",
-      "msg": "crash 0.605->0.385 but effective_ask 0.694 > limit 0.390"
-    },
-    {
-      "ts": 1789915077,
-      "kind": "SKIP_D",
-      "msg": "crash 0.605->0.360 but effective_ask 0.694 > limit 0.365"
-    },
-    {
-      "ts": 1789915139,
-      "kind": "SKIP_D",
-      "msg": "crash 0.605->0.370 but effective_ask 0.624 > limit 0.375"
-    },
-    {
-      "ts": 1789915141,
-      "kind": "SKIP_D",
-      "msg": "crash 0.605->0.355 but effective_ask 0.694 > limit 0.360"
-    },
-    {
-      "ts": 1789915521,
-      "kind": "SKIP_D",
-      "msg": "crash 0.715->0.560 but effective_ask 0.584 > limit 0.565"
-    },
-    {
-      "ts": 1789915522,
-      "kind": "SKIP_D",
-      "msg": "crash 0.620->0.390 but effective_ask 0.624 > limit 0.395"
-    },
-    {
-      "ts": 1789915524,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1789915585,
-      "kind": "SKIP_D",
-      "msg": "crash 0.725->0.555 but effective_ask 0.574 > limit 0.560"
-    },
-    {
-      "ts": 1789915586,
-      "kind": "SKIP_D",
-      "msg": "crash 0.660->0.350 but effective_ask 0.614 > limit 0.355"
-    },
     {
       "ts": 1789915650,
       "kind": "SKIP_D",
@@ -3354,10 +2783,572 @@
       "ts": 1790071503,
       "kind": "SKIP_D",
       "msg": "crash 0.155->0.095 but effective_ask 0.104 > limit 0.100"
+    },
+    {
+      "ts": 1790087161,
+      "kind": "SKIP_A",
+      "msg": "no ask book for 8887193889..."
+    },
+    {
+      "ts": 1790087162,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 6499740153: $9"
+    },
+    {
+      "ts": 1790087164,
+      "kind": "SKIP_D",
+      "msg": "crash 0.800->0.500 but effective_ask 0.984 > limit 0.505"
+    },
+    {
+      "ts": 1790087165,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790087165,
+      "kind": "EXIT_A_RES",
+      "msg": "resolved 0 \u2192 pnl $-126.64 (Counter-Strike: Virtus.pro vs BBL (BO3) - Stake Pu)",
+      "asset": "27891169476017012513",
+      "pnl": -126.64079999999998
+    },
+    {
+      "ts": 1790087226,
+      "kind": "SKIP_D",
+      "msg": "crash 0.245->0.165 but effective_ask 0.194 > limit 0.170"
+    },
+    {
+      "ts": 1790087228,
+      "kind": "SKIP_D",
+      "msg": "crash 0.755->0.500 but effective_ask 0.984 > limit 0.505"
+    },
+    {
+      "ts": 1790087290,
+      "kind": "SKIP_D",
+      "msg": "crash 0.245->0.175 but effective_ask 0.184 > limit 0.180"
+    },
+    {
+      "ts": 1790087292,
+      "kind": "SKIP_D",
+      "msg": "crash 0.730->0.500 but effective_ask 0.984 > limit 0.505"
+    },
+    {
+      "ts": 1790087354,
+      "kind": "SKIP_D",
+      "msg": "crash 0.245->0.165 but effective_ask 0.174 > limit 0.170"
+    },
+    {
+      "ts": 1790087356,
+      "kind": "SKIP_D",
+      "msg": "crash 0.815->0.500 but effective_ask 0.984 > limit 0.505"
+    },
+    {
+      "ts": 1790087421,
+      "kind": "SKIP_D",
+      "msg": "crash 0.250->0.165 but effective_ask 0.174 > limit 0.170"
+    },
+    {
+      "ts": 1790087422,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3326000092...)"
+    },
+    {
+      "ts": 1790087423,
+      "kind": "SKIP_D",
+      "msg": "crash 0.815->0.500 but effective_ask 0.984 > limit 0.505"
+    },
+    {
+      "ts": 1790087485,
+      "kind": "SKIP_D",
+      "msg": "crash 0.245->0.155 but effective_ask 0.174 > limit 0.160"
+    },
+    {
+      "ts": 1790087486,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790087486,
+      "kind": "SKIP_D",
+      "msg": "crash 0.835->0.593 but effective_ask 0.984 > limit 0.598"
+    },
+    {
+      "ts": 1790087549,
+      "kind": "SKIP_D",
+      "msg": "crash 0.245->0.155 but effective_ask 0.174 > limit 0.160"
+    },
+    {
+      "ts": 1790087550,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790087551,
+      "kind": "SKIP_D",
+      "msg": "crash 0.775->0.555 but effective_ask 0.984 > limit 0.560"
+    },
+    {
+      "ts": 1790087552,
+      "kind": "SKIP_D",
+      "msg": "crash 0.775->0.500 but effective_ask 0.984 > limit 0.505"
+    },
+    {
+      "ts": 1790087614,
+      "kind": "SKIP_D",
+      "msg": "crash 0.245->0.155 but effective_ask 0.174 > limit 0.160"
+    },
+    {
+      "ts": 1790087615,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790087615,
+      "kind": "SKIP_D",
+      "msg": "crash 0.720->0.550 but effective_ask 0.974 > limit 0.555"
+    },
+    {
+      "ts": 1790087616,
+      "kind": "SKIP_D",
+      "msg": "crash 0.720->0.500 but effective_ask 0.984 > limit 0.505"
+    },
+    {
+      "ts": 1790087678,
+      "kind": "SKIP_D",
+      "msg": "crash 0.245->0.155 but effective_ask 0.174 > limit 0.160"
+    },
+    {
+      "ts": 1790087678,
+      "kind": "SKIP_D",
+      "msg": "crash 0.620->0.475 but effective_ask 0.694 > limit 0.480"
+    },
+    {
+      "ts": 1790087679,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790087679,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 3326000092: $1"
+    },
+    {
+      "ts": 1790087680,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 8900559534: $29"
+    },
+    {
+      "ts": 1790087742,
+      "kind": "SKIP_D",
+      "msg": "crash 0.245->0.155 but effective_ask 0.174 > limit 0.160"
+    },
+    {
+      "ts": 1790087744,
+      "kind": "SKIP_D",
+      "msg": "crash 0.620->0.475 but effective_ask 0.694 > limit 0.480"
+    },
+    {
+      "ts": 1790087745,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790087807,
+      "kind": "SKIP_D",
+      "msg": "crash 0.245->0.155 but effective_ask 0.174 > limit 0.160"
+    },
+    {
+      "ts": 1790087808,
+      "kind": "SKIP_D",
+      "msg": "crash 0.620->0.475 but effective_ask 0.694 > limit 0.480"
+    },
+    {
+      "ts": 1790087808,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790087810,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790087871,
+      "kind": "SKIP_D",
+      "msg": "crash 0.245->0.155 but effective_ask 0.174 > limit 0.160"
+    },
+    {
+      "ts": 1790087872,
+      "kind": "SKIP_D",
+      "msg": "crash 0.620->0.475 but effective_ask 0.694 > limit 0.480"
+    },
+    {
+      "ts": 1790087872,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790087935,
+      "kind": "SKIP_D",
+      "msg": "crash 0.245->0.160 but effective_ask 0.194 > limit 0.165"
+    },
+    {
+      "ts": 1790087935,
+      "kind": "SKIP_D",
+      "msg": "crash 0.620->0.475 but effective_ask 0.694 > limit 0.480"
+    },
+    {
+      "ts": 1790087936,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790087999,
+      "kind": "SKIP_D",
+      "msg": "crash 0.245->0.170 but effective_ask 0.184 > limit 0.175"
+    },
+    {
+      "ts": 1790087999,
+      "kind": "SKIP_D",
+      "msg": "crash 0.620->0.475 but effective_ask 0.694 > limit 0.480"
+    },
+    {
+      "ts": 1790088000,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790088063,
+      "kind": "SKIP_D",
+      "msg": "crash 0.245->0.175 but effective_ask 0.184 > limit 0.180"
+    },
+    {
+      "ts": 1790088064,
+      "kind": "SKIP_D",
+      "msg": "crash 0.620->0.480 but effective_ask 0.694 > limit 0.485"
+    },
+    {
+      "ts": 1790088064,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790088128,
+      "kind": "SKIP_D",
+      "msg": "crash 0.245->0.175 but effective_ask 0.184 > limit 0.180"
+    },
+    {
+      "ts": 1790088129,
+      "kind": "SKIP_D",
+      "msg": "crash 0.620->0.480 but effective_ask 0.694 > limit 0.485"
+    },
+    {
+      "ts": 1790088130,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790088192,
+      "kind": "SKIP_D",
+      "msg": "crash 0.235->0.160 but effective_ask 0.184 > limit 0.165"
+    },
+    {
+      "ts": 1790088193,
+      "kind": "SKIP_D",
+      "msg": "crash 0.635->0.480 but effective_ask 0.694 > limit 0.485"
+    },
+    {
+      "ts": 1790088193,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790088256,
+      "kind": "SKIP_D",
+      "msg": "crash 0.225->0.165 but effective_ask 0.184 > limit 0.170"
+    },
+    {
+      "ts": 1790088257,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790088320,
+      "kind": "SKIP_D",
+      "msg": "crash 0.220->0.160 but effective_ask 0.194 > limit 0.165"
+    },
+    {
+      "ts": 1790088321,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790088386,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790088449,
+      "kind": "SKIP_D",
+      "msg": "crash 0.635->0.445 but effective_ask 0.474 > limit 0.450"
+    },
+    {
+      "ts": 1790088450,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790088451,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790088512,
+      "kind": "SKIP_D",
+      "msg": "crash 0.635->0.455 but effective_ask 0.514 > limit 0.460"
+    },
+    {
+      "ts": 1790088513,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790088576,
+      "kind": "SKIP_D",
+      "msg": "crash 0.635->0.485 but effective_ask 0.614 > limit 0.490"
+    },
+    {
+      "ts": 1790088704,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790088768,
+      "kind": "SKIP_D",
+      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
+    },
+    {
+      "ts": 1790088832,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 2832640854: $2"
+    },
+    {
+      "ts": 1790088896,
+      "kind": "SKIP_D",
+      "msg": "crash 0.645->0.365 but effective_ask 0.604 > limit 0.370"
+    },
+    {
+      "ts": 1790088897,
+      "kind": "SKIP_D",
+      "msg": "crash 0.875->0.575 but effective_ask 0.590 > limit 0.580"
+    },
+    {
+      "ts": 1790088961,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 3818337838: $5"
+    },
+    {
+      "ts": 1790089024,
+      "kind": "SKIP_D",
+      "msg": "crash 0.868->0.456 but effective_ask 0.464 > limit 0.461"
+    },
+    {
+      "ts": 1790089088,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 3818337838: $49"
+    },
+    {
+      "ts": 1790089089,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790089150,
+      "kind": "SKIP_D",
+      "msg": "crash 0.165->0.130 but effective_ask 0.154 > limit 0.135"
+    },
+    {
+      "ts": 1790089151,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 3818337838: $2"
+    },
+    {
+      "ts": 1790089214,
+      "kind": "SKIP_D",
+      "msg": "crash 0.165->0.130 but effective_ask 0.154 > limit 0.135"
+    },
+    {
+      "ts": 1790089215,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 3818337838: $28"
+    },
+    {
+      "ts": 1790089278,
+      "kind": "SKIP_D",
+      "msg": "crash 0.625->0.415 but effective_ask 0.574 > limit 0.420"
+    },
+    {
+      "ts": 1790089280,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 3818337838: $13"
+    },
+    {
+      "ts": 1790089343,
+      "kind": "SKIP_D",
+      "msg": "crash 0.625->0.450 but effective_ask 0.554 > limit 0.455"
+    },
+    {
+      "ts": 1790089344,
+      "kind": "SKIP_D",
+      "msg": "crash 0.720->0.322 but effective_ask 0.424 > limit 0.327"
+    },
+    {
+      "ts": 1790089409,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 3818337838: $2"
+    },
+    {
+      "ts": 1790089472,
+      "kind": "SKIP_D",
+      "msg": "crash 0.700->0.300 but effective_ask 0.403 > limit 0.305"
+    },
+    {
+      "ts": 1790089535,
+      "kind": "SKIP_D",
+      "msg": "crash 0.475->0.365 but effective_ask 0.514 > limit 0.370"
+    },
+    {
+      "ts": 1790089536,
+      "kind": "SKIP_D",
+      "msg": "crash 0.693->0.397 but effective_ask 0.415 > limit 0.402"
+    },
+    {
+      "ts": 1790089600,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 3818337838: $3"
+    },
+    {
+      "ts": 1790089664,
+      "kind": "SKIP_D",
+      "msg": "crash 0.692->0.281 but effective_ask 0.344 > limit 0.286"
+    },
+    {
+      "ts": 1790089728,
+      "kind": "SKIP_D",
+      "msg": "crash 0.692->0.282 but effective_ask 0.364 > limit 0.287"
+    },
+    {
+      "ts": 1790089729,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790089790,
+      "kind": "SKIP_D",
+      "msg": "crash 0.170->0.115 but effective_ask 0.154 > limit 0.120"
+    },
+    {
+      "ts": 1790089792,
+      "kind": "SKIP_D",
+      "msg": "crash 0.692->0.324 but effective_ask 0.434 > limit 0.329"
+    },
+    {
+      "ts": 1790089854,
+      "kind": "SKIP_D",
+      "msg": "crash 0.175->0.120 but effective_ask 0.154 > limit 0.125"
+    },
+    {
+      "ts": 1790089855,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 3818337838: $6"
+    },
+    {
+      "ts": 1790089918,
+      "kind": "SKIP_D",
+      "msg": "crash 0.170->0.120 but effective_ask 0.174 > limit 0.125"
+    },
+    {
+      "ts": 1790089919,
+      "kind": "SKIP_D",
+      "msg": "crash 0.692->0.431 but effective_ask 0.544 > limit 0.436"
+    },
+    {
+      "ts": 1790089983,
+      "kind": "SKIP_D",
+      "msg": "crash 0.692->0.530 but effective_ask 0.559 > limit 0.535"
+    },
+    {
+      "ts": 1790090046,
+      "kind": "SKIP_D",
+      "msg": "crash 0.165->0.125 but effective_ask 0.154 > limit 0.130"
+    },
+    {
+      "ts": 1790090047,
+      "kind": "SKIP_D",
+      "msg": "crash 0.692->0.551 but effective_ask 0.622 > limit 0.556"
+    },
+    {
+      "ts": 1790090110,
+      "kind": "SKIP_D",
+      "msg": "crash 0.160->0.125 but effective_ask 0.154 > limit 0.130"
+    },
+    {
+      "ts": 1790090175,
+      "kind": "SKIP_D",
+      "msg": "crash 0.170->0.125 but effective_ask 0.154 > limit 0.130"
+    },
+    {
+      "ts": 1790090239,
+      "kind": "SKIP_D",
+      "msg": "crash 0.160->0.125 but effective_ask 0.154 > limit 0.130"
+    },
+    {
+      "ts": 1790090303,
+      "kind": "SKIP_D",
+      "msg": "crash 0.185->0.120 but effective_ask 0.134 > limit 0.125"
+    },
+    {
+      "ts": 1790090366,
+      "kind": "SKIP_D",
+      "msg": "crash 0.185->0.115 but effective_ask 0.134 > limit 0.120"
+    },
+    {
+      "ts": 1790090369,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790090430,
+      "kind": "SKIP_D",
+      "msg": "crash 0.185->0.115 but effective_ask 0.124 > limit 0.120"
+    },
+    {
+      "ts": 1790090431,
+      "kind": "SKIP_D",
+      "msg": "depth thin on crash 3818337838: $42"
+    },
+    {
+      "ts": 1790090493,
+      "kind": "SKIP_D",
+      "msg": "crash 0.220->0.105 but effective_ask 0.124 > limit 0.110"
+    },
+    {
+      "ts": 1790090495,
+      "kind": "SKIP_D",
+      "msg": "crash 0.694->0.550 but effective_ask 0.644 > limit 0.555"
+    },
+    {
+      "ts": 1790090557,
+      "kind": "SKIP_D",
+      "msg": "crash 0.240->0.105 but effective_ask 0.124 > limit 0.110"
+    },
+    {
+      "ts": 1790090621,
+      "kind": "SKIP_D",
+      "msg": "crash 0.165->0.105 but effective_ask 0.124 > limit 0.110"
     }
   ],
-  "iterations": 3215,
-  "cum_pnl": 1955.1857440699057,
+  "iterations": 3270,
+  "cum_pnl": 1828.5449440699058,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
     "59791274182564502652034972722656381080188306472031620654012968744576890493920": 1789644222,
@@ -4414,6 +4405,61 @@
     "0xba5d917a8c173efc293652340266bf7b620243e08a5e9a5f86c97984ac1e718e",
     "0x6f65db696672a6f478c4d52c1539e023eef6a0b2c77387e5effea9236aceabdf",
     "0xb87320a90870ccb182183a31c12a1667ee6971ef78053e79f97acb5869fdca85",
-    "0x39cfa87930f9ad3cbe51fc1941bbd619cae7f9a8a27c8f28bd82808c00996173"
+    "0x39cfa87930f9ad3cbe51fc1941bbd619cae7f9a8a27c8f28bd82808c00996173",
+    "0xa4b7024def7dfc48f667a33ee84864c0f9a434b322cfb29eb206ae9192aa1914",
+    "0x754c4516d57f0be5a12e5ac908fbbadc6107fbbbb8e86801e44898528629b095",
+    "0xdba7c0b2ec4dd5645fa8589a9c3a84246e7cfaa8ded0bbd606edc2dd6c2f6ebb",
+    "0xb41217aef651ba6d3ec34eb4c12952775a059a41f00922b9671e8d16b8585bb9",
+    "0x4241cab7ecc4f5d83be4cad44080e6d3862f7ada94a36acdc6bc299a7dfba520",
+    "0x3e713bf3b50c3e807061153a026f1931c778227f7147c15a73a3f36d47240bb1",
+    "0xaebbf2a6395652e3a8c9ed69379a2b2210ecaf44e12e56e5520fb207861bf6a0",
+    "0xebabefa614143b5777a5d57e864a0444cc14ce26abd9d53b8611c3f95560bd69",
+    "0xab00bd7d823225891698e86ddb32ab69e40e404b7fb22aeb2c7d98d5203911c8",
+    "0xedcf486db9c23b2a71bb06dcec493465e20d3422092ff11994d539e799dd9298",
+    "0xd4f4739eaa48b95ad85eccfd4731998d0b4ffc487267f5d065ad0a43dc1fb90b",
+    "0x753f49f3f8564662d6627ec9d971be62552b3752d5c4976a2fc3eac2c1ca35cd",
+    "0x3c6a0d1d2aff223d22a639f40f3e3e8fc993c64a5acebdd67ff3c9f0d9993019",
+    "0x60c0ad39fdf7e4cfc788aaf785e3bf4ec249701f1930c1136751fa082ca4a9c8",
+    "0x4e912011b49ed489ae0346236fd23c6df84432e32c51d7bd8d64e877b70def1a",
+    "0x9701c397b9b7de564525ac9fed08e638049eb76895492a4636db9e3df8305530",
+    "0xf011f38a225cbae90ef752e4bc5e3dd373f74d28d2aa274e442dc98bfb8fc429",
+    "0x4487198b6b3022d0bea0f3a74abc59673fd0093fa5d0b78d4f42c80056528be6",
+    "0x63242003f864dc6c5466379ee547d889bbfdcc0c7169b50ac8eeaa23879ed8e8",
+    "0xede3546687f5cc7ff0f422905ae56fa8b89aaddf540f8e3637061d29acdf8865",
+    "0x9cbf357c904d550a6e041d18a02d3d8b05741fb8f5a7ca8c0ef23c68b599f631",
+    "0x8c51506ec90b6d1a4f82c815f2a25d5f349f0f89c91df75da8c6d78baff538c0",
+    "0x8be6d704d0f0fa47a2f5666728216820475a36fad2cc5ea2ab1cb2b37ee880e9",
+    "0xfaf0fa57245e799cdd2c9b89efd0f6e21e6c87e76454a85157b141ae2f51d2df",
+    "0x7c97c85fdb79174fa952c025969db751845e540bbe1fd2757fbe48957aecb543",
+    "0x02ac6e210c003d20e6d561f5b6e00662c2078d43dbb8ca9c29231a4db6e7cf4f",
+    "0x6134a968fbdd363462fcc9ddbcfde1b7cc8cc5451bbb96ba600b9aa28435e57a",
+    "0x8539912863db3229a6df2b9228c7196996881d6dbb8844944534827cb58c7366",
+    "0x0db8c3da0f5e50a2375130173f2af9a46a9ae63f15b827ecc863159840de9f06",
+    "0xbcc7104ca753ad3f45f0393de4a2d9233f6d1a5d8df692b5e370ccde3d34b5a8",
+    "0xcf0b914ee07bc23c0fb030a797bae093de5249c489bf3976fd06df9159335d64",
+    "0x1d147f49fd82c8211835021fc71beb9af4ae98eba1876bbf4c45e5ecbdc3d378",
+    "0xe5b7034931ef28092e32fc780e610a2044976f665ee68b35baffbe46ae61841a",
+    "0x7223aace7a0f909cf55374d096b7bfeeb09e69e92f7f4f1dbafce517e80c7b47",
+    "0x21789d42b8c236f2a01170be16464694352db4ce2be72c355187e73c63af9223",
+    "0x853da1c4a5fe2d64427ba538886a0104747e0968d321cd78c28f8dd409960ade",
+    "0x7b3f0e1ddd5f315ad1159a1ba6568d8dd9a79701bbb3d5ae34c200d0768dd826",
+    "0x575d2dc0aaf700ec9cd90139889db49605e79710b8491f053b0397a4375a769c",
+    "0x202322c4d2147d56a92b9f3a501193bd428491b69c4b535daebb30d25288ea5a",
+    "0x7268730a1a639ccaefd29362382823ae2276d4b646ecf4d3b582d2f0abd065c5",
+    "0xbee4b8009b63d2a32062c2dcf55c903bab4e380470a675138f19b62560e2c6a9",
+    "0x0b769d4a5eb26481cca9d1aa67f91d4ba26ad03a54262f13b9e202b71257ede4",
+    "0x93dab5f3ea1bb41335013147d367f51cb4b39179f70211e9b8f91531910ea5fd",
+    "0xc8a562a2f928571ef0b820e8007ca86a7ed7360badccaa81739e0e305206c1b4",
+    "0xc764b874b45bd8bce3c83183f3c15e5b985b1e1c13fda79c94716af0acdc3d87",
+    "0x817911e8b878ab43e9e1a07944d85838fba52ce1825f76fd2f27bf6fdddab80e",
+    "0x0a27047c0671c595ea680312abac449b8fa33bf1a88c01805eaa19836ca7501a",
+    "0xc8b530873dbb66c2e92b6276e28b40a6f4be7d847ee92fb6a2f53674511302b5",
+    "0x8fa6c3a780c3d561f5f8785caba0c1af02657d5feb8d3ad94729cae6a3775774",
+    "0xa6de6e256fee52475106ac80088dae230adc7bdb4f94ffd72efd69e4d397cd21",
+    "0xea09ed5c9fcdc0b7cff20752e0efc47aed89301ff2ab573f148ecf967df84bf7",
+    "0x4904d7e2f233e4fab23db457fdba7771388a31fc7c116c7c42f6ff194c699469",
+    "0x5846a2edf9cd30087a0f63b4ad7b9fb683b024b5163e90ac62d55b5262f62c67",
+    "0xf19a13ab8e0f0f1511060ab735b2b989fef7402c0a26e3c7239a27a47dfffecc",
+    "0x3341b119e0a67c5daee73a07dc2a00e7c095c13ee50d402687ee32ed75363ad6"
   ]
 }
