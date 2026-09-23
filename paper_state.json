@@ -1,6 +1,6 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1790174765,
+  "last_rash_trade_ts": 1790200811,
   "cash": 9525.719758633448,
   "open_positions": [
     {
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1790195741
+      "exit_at": 1790207408
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,7 +31,7 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1790195741
+      "exit_at": 1790207408
     },
     {
       "id": "A_1790161119_9893330903",
@@ -897,78 +897,6 @@
     }
   ],
   "decisions": [
-    {
-      "ts": 1790071248,
-      "kind": "SKIP_D",
-      "msg": "crash 0.790->0.505 but effective_ask 0.984 > limit 0.510"
-    },
-    {
-      "ts": 1790071250,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790071313,
-      "kind": "SKIP_D",
-      "msg": "crash 0.795->0.565 but effective_ask 0.854 > limit 0.570"
-    },
-    {
-      "ts": 1790071440,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 9009366633: $2"
-    },
-    {
-      "ts": 1790071503,
-      "kind": "SKIP_D",
-      "msg": "crash 0.155->0.095 but effective_ask 0.104 > limit 0.100"
-    },
-    {
-      "ts": 1790087161,
-      "kind": "SKIP_A",
-      "msg": "no ask book for 8887193889..."
-    },
-    {
-      "ts": 1790087162,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 6499740153: $9"
-    },
-    {
-      "ts": 1790087164,
-      "kind": "SKIP_D",
-      "msg": "crash 0.800->0.500 but effective_ask 0.984 > limit 0.505"
-    },
-    {
-      "ts": 1790087165,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790087165,
-      "kind": "EXIT_A_RES",
-      "msg": "resolved 0 \u2192 pnl $-126.64 (Counter-Strike: Virtus.pro vs BBL (BO3) - Stake Pu)",
-      "asset": "27891169476017012513",
-      "pnl": -126.64079999999998
-    },
-    {
-      "ts": 1790087226,
-      "kind": "SKIP_D",
-      "msg": "crash 0.245->0.165 but effective_ask 0.194 > limit 0.170"
-    },
-    {
-      "ts": 1790087228,
-      "kind": "SKIP_D",
-      "msg": "crash 0.755->0.500 but effective_ask 0.984 > limit 0.505"
-    },
-    {
-      "ts": 1790087290,
-      "kind": "SKIP_D",
-      "msg": "crash 0.245->0.175 but effective_ask 0.184 > limit 0.180"
-    },
-    {
-      "ts": 1790087292,
-      "kind": "SKIP_D",
-      "msg": "crash 0.730->0.500 but effective_ask 0.984 > limit 0.505"
-    },
     {
       "ts": 1790087354,
       "kind": "SKIP_D",
@@ -3410,9 +3338,79 @@
       "ts": 1790195395,
       "kind": "SKIP_D",
       "msg": "crash 0.510->0.150 but effective_ask 0.474 > limit 0.155"
+    },
+    {
+      "ts": 1790203625,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790203625,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790204261,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790204261,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790204767,
+      "kind": "SKIP_D",
+      "msg": "crash 0.490->0.375 but effective_ask 0.604 > limit 0.380"
+    },
+    {
+      "ts": 1790204897,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790204898,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790205534,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790205534,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790206171,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790206171,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790206808,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790206808,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790206933,
+      "kind": "SKIP_D",
+      "msg": "crash 0.490->0.385 but effective_ask 0.434 > limit 0.390"
     }
   ],
-  "iterations": 3655,
+  "iterations": 3710,
   "cum_pnl": 686.2844527380901,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
@@ -4745,6 +4743,7 @@
     "0xda24b404df48bce87625565e0bc45c3804efd1e7b95e9307e6115019ef19e2bb",
     "0x5fc0968595a643f89de567c5ae48b67faf47f85cdcf1a299a4102a806b3aec4e",
     "0xa2fa520a2b998fe638998dc4fd1eaa7700681e2124566610c7c215c033f89fa2",
-    "0x0b2b408c6c2236bc7c0ac385ba86882d40279bbe8e40e18f91f3cad203264e51"
+    "0x0b2b408c6c2236bc7c0ac385ba86882d40279bbe8e40e18f91f3cad203264e51",
+    "0x4f93c6317631627f05018e3e25e520f52bc24ed7a79d288066ccacd8dd4c944d"
   ]
 }
