@@ -1,7 +1,7 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1790200811,
-  "cash": 9525.719758633448,
+  "last_rash_trade_ts": 1790212516,
+  "cash": 11125.145549445519,
   "open_positions": [
     {
       "id": "D_1789646934_1098206692",
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1790207408
+      "exit_at": 1790216083
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,26 +31,7 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1790207408
-    },
-    {
-      "id": "A_1790161119_9893330903",
-      "strategy": "A",
-      "asset": "98933309039058004045891354657161892446318852781457790820808474943931838767324",
-      "condition": "0x5fc5e1eb08c23b9695448ed63164a0b44fb84c646600468a15b681e93f1e3c0f",
-      "outcome": "3DMAX",
-      "title": "Map Handicap: LG (-1.5) vs 3DMAX (+1.5)",
-      "entry_price": 0.614,
-      "entry_time": 1790161119,
-      "fill_usdc": 993.8244541046423,
-      "shares_gross": 1618.6066027762904,
-      "fee_shares": 19.1808119642196,
-      "net_shares": 1599.4257908120708,
-      "rash_trade_price": 0.59,
-      "rash_trade_usdc": 3137.3190999999997,
-      "rash_trade_ts": 1790147771,
-      "kelly_target_usdc": 993.8244541046423,
-      "exit_type": "resolution"
+      "exit_at": 1790216083
     }
   ],
   "closed_positions": [
@@ -894,74 +875,31 @@
       "exit_price": 0.506,
       "exit_reason": "SL",
       "pnl": -8.456124535016187
+    },
+    {
+      "id": "A_1790161119_9893330903",
+      "strategy": "A",
+      "asset": "98933309039058004045891354657161892446318852781457790820808474943931838767324",
+      "condition": "0x5fc5e1eb08c23b9695448ed63164a0b44fb84c646600468a15b681e93f1e3c0f",
+      "outcome": "3DMAX",
+      "title": "Map Handicap: LG (-1.5) vs 3DMAX (+1.5)",
+      "entry_price": 0.614,
+      "entry_time": 1790161119,
+      "fill_usdc": 993.8244541046423,
+      "shares_gross": 1618.6066027762904,
+      "fee_shares": 19.1808119642196,
+      "net_shares": 1599.4257908120708,
+      "rash_trade_price": 0.59,
+      "rash_trade_usdc": 3137.3190999999997,
+      "rash_trade_ts": 1790147771,
+      "kelly_target_usdc": 993.8244541046423,
+      "exit_type": "resolution",
+      "exit_time": 1790212299,
+      "exit_price": 1.0,
+      "pnl": 605.6013367074285
     }
   ],
   "decisions": [
-    {
-      "ts": 1790087354,
-      "kind": "SKIP_D",
-      "msg": "crash 0.245->0.165 but effective_ask 0.174 > limit 0.170"
-    },
-    {
-      "ts": 1790087356,
-      "kind": "SKIP_D",
-      "msg": "crash 0.815->0.500 but effective_ask 0.984 > limit 0.505"
-    },
-    {
-      "ts": 1790087421,
-      "kind": "SKIP_D",
-      "msg": "crash 0.250->0.165 but effective_ask 0.174 > limit 0.170"
-    },
-    {
-      "ts": 1790087422,
-      "kind": "SKIP_D",
-      "msg": "crash detected but bucket 0.7 out of range (3326000092...)"
-    },
-    {
-      "ts": 1790087423,
-      "kind": "SKIP_D",
-      "msg": "crash 0.815->0.500 but effective_ask 0.984 > limit 0.505"
-    },
-    {
-      "ts": 1790087485,
-      "kind": "SKIP_D",
-      "msg": "crash 0.245->0.155 but effective_ask 0.174 > limit 0.160"
-    },
-    {
-      "ts": 1790087486,
-      "kind": "SKIP_D",
-      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
-    },
-    {
-      "ts": 1790087486,
-      "kind": "SKIP_D",
-      "msg": "crash 0.835->0.593 but effective_ask 0.984 > limit 0.598"
-    },
-    {
-      "ts": 1790087549,
-      "kind": "SKIP_D",
-      "msg": "crash 0.245->0.155 but effective_ask 0.174 > limit 0.160"
-    },
-    {
-      "ts": 1790087550,
-      "kind": "SKIP_D",
-      "msg": "crash detected but bucket 0.7 out of range (3818337838...)"
-    },
-    {
-      "ts": 1790087551,
-      "kind": "SKIP_D",
-      "msg": "crash 0.775->0.555 but effective_ask 0.984 > limit 0.560"
-    },
-    {
-      "ts": 1790087552,
-      "kind": "SKIP_D",
-      "msg": "crash 0.775->0.500 but effective_ask 0.984 > limit 0.505"
-    },
-    {
-      "ts": 1790087614,
-      "kind": "SKIP_D",
-      "msg": "crash 0.245->0.155 but effective_ask 0.174 > limit 0.160"
-    },
     {
       "ts": 1790087615,
       "kind": "SKIP_D",
@@ -3408,10 +3346,77 @@
       "ts": 1790206933,
       "kind": "SKIP_D",
       "msg": "crash 0.490->0.385 but effective_ask 0.434 > limit 0.390"
+    },
+    {
+      "ts": 1790212299,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790212299,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790212299,
+      "kind": "EXIT_A_RES",
+      "msg": "resolved 1 \u2192 pnl $+605.60 (Map Handicap: LG (-1.5) vs 3DMAX (+1.5))",
+      "asset": "98933309039058004045",
+      "pnl": 605.6013367074285
+    },
+    {
+      "ts": 1790212934,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790212934,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790213571,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790213571,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790214208,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790214208,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790214845,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790214845,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790215483,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790215483,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
     }
   ],
-  "iterations": 3710,
-  "cum_pnl": 686.2844527380901,
+  "iterations": 3765,
+  "cum_pnl": 1291.8857894455186,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
     "59791274182564502652034972722656381080188306472031620654012968744576890493920": 1789644222,
@@ -4744,6 +4749,8 @@
     "0x5fc0968595a643f89de567c5ae48b67faf47f85cdcf1a299a4102a806b3aec4e",
     "0xa2fa520a2b998fe638998dc4fd1eaa7700681e2124566610c7c215c033f89fa2",
     "0x0b2b408c6c2236bc7c0ac385ba86882d40279bbe8e40e18f91f3cad203264e51",
-    "0x4f93c6317631627f05018e3e25e520f52bc24ed7a79d288066ccacd8dd4c944d"
+    "0x4f93c6317631627f05018e3e25e520f52bc24ed7a79d288066ccacd8dd4c944d",
+    "0xe7f88c04419f200efb73833f9fb2037a393ebcb096cc2d992ba1d894ca812efd",
+    "0x058f421f1bf7f044f51f9943fd2c171e1a3e5780fad2dfcd030fc3450de93c71"
   ]
 }
