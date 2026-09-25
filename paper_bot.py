@@ -48,6 +48,12 @@ D_TP = 0.05
 D_SL = -0.08
 D_MAX_HOLD_S = 3600
 
+# Strategy D deaktiveret 2026-09-25: 21% wr / -$193 over 21 trades (hele historik),
+# 20% wr / -$141 sidste 7 dage → æder A-edgen før 21/10-beslutningen.
+# Åbne D-positioner exit'er stadig via process_exits; kun nye entries blokeres.
+# Sæt ENABLE_STRATEGY_D=1 for at genaktivere.
+ENABLE_STRATEGY_D = os.environ.get("ENABLE_STRATEGY_D", "0") == "1"
+
 RASH = "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c"
 WSS_URL = "wss://ws-live-data.polymarket.com"
 WSS_PING_INTERVAL_S = 5
@@ -464,7 +470,8 @@ async def periodic_task(state, lock):
             async with lock:
                 last_rash = await asyncio.to_thread(fetch_rash_trades, 0, 50)
                 watched = get_watched_assets(state, last_rash)
-                await asyncio.to_thread(scan_strategy_D, state, watched)
+                if ENABLE_STRATEGY_D:
+                    await asyncio.to_thread(scan_strategy_D, state, watched)
                 await asyncio.to_thread(process_exits, state)
                 state['iterations'] += 1
                 if len(state['closed_positions']) > 500:
@@ -517,7 +524,8 @@ def run_one_tick(s):
 
     last_rash = fetch_rash_trades(0, limit=50)
     watched = get_watched_assets(s, last_rash)
-    scan_strategy_D(s, watched)
+    if ENABLE_STRATEGY_D:
+        scan_strategy_D(s, watched)
     process_exits(s)
 
     if len(s['closed_positions']) > 500:
