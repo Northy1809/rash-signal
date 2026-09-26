@@ -1,7 +1,7 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1790409654,
-  "cash": 6531.363890206574,
+  "last_rash_trade_ts": 1790429411,
+  "cash": 7957.274728502985,
   "open_positions": [
     {
       "id": "D_1789646934_1098206692",
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1790410301
+      "exit_at": 1790430313
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,7 +31,7 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1790410301
+      "exit_at": 1790430313
     },
     {
       "id": "A_1790406670_3802131899",
@@ -72,21 +72,21 @@
       "exit_type": "resolution"
     },
     {
-      "id": "A_1790409823_1108941327",
+      "id": "A_1790426655_6356763965",
       "strategy": "A",
-      "asset": "110894132715650937190608770260479003475027050852742293332898920247687892694039",
-      "condition": "0x2e793f5a3ae998975b8d5b4162f4875fb5265aa32707bcb39907ebf74b1029d5",
-      "outcome": "fnatic",
-      "title": "Counter-Strike: fnatic vs Iberian Soul (BO3) - Stake Ranked Episode 5: Closed Qualifier Playoffs",
-      "entry_price": 0.584,
-      "entry_time": 1790409823,
-      "fill_usdc": 910.8392764236781,
-      "shares_gross": 1559.6562952460242,
-      "fee_shares": 18.945456949612506,
-      "net_shares": 1540.7108382964118,
-      "rash_trade_price": 0.58,
-      "rash_trade_usdc": 3746.9739999999997,
-      "rash_trade_ts": 1790409651,
+      "asset": "63567639652116387293866560445098709392248260181309886030390616955267382666995",
+      "condition": "0x6a875d87a911f438883b26c5bedbedff3b26ccba92e5bbee322565de7fa007bf",
+      "outcome": "Metizport",
+      "title": "Map Handicap: MZP (-1.5) vs aimclub (+1.5)",
+      "entry_price": 0.574,
+      "entry_time": 1790426655,
+      "fill_usdc": 114.8,
+      "shares_gross": 200.0,
+      "fee_shares": 2.44524,
+      "net_shares": 197.55476,
+      "rash_trade_price": 0.5885597759,
+      "rash_trade_usdc": 2319.790699916573,
+      "rash_trade_ts": 1790424023,
       "kelly_target_usdc": 910.8392764236781,
       "exit_type": "resolution"
     }
@@ -1058,109 +1058,31 @@
       "exit_time": 1790406670,
       "exit_price": 0.0,
       "pnl": -1004.2329398276494
+    },
+    {
+      "id": "A_1790409823_1108941327",
+      "strategy": "A",
+      "asset": "110894132715650937190608770260479003475027050852742293332898920247687892694039",
+      "condition": "0x2e793f5a3ae998975b8d5b4162f4875fb5265aa32707bcb39907ebf74b1029d5",
+      "outcome": "fnatic",
+      "title": "Counter-Strike: fnatic vs Iberian Soul (BO3) - Stake Ranked Episode 5: Closed Qualifier Playoffs",
+      "entry_price": 0.584,
+      "entry_time": 1790409823,
+      "fill_usdc": 910.8392764236781,
+      "shares_gross": 1559.6562952460242,
+      "fee_shares": 18.945456949612506,
+      "net_shares": 1540.7108382964118,
+      "rash_trade_price": 0.58,
+      "rash_trade_usdc": 3746.9739999999997,
+      "rash_trade_ts": 1790409651,
+      "kelly_target_usdc": 910.8392764236781,
+      "exit_type": "resolution",
+      "exit_time": 1790426655,
+      "exit_price": 1.0,
+      "pnl": 629.8715618727337
     }
   ],
   "decisions": [
-    {
-      "ts": 1790192556,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790192618,
-      "kind": "SKIP_D",
-      "msg": "crash 0.815->0.515 but effective_ask 0.534 > limit 0.520"
-    },
-    {
-      "ts": 1790192682,
-      "kind": "SKIP_D",
-      "msg": "crash 0.750->0.510 but effective_ask 0.524 > limit 0.515"
-    },
-    {
-      "ts": 1790192747,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 1099040147: $5"
-    },
-    {
-      "ts": 1790192811,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 1099040147: $5"
-    },
-    {
-      "ts": 1790192876,
-      "kind": "SKIP_D",
-      "msg": "crash 0.845->0.490 but effective_ask 0.514 > limit 0.495"
-    },
-    {
-      "ts": 1790192941,
-      "kind": "SKIP_D",
-      "msg": "crash 0.780->0.490 but effective_ask 0.534 > limit 0.495"
-    },
-    {
-      "ts": 1790193005,
-      "kind": "SKIP_D",
-      "msg": "crash 0.745->0.505 but effective_ask 0.564 > limit 0.510"
-    },
-    {
-      "ts": 1790193070,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 1099040147: $5"
-    },
-    {
-      "ts": 1790193134,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 1099040147: $7"
-    },
-    {
-      "ts": 1790193198,
-      "kind": "SKIP_D",
-      "msg": "crash 0.715->0.405 but effective_ask 0.424 > limit 0.410"
-    },
-    {
-      "ts": 1790193201,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790193202,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790193263,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 1099040147: $5"
-    },
-    {
-      "ts": 1790193327,
-      "kind": "SKIP_D",
-      "msg": "crash 0.715->0.395 but effective_ask 0.414 > limit 0.400"
-    },
-    {
-      "ts": 1790193392,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 1099040147: $6"
-    },
-    {
-      "ts": 1790193456,
-      "kind": "SKIP_D",
-      "msg": "crash 0.665->0.375 but effective_ask 0.434 > limit 0.380"
-    },
-    {
-      "ts": 1790193845,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790193845,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790194488,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
     {
       "ts": 1790194488,
       "kind": "WAIT_D",
@@ -3592,10 +3514,115 @@
       "ts": 1790409823,
       "kind": "SKIP_A",
       "msg": "bucket 0.20 not in [0.6, 0.7] (Rash entry $2100 @ 0.210)"
+    },
+    {
+      "ts": 1790426655,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $1642 @ 0.450)"
+    },
+    {
+      "ts": 1790426655,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.20 not in [0.6, 0.7] (Rash entry $2066 @ 0.210)"
+    },
+    {
+      "ts": 1790426655,
+      "kind": "SKIP_A",
+      "msg": "effective_ask 0.764 (best 0.760 + slip) > limit 0.716 (bucket 0.7)"
+    },
+    {
+      "ts": 1790426655,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.20 not in [0.6, 0.7] (Rash entry $1726 @ 0.210)"
+    },
+    {
+      "ts": 1790426655,
+      "kind": "FILL_A",
+      "msg": "BUY $115 @ 0.574 (best 0.570+slip, kelly target $911) bucket 0.6 (200.0 shares) \u2014 Map Handicap: MZP (-1.5) vs aimclub (+1.5)",
+      "asset": "63567639652116387293",
+      "entry": 0.574,
+      "size": 114.8
+    },
+    {
+      "ts": 1790426655,
+      "kind": "SKIP_A",
+      "msg": "already have position on 6356763965..."
+    },
+    {
+      "ts": 1790426656,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790426656,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790426657,
+      "kind": "EXIT_A_RES",
+      "msg": "resolved 1 \u2192 pnl $+629.87 (Counter-Strike: fnatic vs Iberian Soul (BO3) - Sta)",
+      "asset": "11089413271565093719",
+      "pnl": 629.8715618727337
+    },
+    {
+      "ts": 1790427267,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790427267,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790427879,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790427879,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790428490,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790428490,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790429101,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790429102,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790429713,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $10774 @ 0.490)"
+    },
+    {
+      "ts": 1790429713,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790429713,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
     }
   ],
-  "iterations": 4370,
-  "cum_pnl": -206.02928576690272,
+  "iterations": 4425,
+  "cum_pnl": 423.84227610583093,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
     "59791274182564502652034972722656381080188306472031620654012968744576890493920": 1789644222,
@@ -5444,6 +5471,66 @@
     "0x1192b01cd562396f9b1ef11bf46e1341dd85d6d39a9671a97081bb758517b695",
     "0xef9e1aa278060e34368b5e6847326a15f8ceea9bb79d09510217912855338ba7",
     "0x5ad4b5f72303c0185c0726eea8add64b9de879f3eee7e5497ed1f1dccd95ad49",
-    "0x596db98a77f0412e3027eaed3a58d12303366d25c401313f9dce13cc2d187cc6"
+    "0x596db98a77f0412e3027eaed3a58d12303366d25c401313f9dce13cc2d187cc6",
+    "0xa38d8ccd3e164b45150230e5b9ad2d92192fe0c3713df884e166256bd2c1c315",
+    "0x21e5f705802a2266ea2cc5db66f322f6f7392a4324205bcff383b95be4dda4a2",
+    "0xf8646603e34cdbd481690806807b4153779d8d0c16e66ddabc9518311f3c1da4",
+    "0xdf0b7acb5d55cd44df2c2e717cefff1ff9c38c089589b5debdf9e7522c62d911",
+    "0xd10d294409cb8dccbc79fe9209b236300d33327ea8355c74ca1ee3890afd7aec",
+    "0xc19bb4dd901446aafe6792d8ae4db85a9851254dcf1d2b89f30c8ebf99f1217d",
+    "0xc29d9962aadfdd4440be84eeb02e8139049443213a2b6ebb188c1e2e1a562ccc",
+    "0xb8a47f294cd58d5f65d27fcd49cd08971f7cb9ddb817646593e998ffea194688",
+    "0x6ce73e1dce90f83cf4b392c4e5b75cc5c54036d1d8e0e275e80107eea7cb1915",
+    "0xfad9a1dc989a5f6fd6382387e511d6816162139cc72ba265e0b789f3b2ff89f9",
+    "0x316a878d4d47c970c6e4d36a3f36cbe63837da9a1266739a1f927bda30aebcb3",
+    "0x236aebc54a123eb7397752e401e01f06e6707b35cb400c440fa165437a4dd9c8",
+    "0x6026e8aa4fcdd13506f17c831a69a49788590a4541d6bfb4c6228efcd535a792",
+    "0x6a7567d504a51939b5028535e55d79c40ce28d07a33a11193e0f46b238b2abe6",
+    "0xf41aaf62441210e229159b17c829f90e6e20ffc7700b8cc7cb94713fd912dec3",
+    "0xac158d67d86fb7f73cf14a8ec9e177c14a25e0519ad6bd9ee76662c61dd7cca9",
+    "0x14e5241abdac12c767a2dabb9e89e825817d5b8447f1a4dbf6e160a8f77b4e3c",
+    "0xe50482cca7d4a370bfb38cb6719d2f890898f8755fd4a3e0552d46ac4a17a88c",
+    "0xce36e3adf8620f39ca08693abc54064ad72415da0fc7fa86cf6fbde26d05cc88",
+    "0xad09f74c3e49506499ae5994a59e845f52bdf893d9d5b9fa585525013469b1df",
+    "0x36aa6438a2c3f7f5e5cfe8c87c3a9f063467b6d0a8fc4287312c985d41514b25",
+    "0x3e1e0141b74aa47f874c9595dbe6f52a2f867e1ec4c710bfaef7ef98e314041c",
+    "0x25fd448f12d0f98c159f45d405d4251724c313742e2aedae19f88b81e039a28d",
+    "0xac9b4c9e71cfe56d3d17110813a8e602664ecc9f64a90e911723faaa3d5b53c7",
+    "0x016f1dbff39b5bd0d3d3c46309fbbe7b9d8eecbf182efc4c26fa5226fefa7001",
+    "0x83576630e638a2d404003f25b5a6b75bfbafbb1e1f802aafea0dbe38e581a0dd",
+    "0x9372055bff5cd44c67b289746bf1001f06f509955ae73c48498c5015ea1759ff",
+    "0xcb70541935bb58a3d8b9fa2d47ca6735255cf542be924702427cac483c6121a1",
+    "0xf1014e1c131cd2196bf0cdd4f64dc40ff2f969ab1db7783a271c011d69d510de",
+    "0x33a30143cd3e87d0c95a6822e6ca607f2367a708c23a85ffed22b262c880f49c",
+    "0x50c107a682e01a94cf109e20a0823bf3254d009c3ec1b1ae7b969a36ba8041de",
+    "0x0fb98a02381f2cfba349591f0f3310d7c14891280a76fba6c0788a8462a2db4c",
+    "0x2a90c46c4304f2953793f6b7c15c1d236f6a3efebd4a942c4402ceb9f18c861a",
+    "0x4aedad22b5682ec5e267490c62fdf243bce0e71f46301d3ed93d8b486e836d59",
+    "0x073b62bd5aa23876763eb9c492e174a9e3fc53be07a3599a8a28c89ddb757f99",
+    "0x0ac491b06aecc158e5f98342aabcbd1e0fefea68f35fd205d5fa8c40be17b449",
+    "0x7156b8bb64ff19a4c20a67477d15180165b03269d32db86e8b5bcb6629b74ceb",
+    "0xb55e7ad27232d09e6fbe919eb8c15c0e645a67e40798b1b657ff0ac82acce25e",
+    "0x9608b0c33b7e8ed95dcf800c7da4d2683eb50a77181ae3f5569a4afc778e091e",
+    "0x6b925cd89da71619ba312477c9877fdfeb7be3644101b328e314b9f0332fc328",
+    "0x1aabc7636dd829f3f45cb4a81cd9ceb64751b197b90be1b949a519c09685a962",
+    "0x66bed6370b88a31f571879b909d69735072fe2feb8a5c0cc7f84e4cf5010e4a7",
+    "0xd23f817e85c8a534767ec131f5d81a23ba7a7f02fe0c76d779d8caba0a214d20",
+    "0xb000f85df2e3c45fd23154ca45e28d0f118b20bafc6d23bf414c0d40f15ff3c3",
+    "0x5ef3db7c74546d931ff5021abf7ec714e980117ee3387903559c3ab492f5a7f7",
+    "0x63d92e9eb5d76202f8b6d7ae794166119dcbb6fc01f761154a11ae91f47e66c7",
+    "0x5343fb80deea6221014c42d56b6510520d7f9ca7f38dbf320af7382d99c3bd7e",
+    "0xbbc2489917f18a32e10b5c92717d139e731e8136144233cad9cb9209cad4a92a",
+    "0xce4cf70c34131300b86680c774771036b12dfaa5e1b6cecdbaa2bae82d46976a",
+    "0x0151fabc68d4f35c1ba5488b522cdcb7d12ac447b450a888b6dd7153da1ddb3b",
+    "0x3501672de0a49c866ef938ab88532f6b047b11d4c2d39041f702162e60b308e5",
+    "0x7059adcce5708ff205c8bbcb15d684c6f68cfae8d95ff9f3d98d8240f40f83b9",
+    "0x3fd3dff27e3a20268fed25970d62cd99f8cb3eed040c33edbabca3db269b2df4",
+    "0xd18f884296399ae96115182ed301c2ee299281479e2b0b3dad3203b0c5dca08d",
+    "0x3bb5f044bf643c87a148ceefe93467fbc97094c6fb33e972eb43f4202ec731b5",
+    "0xb20a3dd475d42850718c94b315fb6837f8fefadccc137ec181767e2014f04bc9",
+    "0xdb365035b0a051281d694c5773594a47c35cfbb0d6818da5c7027b6200792998",
+    "0x4fee04df5b14a9111cd6ae4dad7bb551df318061a15938f4cf6aa1991ab517b9",
+    "0x70b206681f3ebd89f0250c8653e633042c55c46019c438cc686c277b323ad898",
+    "0x65a10b3452b8de6f2780f1bddb503545b690c2a40cba48c34040ef4ee9f8e716"
   ]
 }
