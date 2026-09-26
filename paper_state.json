@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1790454899
+      "exit_at": 1790465273
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,26 +31,7 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1790454899
-    },
-    {
-      "id": "A_1790426655_6356763965",
-      "strategy": "A",
-      "asset": "63567639652116387293866560445098709392248260181309886030390616955267382666995",
-      "condition": "0x6a875d87a911f438883b26c5bedbedff3b26ccba92e5bbee322565de7fa007bf",
-      "outcome": "Metizport",
-      "title": "Map Handicap: MZP (-1.5) vs aimclub (+1.5)",
-      "entry_price": 0.574,
-      "entry_time": 1790426655,
-      "fill_usdc": 114.8,
-      "shares_gross": 200.0,
-      "fee_shares": 2.44524,
-      "net_shares": 197.55476,
-      "rash_trade_price": 0.5885597759,
-      "rash_trade_usdc": 2319.790699916573,
-      "rash_trade_ts": 1790424023,
-      "kelly_target_usdc": 910.8392764236781,
-      "exit_type": "resolution"
+      "exit_at": 1790465273
     }
   ],
   "closed_positions": [
@@ -1086,76 +1067,31 @@
       "exit_time": 1790451266,
       "exit_price": 1.0,
       "pnl": 629.8715618727338
+    },
+    {
+      "id": "A_1790426655_6356763965",
+      "strategy": "A",
+      "asset": "63567639652116387293866560445098709392248260181309886030390616955267382666995",
+      "condition": "0x6a875d87a911f438883b26c5bedbedff3b26ccba92e5bbee322565de7fa007bf",
+      "outcome": "Metizport",
+      "title": "Map Handicap: MZP (-1.5) vs aimclub (+1.5)",
+      "entry_price": 0.574,
+      "entry_time": 1790426655,
+      "fill_usdc": 114.8,
+      "shares_gross": 200.0,
+      "fee_shares": 2.44524,
+      "net_shares": 197.55476,
+      "rash_trade_price": 0.5885597759,
+      "rash_trade_usdc": 2319.790699916573,
+      "rash_trade_ts": 1790424023,
+      "kelly_target_usdc": 910.8392764236781,
+      "exit_type": "resolution",
+      "exit_time": 1790461648,
+      "exit_price": 0.0,
+      "pnl": -114.8
     }
   ],
   "decisions": [
-    {
-      "ts": 1790212299,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790212299,
-      "kind": "EXIT_A_RES",
-      "msg": "resolved 1 \u2192 pnl $+605.60 (Map Handicap: LG (-1.5) vs 3DMAX (+1.5))",
-      "asset": "98933309039058004045",
-      "pnl": 605.6013367074285
-    },
-    {
-      "ts": 1790212934,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790212934,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790213571,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790213571,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790214208,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790214208,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790214845,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790214845,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790215483,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790215483,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790234484,
-      "kind": "SKIP_A",
-      "msg": "effective_ask 0.684 (best 0.680 + slip) > limit 0.622 (bucket 0.6)"
-    },
     {
       "ts": 1790234484,
       "kind": "SKIP_A",
@@ -3629,10 +3565,77 @@
       "ts": 1790454299,
       "kind": "WAIT_D",
       "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790461648,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790461649,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790461649,
+      "kind": "EXIT_A_RES",
+      "msg": "resolved 0 \u2192 pnl $-114.80 (Map Handicap: MZP (-1.5) vs aimclub (+1.5))",
+      "asset": "63567639652116387293",
+      "pnl": -114.8
+    },
+    {
+      "ts": 1790462253,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790462254,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790462858,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790462859,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790463463,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790463463,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790464068,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790464069,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790464673,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790464673,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
     }
   ],
-  "iterations": 4535,
-  "cum_pnl": 1705.7820957241681,
+  "iterations": 4590,
+  "cum_pnl": 1590.9820957241682,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
     "59791274182564502652034972722656381080188306472031620654012968744576890493920": 1789644222,
