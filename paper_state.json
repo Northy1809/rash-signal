@@ -1,6 +1,6 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1790534673,
+  "last_rash_trade_ts": 1790552657,
   "cash": 11424.241855724169,
   "open_positions": [
     {
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1790549591
+      "exit_at": 1790558539
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,7 +31,7 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1790549591
+      "exit_at": 1790558539
     }
   ],
   "closed_positions": [
@@ -1092,66 +1092,6 @@
     }
   ],
   "decisions": [
-    {
-      "ts": 1790273868,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $3471 @ 0.490)"
-    },
-    {
-      "ts": 1790273871,
-      "kind": "SKIP_D",
-      "msg": "crash 0.310->0.225 but effective_ask 0.494 > limit 0.230"
-    },
-    {
-      "ts": 1790273872,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790273872,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790273934,
-      "kind": "SKIP_D",
-      "msg": "crash 0.755->0.415 but effective_ask 0.954 > limit 0.420"
-    },
-    {
-      "ts": 1790273935,
-      "kind": "SKIP_D",
-      "msg": "crash 0.635->0.505 but effective_ask 0.564 > limit 0.510"
-    },
-    {
-      "ts": 1790273935,
-      "kind": "SKIP_D",
-      "msg": "crash 0.310->0.140 but effective_ask 0.194 > limit 0.145"
-    },
-    {
-      "ts": 1790273997,
-      "kind": "SKIP_D",
-      "msg": "crash 0.310->0.080 but effective_ask 0.194 > limit 0.085"
-    },
-    {
-      "ts": 1790273999,
-      "kind": "SKIP_D",
-      "msg": "crash 0.755->0.490 but effective_ask 0.664 > limit 0.495"
-    },
-    {
-      "ts": 1790274068,
-      "kind": "SKIP_D",
-      "msg": "crash 0.310->0.095 but effective_ask 0.174 > limit 0.100"
-    },
-    {
-      "ts": 1790274070,
-      "kind": "SKIP_D",
-      "msg": "crash 0.515->0.365 but effective_ask 0.394 > limit 0.370"
-    },
-    {
-      "ts": 1790274133,
-      "kind": "SKIP_D",
-      "msg": "crash 0.310->0.085 but effective_ask 0.174 > limit 0.090"
-    },
     {
       "ts": 1790274135,
       "kind": "SKIP_D",
@@ -3632,9 +3572,69 @@
       "ts": 1790548992,
       "kind": "WAIT_D",
       "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790554910,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790554910,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790555516,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790555516,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790556121,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790556122,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790556727,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790556727,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790557333,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790557333,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790557939,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790557939,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
     }
   ],
-  "iterations": 4865,
+  "iterations": 4920,
   "cum_pnl": 1590.9820957241682,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
@@ -5606,6 +5606,7 @@
     "0xaf98c795bda64d1c2af6ca5404a3129377627b9de76c2f3cab8b2824af6ca2e1",
     "0x3fe83d2200346341890f9e6fae56d55ccdcb306c6bc3b2ad407e9fb021ae0342",
     "0xf779e73dc8114fc7c8dfc0e012b921a0f62a59cd69a89055851af1630adb02e9",
-    "0x371b93ee7eaca5f5bef36a840441b03d22148f5207a3b7d86f90e5b9b1e5f937"
+    "0x371b93ee7eaca5f5bef36a840441b03d22148f5207a3b7d86f90e5b9b1e5f937",
+    "0x09c8065b2c5583c671bda4bd1cbd0e649669b1c0e4f1ff2911c45e905ceaa864"
   ]
 }
