@@ -1,6 +1,6 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1790579678,
+  "last_rash_trade_ts": 1790589579,
   "cash": 11424.241855724169,
   "open_positions": [
     {
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1790580311
+      "exit_at": 1790611371
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,7 +31,7 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1790580311
+      "exit_at": 1790611371
     }
   ],
   "closed_positions": [
@@ -1092,72 +1092,6 @@
     }
   ],
   "decisions": [
-    {
-      "ts": 1790274910,
-      "kind": "SKIP_D",
-      "msg": "crash 0.405->0.295 but effective_ask 0.304 > limit 0.300"
-    },
-    {
-      "ts": 1790274975,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 6548622512: $3"
-    },
-    {
-      "ts": 1790274975,
-      "kind": "FILL_D",
-      "msg": "CRASH-BUY $100 @ 0.244 (best 0.240+slip, crashed 0.405->0.295)",
-      "asset": "93418641884079001463"
-    },
-    {
-      "ts": 1790275042,
-      "kind": "EXIT_D_SL",
-      "msg": "sold @ 0.216 (SL, R=-11.5%) \u2192 pnl $-13.03",
-      "asset": "93418641884079001463",
-      "pnl": -13.034531946445625
-    },
-    {
-      "ts": 1790275169,
-      "kind": "SKIP_D",
-      "msg": "crash 0.665->0.495 but effective_ask 0.504 > limit 0.500"
-    },
-    {
-      "ts": 1790275171,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790275171,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790275234,
-      "kind": "SKIP_D",
-      "msg": "crash 0.725->0.495 but effective_ask 0.504 > limit 0.500"
-    },
-    {
-      "ts": 1790275299,
-      "kind": "SKIP_D",
-      "msg": "crash 0.685->0.495 but effective_ask 0.504 > limit 0.500"
-    },
-    {
-      "ts": 1790275363,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 6548622512: $16"
-    },
-    {
-      "ts": 1790275490,
-      "kind": "FILL_A",
-      "msg": "BUY $518 @ 0.684 (best 0.680+slip, kelly target $1331) bucket 0.7 (757.5 shares) \u2014 Counter-Strike: Keyd vs ALKA (BO3) - ESL Challenger League S",
-      "asset": "10049815181477367287",
-      "entry": 0.684,
-      "size": 518.15052
-    },
-    {
-      "ts": 1790275623,
-      "kind": "SKIP_D",
-      "msg": "crash 0.660->0.485 but effective_ask 0.494 > limit 0.490"
-    },
     {
       "ts": 1790275624,
       "kind": "SKIP_D",
@@ -3632,9 +3566,69 @@
       "ts": 1790579953,
       "kind": "SKIP_A",
       "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $2949 @ 0.500)"
+    },
+    {
+      "ts": 1790607750,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790607751,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790608355,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790608355,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790608959,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790608959,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790609563,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790609563,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790610167,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790610167,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790610771,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790610771,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
     }
   ],
-  "iterations": 4975,
+  "iterations": 5030,
   "cum_pnl": 1590.9820957241682,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
@@ -5612,6 +5606,13 @@
     "0xf5721dc59454d3aa1e232a7061475bf03ae0548f8865fb0622f76332609c1fa8",
     "0xa481ae36b51df18fcbfb353d040c6578d77639b2d351ee633543ce186dc85dc0",
     "0x83144d9f3b6cfc713125a09191ed8f70a551d7881b468a00d82af1ea833efcc9",
-    "0x06f16bd71a0e918c6cce4ebf32c970570e642993817318fec2a5f2eb9fc38b67"
+    "0x06f16bd71a0e918c6cce4ebf32c970570e642993817318fec2a5f2eb9fc38b67",
+    "0x15a330679a39b6974e0dd5c86be9f3f0b9547776885831eb552cb94eaf9ee275",
+    "0xd149052e55d115a5f8e4140c36aaac95c1e03f505452128e1bd12ca5898084e4",
+    "0x8d75e0523a9c831fedb63787e69fd31170eaee77469eac96b51b248261450760",
+    "0xd1c44cada8900de9ebf2982b2f8435d83e8a21fc48d41f789daf1f325d521c51",
+    "0x9f25ecfc46c56011d52c0e2a32d6008cf5e7da6b4a6e3324a0aed496d99aeccc",
+    "0xe2cee628eebf9792e4a245df20297d48db55da269c6bce7d2c94477af4a01d32",
+    "0xf5951fe0a35a27838da23a06ace0cd3d0c8c51c0ed5c2a548b913c035ff72a9e"
   ]
 }
