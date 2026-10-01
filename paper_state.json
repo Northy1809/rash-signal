@@ -1,7 +1,7 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1790821788,
-  "cash": 11424.241855724169,
+  "last_rash_trade_ts": 1790846118,
+  "cash": 11370.51385572417,
   "open_positions": [
     {
       "id": "D_1789646934_1098206692",
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1790823042
+      "exit_at": 1790846932
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,7 +31,26 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1790823042
+      "exit_at": 1790846932
+    },
+    {
+      "id": "A_1790843299_8020316292",
+      "strategy": "A",
+      "asset": "80203162929989387968700007373652475404014198966737497064454191168500648314505",
+      "condition": "0x300fc82f7ae05e7da2ec736c7c81e4432914bff49020fcc92b6a8ac94015dd2a",
+      "outcome": "NAVI Junior",
+      "title": "Counter-Strike: NAVI Junior vs aimclub (BO1) - FOX Legacy Cup Group A",
+      "entry_price": 0.584,
+      "entry_time": 1790843299,
+      "fill_usdc": 53.727999999999994,
+      "shares_gross": 92.0,
+      "fee_shares": 1.1175424000000003,
+      "net_shares": 90.8824576,
+      "rash_trade_price": 0.56,
+      "rash_trade_usdc": 3649.7776000000003,
+      "rash_trade_ts": 1790837115,
+      "kelly_target_usdc": 1077.9613349023477,
+      "exit_type": "resolution"
     }
   ],
   "closed_positions": [
@@ -1092,121 +1111,6 @@
     }
   ],
   "decisions": [
-    {
-      "ts": 1790300869,
-      "kind": "SKIP_D",
-      "msg": "crash 0.405->0.135 but effective_ask 0.144 > limit 0.140"
-    },
-    {
-      "ts": 1790300931,
-      "kind": "SKIP_D",
-      "msg": "crash 0.455->0.355 but effective_ask 0.574 > limit 0.360"
-    },
-    {
-      "ts": 1790300932,
-      "kind": "SKIP_D",
-      "msg": "crash 0.275->0.170 but effective_ask 0.184 > limit 0.175"
-    },
-    {
-      "ts": 1790300933,
-      "kind": "SKIP_D",
-      "msg": "crash 0.405->0.135 but effective_ask 0.144 > limit 0.140"
-    },
-    {
-      "ts": 1790300995,
-      "kind": "SKIP_D",
-      "msg": "crash 0.305->0.175 but effective_ask 0.184 > limit 0.180"
-    },
-    {
-      "ts": 1790300997,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 7857141048: $1"
-    },
-    {
-      "ts": 1790301059,
-      "kind": "SKIP_D",
-      "msg": "crash 0.545->0.415 but effective_ask 0.614 > limit 0.420"
-    },
-    {
-      "ts": 1790301059,
-      "kind": "SKIP_D",
-      "msg": "crash 0.315->0.175 but effective_ask 0.184 > limit 0.180"
-    },
-    {
-      "ts": 1790301061,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 7857141048: $2"
-    },
-    {
-      "ts": 1790301123,
-      "kind": "SKIP_D",
-      "msg": "crash 0.535->0.415 but effective_ask 0.604 > limit 0.420"
-    },
-    {
-      "ts": 1790301124,
-      "kind": "SKIP_D",
-      "msg": "crash 0.345->0.170 but effective_ask 0.184 > limit 0.175"
-    },
-    {
-      "ts": 1790301125,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 7857141048: $1"
-    },
-    {
-      "ts": 1790301187,
-      "kind": "SKIP_D",
-      "msg": "crash 0.540->0.370 but effective_ask 0.604 > limit 0.375"
-    },
-    {
-      "ts": 1790301187,
-      "kind": "SKIP_D",
-      "msg": "crash 0.355->0.170 but effective_ask 0.184 > limit 0.175"
-    },
-    {
-      "ts": 1790301189,
-      "kind": "SKIP_D",
-      "msg": "crash 0.385->0.080 but effective_ask 0.094 > limit 0.085"
-    },
-    {
-      "ts": 1790301251,
-      "kind": "SKIP_D",
-      "msg": "crash 0.540->0.390 but effective_ask 0.604 > limit 0.395"
-    },
-    {
-      "ts": 1790301251,
-      "kind": "SKIP_D",
-      "msg": "crash 0.355->0.175 but effective_ask 0.184 > limit 0.180"
-    },
-    {
-      "ts": 1790301252,
-      "kind": "SKIP_D",
-      "msg": "depth thin on crash 7857141048: $0"
-    },
-    {
-      "ts": 1790301315,
-      "kind": "SKIP_D",
-      "msg": "crash 0.400->0.320 but effective_ask 0.564 > limit 0.325"
-    },
-    {
-      "ts": 1790301315,
-      "kind": "SKIP_D",
-      "msg": "crash 0.505->0.395 but effective_ask 0.624 > limit 0.400"
-    },
-    {
-      "ts": 1790301315,
-      "kind": "SKIP_D",
-      "msg": "crash 0.375->0.175 but effective_ask 0.184 > limit 0.180"
-    },
-    {
-      "ts": 1790301316,
-      "kind": "SKIP_D",
-      "msg": "crash 0.385->0.075 but effective_ask 0.094 > limit 0.080"
-    },
-    {
-      "ts": 1790301317,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
     {
       "ts": 1790301317,
       "kind": "WAIT_D",
@@ -3621,9 +3525,127 @@
       "ts": 1790822442,
       "kind": "WAIT_D",
       "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790843299,
+      "kind": "FILL_A",
+      "msg": "BUY $54 @ 0.584 (best 0.580+slip, kelly target $1078) bucket 0.6 (92.0 shares) \u2014 Counter-Strike: NAVI Junior vs aimclub (BO1) - FOX Legacy Cu",
+      "asset": "80203162929989387968",
+      "entry": 0.584,
+      "size": 53.727999999999994
+    },
+    {
+      "ts": 1790843299,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $3420 @ 0.413)"
+    },
+    {
+      "ts": 1790843299,
+      "kind": "SKIP_A",
+      "msg": "effective_ask 0.814 (best 0.810 + slip) > limit 0.716 (bucket 0.7)"
+    },
+    {
+      "ts": 1790843299,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $3960 @ 0.490)"
+    },
+    {
+      "ts": 1790843299,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $4373 @ 0.500)"
+    },
+    {
+      "ts": 1790843299,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $3393 @ 0.542)"
+    },
+    {
+      "ts": 1790843299,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790843299,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790843602,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $4334 @ 0.500)"
+    },
+    {
+      "ts": 1790843602,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $3323 @ 0.549)"
+    },
+    {
+      "ts": 1790843906,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790843906,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790844512,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $4285 @ 0.500)"
+    },
+    {
+      "ts": 1790844512,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790844512,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790845119,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790845119,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790845422,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $3369 @ 0.540)"
+    },
+    {
+      "ts": 1790845725,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790845726,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1790846332,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $3314 @ 0.549)"
+    },
+    {
+      "ts": 1790846332,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1790846332,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
     }
   ],
-  "iterations": 5635,
+  "iterations": 5690,
   "cum_pnl": 1590.9820957241682,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
@@ -3646,77 +3668,6 @@
     "100498151814773672878708486124555165778476883635396850024661551517192144656651": 1790290571
   },
   "seen_tx_hashes": [
-    "0xba10e44cd103f5236b9b5d59c55864a00202feb9bdd0ab56be97c421b743fb17",
-    "0xda4c65ab6d6b5dea42e6c920cca0937a7d03743841e65ffa2f79f0d892c5a06a",
-    "0x41e41660c5bd6977d1ce5ebe64394c2949edae107a82c7aef8e50ec88db63032",
-    "0xcbb5439a84f1e9b5e938b843d6a3df0108d5e254e0a363cdbb5a175eb502be01",
-    "0x3ad7e56afd58f550b53bc33fbab207fa8262d444f3e8c7414b2cb6f9ae4bea73",
-    "0xab313e508d342c0a3698f9cbc54ccf7e7a8e90f593adaf189b9120980742c1b1",
-    "0xea4502fb245ae36cefc2eb37a0b8bef8130464794260557cb0c48e6ab6cee872",
-    "0x0d1da0867df6a0c039402d74c820652656a45d1ed9942bef6fb59efa7cd468bb",
-    "0x34453358a1616687c2ec0c35b88e5367b21040dfeeacabd8eee5a5503f78991e",
-    "0x1474b217866ea3d5ca77495b15d51a2055b589c53eb3be1eb34b589152f2adae",
-    "0x4461fe2529ea91dba3b6e5a039823a52913063e7f70238e9728d2200a5d26a1e",
-    "0xcdddc90f7e61d1b5bc0b0a996cb5d2906da22175fb910595e4e858b949114ce2",
-    "0x175a2ef584dd68b52325fa69d2766ebecbf417e11a75b50c428a4e2c04d79548",
-    "0x8e81a6ee10db99ce2aaaf1cc841912fe5391e1cd1c182136562b4cc8b146a42a",
-    "0x36983a2266764a1f2dcc667f3fbbcbed1505d7a95e2c5e465f68b69af5915deb",
-    "0x2470f2c73650fefa17eaa8f0ca9bc6772c5ac4537b928f2d6448bcec4e639568",
-    "0xbc219bf3012f54e925d2053e430f0d28193d7bd44031f9774c888527fe9b9b92",
-    "0xa4250ac4144c102dfa6ddb56ae73f4b7a3034c6a0d3762aaccfbf77b2d5d5e02",
-    "0x3378ee9884d3cb4bae16f8320bd0811cd3136600fdd16705afd612937fc1ae23",
-    "0xc8716c87d326125f814c748eb09875129294b5ca132a1f7aeecbf323327dd46b",
-    "0xa0e1592d072c7b8f56c8de30d9012f16739cf230c3e6680a676cdef9d16205d3",
-    "0xed4ad9b6138e2615867dc8f4cea8fd0e9b8df14777a87dc3aad148f766d8427f",
-    "0x9a285110e3d94493993910f157ebed34bbc9f1dc0a8d8604ec8f16d0b394b4d6",
-    "0x29e07f9caeaa7b9d4e2d3d7774328b78182735b1539d77bd676ffe511c2266f9",
-    "0x4fc2460a2d1090ba21df9e69a66bf0ae5dadd6b829fa99686cf8eb9c93001bc4",
-    "0x3eac3cb7466f85c49d07a7587e0b006f596eb829da796988c7cd2c44681cfd85",
-    "0xf7f78d11f27471349e33bb47e15ad6584648bc6086724f173dca191f11f463cb",
-    "0x07671aad8a7619aee15dc5c629d70f3bce7dcfad172d3ff120dc794ac81aa80f",
-    "0x03dd3d644aaf1156cd05de59b6ca3f8b87bebf173766ad25e6031e7a049dc88e",
-    "0xc32a1fd3dd39b02799c5986043416f719f7afde52c48cc99b0f5bb9c63fa3fe7",
-    "0xa704dc4942fb1c32f72a63fdb4ca514f7c121fa4fe19be0f505afb4ae28a88f7",
-    "0x0326f4dcf74ba86e1e47ba661c58acb2f043afef0494ad71b93a7a2da6f696c5",
-    "0xf86b3c6ed5de008814b6a8224d41317b6d74c99262289392c2ad00a3b9db86fa",
-    "0xe726d0d7d8e3f0a4a4e063acf432236b2309f71459304fb3541cfb62ca2e8d72",
-    "0x26294dcaef5f50f6ae27b768c1f7b287e7c464d5e2f108015f08485d44461438",
-    "0xed947062dfdefe79681ccbbe9d069cde25190ca008465f774522b87c2aaf9803",
-    "0xdc32e59bca7a2800a787321969cf6d6ce1ce9864a09254c5de273c26433c2d05",
-    "0x39317f8207e86521769f53cf72a765ba9453c69f87ae696e2337e2d81b33aeb3",
-    "0xf3d19b174c4dd6bebf813e18e6a306edfdedd7bb6fbf82cc6488d186458cfa78",
-    "0x8a67d4578d22e645ad22002e1d1f754e9415ed3e0820140e0be2349661bb972e",
-    "0x5518cb459dc88ccea27bebb846a2516f791f16fcea4e8f10fd6b385f90adc190",
-    "0x8d17058396539e903393cdb89d9c1389325b6e28d79b7d01671c5f3b22c92934",
-    "0xc60e535de1d217910c74abfd5c4496336b9f1fed9914c9e3f2f2009970a7423a",
-    "0xb5a0082e39df67d78949e97bab311797fff91e6c4c5aebfba4cde251c1b892c6",
-    "0x2e05e7a406ff3dde84eb7612c7d43258365f1e04344e094cde3f5723dc071b40",
-    "0xb933c35539ead93f0ab5e2c2a0a94da6690194745a71efda952160d4c8410148",
-    "0x7832a635b98fee7f57d8f321fb4ea7ddd87d31e6d9ad43f697b19c1787b437bb",
-    "0x07d137e7cde3f237e92d955dc5ba1d9ca9dd95bf0b4bda220563562d534db03a",
-    "0x233a831ad7b509ca192ceff97f064e1684e458e1a353d985b44068f2db3e5a50",
-    "0xb3b6b5a5ad337239176bf8121bb1ca617142cdda5b6833d38d57ce7b6827ba12",
-    "0x8b744da378c9876ac81719966ad6532f411068f422cae51830892876469ab15d",
-    "0x6262748389e21a73f269e30ac0a54a61db20fbb7104c82fe6d076b2455245501",
-    "0x34ef0527eb3a8be7b52b415b861ebc995172303a14b4099aee8c6d38d70e2a04",
-    "0x03053f7eb80f686f3833d77ef4cf919d706fb64e85517a68ecc13e3e5a1b9899",
-    "0x49b5eec49cbac2bcbf9ef699e182869902b7a2a6ca68bf52e5e018943dd3f4f7",
-    "0x60fea777f7d6094f73c2a921d10219e83e4afe5cf390bce3ce68447c56dadbb9",
-    "0x9d2126c6b4d238620400351906a235c60a40fda72f1504083408498513ff7e4c",
-    "0xe872743056e14abc2b2e13142d6826c068f82d51f79113211d0f8fd8d40514bd",
-    "0xbe659d96513d85f20d962ea9dff3fb89de61c9a1d6a9e283b736d2678691bd30",
-    "0xf9a5e5024c15b8f3205895b52c48b260357173d4f152eb299406e4857017feca",
-    "0x89ec42b0c309a31ae3e50878f65643706d582fe4a4eb39ea4a11cea7419739b9",
-    "0x5dc581652e505de065634903ef16869fe2b79b436ece7b6d65afedf4774e97e7",
-    "0x78e4660b2332f3dd7fc944c71e3a7050a26a041f76717342babc0bb19952f83f",
-    "0x70a911d540cec9d5f114ce4ad2dd415bf36ee26ed2f9cbbd21d06b0159c1a62f",
-    "0xaa9947e3e796152f38be85b064a20977bbf1135dd693ea6b7c6ab8fb7559d8e8",
-    "0xa2aad619b0bdbe5b7201e0cfbeab7d6cc622494abe41afc7832374e472109469",
-    "0x78dc4620ab3096261d39b0e4b725cbed5ce776bc6fe704afa921e7ee394e9b4a",
-    "0x009c095891723f72b7cc082a3769dc5727aca18ea39be17c3a393f762dc9c3a0",
-    "0xb86a0c08bac676e18eb29f3306726f02e1bd749ddd82385f8924d0c3a870f30a",
-    "0x314b47b13705e7c6a4b18ef2eb2cc21cc341035da3986e37e272f9197ce3d50b",
-    "0x4821a41aedf339ecd5bf8940d7fd3b7706902d2c0485298c0371cec859356655",
     "0x678f2e08636ead10b7ce0c327d57d188baa577828c5cfef0a7e6e4e967c2344c",
     "0xe3429b0b3e798243f835e4649c54d44b11b47e3b89972163cd645df9e8e90057",
     "0x7c4313a75d107b73a6adfa89a1ce8d489f227f22c6b5542de71c8a5a31c82a04",
@@ -5645,6 +5596,77 @@
     "0x3054cec5aaaa12ef2fe2e96762eda77dfe198bc5aa988c4b6e625e8c06e60332",
     "0x36b9642b010cee579e30ff1b08aa62fa34786522878aad2217bf62e13500d2a4",
     "0xdf6490cef5d1c9d4cb34c1bfb3de2b461845cae62c79491f5e4f20391dcf1f1f",
-    "0xeda96ae731b30af57236c29bbdb79f3d760c8a97e5b675b73a064bc651f6925c"
+    "0xeda96ae731b30af57236c29bbdb79f3d760c8a97e5b675b73a064bc651f6925c",
+    "0xb3cd9add646fd336ef61b3fc32316d4130f24fcef73248ec14ac45a4ed4bb296",
+    "0xe6f75197da190ce134afd28e392d9adc0d8b8ef8234646661491361b77b98da7",
+    "0x295ec739b21628c7a5eb24cc218844bf4ad4acc19ae9b04dbe2733d2bc5a4b3d",
+    "0xef8c1af9ffa26217022842e62b087b4e2c5460cf6906b2fbc96c41e1f7706998",
+    "0xca0438c80967596bfff10319169d32fe050278f47796615a59c370b04bfb4970",
+    "0x985dd92412fc0888eab0b625935f2c2d89bff53bd52c43133880c8d8836a3875",
+    "0xa5584fdc948c65ce077b282c118b98ec021130957af8967735d42c86b2a97374",
+    "0x0c21430831589793621a8ae66a5afb15c8cd1dfba8103e73e8a234bb37c7925e",
+    "0xe73d8f21e0ebf1de64e0d5a903737bc18ff36cf8aa242056efbea9bf82753820",
+    "0x38d589c8136236957c91cdb0d824baeed3bf1e347e9b9dae30e22b800e7540d5",
+    "0x68179ff890e373ceec60cf09b6ac4e928b2d28af892294ad8a8f1577e1747d5e",
+    "0x15399a4ce4b8f75bdb8e7a11d95926ffc1894def2cf4dd83c248059a16c9fb1c",
+    "0xd6649bebe343999b3a361347f4e14c13564674724669d6f07f06c016a0676882",
+    "0x27fc0f97923225901f78a87d2118869e9e27fee113c71be7892a5155f010ca88",
+    "0x766affca076cf25f655ff44471d95302314e109c9cfad6a2a1e8f72abae7be45",
+    "0x5e0fb8f4254734a0147112fc50e68967bdaa465441f24a45956de057a96f5c45",
+    "0x0c1ce03c6944dffea062f6b51e31248d4792de4c260add6e54b63ce447e570e9",
+    "0xb530677c8eb7d9fbaf32eb5b38a85e3e0c313a53e0eb10b176eacad99486426b",
+    "0x6b3ceb4b03874b961483ab68d5b6ce03c4cdd5d59e5dc2b7bd52dfb64ee679b2",
+    "0x63b3ba4a08425911ca89ea4667cc4eb810484bb867727871aaec3b781a4ca6ea",
+    "0x693fe87366aa5b08a7322d9ef14b9fd970a3b4c1cd3b10e13a568e5dca88ecda",
+    "0x29463f5559a8620102066a2543a7705126e3d12d9ce4b6fe5166cc83828b9eaa",
+    "0x66b9431abfa9774c30938e70e7318ed2b2da3dd77bdfe6407be701f87e124955",
+    "0x6e195ea1dabda07472017aadd5990bfd0df73d7283928656069317d63d56cacb",
+    "0xb12dd69a31829a454ac843b9d716dbcd5007fa9d8072f9ce719d46f185dbb934",
+    "0x45c07a550e29da6c331d22fd006af53d4980763196328490f11729940473094e",
+    "0xb427fe45aa6065a3fa095d053f8791a787f738d146a02b9e68d651eca372fe83",
+    "0xf56224acc37edbff0c3fa54615bdc464c259ed7a9e009e341be23454e9fb1542",
+    "0x5829d6e59570d09f4f62039b35366c9e71c202f1c6f60838f6b1a758e303ed3b",
+    "0x2755b8934ccca7c10cac9aedc5a9f3ff5f8db73f6a2e0c11f726d6be05622077",
+    "0x58b39bb1b8c91d989402a469d938f06a01e6968b9ee8cde2a9d4dca4a921708f",
+    "0x6244b3e85d052ae7b8209b94b5b272a1f08a4289dead9755a717f5b4fc0266d8",
+    "0x7f6e5870d75903264832aeebdfcf4e38af9655d2988796be84c4cfed68379624",
+    "0x7cfabe3f522c88fac9ec0981fe4be1fc9dad03881fc7301cda06d1674de42a2e",
+    "0x60ce90926ccb6339e94120e1e807068884ccd6327c058bb68ae6a3c2df2ef474",
+    "0xd236c00910efdb0990aa737dd61080594f3cb2b67c6db789141c6a2e3544957f",
+    "0xbec5b4da48aa6ec0b52177405460d981786e91c8636057bdde04f9236cc1181b",
+    "0x7968f4621c950c4791a08c02c32e74eaff16cf998e08f86cddc7411ee393df66",
+    "0x585877c3bc1fbb4ce07d67a814b742a905fed11be5ef0cf4432b4c77439c39a3",
+    "0x0bf00b51554388c5d40709bc6f504ca0d59f8e5c406ea8bba6c30f0d39332268",
+    "0xe8e79604c36076d309afb9269f66ec6aa73e43df6f2a606ae06f4d6b664625e8",
+    "0xdd5929a70ba7f3e67be96ba02e2079b355f75f70157945bc0961a2577c176d47",
+    "0xb470fd29dfd8ee7bb194728f195e71b01f393f29d349233de43d4554a42925dd",
+    "0x05889f6339c1c2e95d8602f4998a3aaaf1163f7b51f0f968586dec6836e8e639",
+    "0x05a703a6cd1664451fa37ca8d9a08da12f7bfdf2f8ff36ffe27e4f558083df0e",
+    "0x888bb9da0837edf78663768ca3d14a27d7b7d9874d31e4ca087fe2662cfe9aa9",
+    "0x7acb36e185fd402d112fa39b7d8783f4d1b3aa2803d549c9e8bd7d7980742430",
+    "0x18d5a33e4d4b5123ed2fa038312294e818e095a1c73e527abc90955aea9f6dba",
+    "0xb2ce7a1a793d1ae7063f3abd9f8d17a5e1fec930e77d4812032832b17578ea09",
+    "0x9a9f6da657e16584b235bb51567cff6b154d0247838d471572bb83fdd7634f10",
+    "0x1ed881fb3022bd2417ac673b70960b6c4d7872cc525c28ad16965be91a425401",
+    "0xdde79e7891348e9fe90c3199782a5d31341ac8d8bc695f0802c550afa6d767e8",
+    "0xa17f7f5a91e75da0aa97f9e636a8f06ee895df6ffc7307d3c6fbb7f1fb43438e",
+    "0x1763eaf9295a703fa782a700a5dc1a1a6b4d43e41e8cfbd7ddefacb692168b03",
+    "0x6b6fd5ceecfe170f93c8b79be39cd20b54ec9f00f0011ccd81bcbe7ad133a66b",
+    "0x4e509a572a5f60d8a3a314860e22cf7416d99803f32d428358fe527034514f06",
+    "0x79fabab0060c7b21b366a4f54a4753ddfa22a559b639ba8707cea1dde3081e87",
+    "0x46ff6bc89018789a75d74846f13c0d55e83055748fd167e9ac234d1cd057ee41",
+    "0x1800386eef5a97449a4ea7d6457463804f8443a4488d50596720d1e626fe95d3",
+    "0xa1ab0a84b56b7619d00b66b2b083d09c71e3afa36fede64f0c8783e9ce49a6f9",
+    "0x4d4b6f1ba60acdccf0a4a36f74bcf31b17f9cf28a51b2f78ec1ba2123047fbc0",
+    "0x6a638312b64dca0dca73de454a702f1eb5186fa042d1ac37d3262c4be58febc0",
+    "0x5ac90d0de982288a7f62016dc5478f40ad3252c76bd412ad93f325450319cc9c",
+    "0x2b9c1ed97d9b18d2432578edfc7d011f25f83f1ebb203b6f2444f00f732e5f3f",
+    "0x675d6d9dcb186eb438ea5c760a493b96546664779b561ad21155bc84df3ef270",
+    "0x49cf8f7f0fa4dc1150e516b4a38d3518e90874723502adbdd6e3a498db0b5b68",
+    "0xc24e9429abec314d2f1e7cd246068c59e7c5116f66339e8df3932d360c13f54c",
+    "0xd05851b83deab0839da16033a462695c35d4c01bd930f8bf0a177eba1bfd28ff",
+    "0x6410a36699aa44c8c6f93eb8da7fc66bd86fc8fa406942dd3a640a04fc53e336",
+    "0x91ea30c761eb03d65af751ec9ed61afafa523c1cf7586d74b1c2540b7340be76",
+    "0x5c169c491f42a2f46a83be0115304855395b6245860f47114db7229a8f92615b"
   ]
 }
