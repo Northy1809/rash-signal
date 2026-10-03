@@ -1,7 +1,7 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1791047633,
-  "cash": 11458.55601696648,
+  "last_rash_trade_ts": 1791062944,
+  "cash": 13690.796866063254,
   "open_positions": [
     {
       "id": "D_1789646934_1098206692",
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1791050541
+      "exit_at": 1791063793
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,26 +31,7 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1791050541
-    },
-    {
-      "id": "A_1791009214_5558047343",
-      "strategy": "A",
-      "asset": "55580473439393969967858977131763623482227802801786543405949010908829387905318",
-      "condition": "0x393ce4d93e1a58344d15246cadb6037aed5a4fc7a4db1509c45b313fda18a6b3",
-      "outcome": "FURIA",
-      "title": "Counter-Strike: FURIA vs BetBoom Team (BO3) - ESL Pro League Group Stage",
-      "entry_price": 0.664,
-      "entry_time": 1791009214,
-      "fill_usdc": 1498.9287740606585,
-      "shares_gross": 2257.4228525009917,
-      "fee_shares": 25.18200340421906,
-      "net_shares": 2232.2408490967728,
-      "rash_trade_price": 0.66,
-      "rash_trade_usdc": 1653.5706,
-      "rash_trade_ts": 1791009036,
-      "kelly_target_usdc": 1498.9287740606585,
-      "exit_type": "resolution"
+      "exit_at": 1791063793
     }
   ],
   "closed_positions": [
@@ -1284,84 +1265,31 @@
       "exit_time": 1791048730,
       "exit_price": 1.0,
       "pnl": 773.9675124703438
+    },
+    {
+      "id": "A_1791009214_5558047343",
+      "strategy": "A",
+      "asset": "55580473439393969967858977131763623482227802801786543405949010908829387905318",
+      "condition": "0x393ce4d93e1a58344d15246cadb6037aed5a4fc7a4db1509c45b313fda18a6b3",
+      "outcome": "FURIA",
+      "title": "Counter-Strike: FURIA vs BetBoom Team (BO3) - ESL Pro League Group Stage",
+      "entry_price": 0.664,
+      "entry_time": 1791009214,
+      "fill_usdc": 1498.9287740606585,
+      "shares_gross": 2257.4228525009917,
+      "fee_shares": 25.18200340421906,
+      "net_shares": 2232.2408490967728,
+      "rash_trade_price": 0.66,
+      "rash_trade_usdc": 1653.5706,
+      "rash_trade_ts": 1791009036,
+      "kelly_target_usdc": 1498.9287740606585,
+      "exit_type": "resolution",
+      "exit_time": 1791060173,
+      "exit_price": 1.0,
+      "pnl": 733.3120750361143
     }
   ],
   "decisions": [
-    {
-      "ts": 1790472548,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790473151,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790473152,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790473755,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790473756,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790474359,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790474359,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790495010,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790495010,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790495616,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790495616,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790496222,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790496222,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790496827,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790496827,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
     {
       "ts": 1790497433,
       "kind": "WAIT_D",
@@ -3829,10 +3757,87 @@
       "ts": 1791049942,
       "kind": "WAIT_D",
       "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791060173,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791060173,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791060173,
+      "kind": "EXIT_A_RES",
+      "msg": "resolved 1 \u2192 pnl $+733.31 (Counter-Strike: FURIA vs BetBoom Team (BO3) - ESL )",
+      "asset": "55580473439393969967",
+      "pnl": 733.3120750361143
+    },
+    {
+      "ts": 1791060777,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791060777,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791061381,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791061381,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791061985,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791061985,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791062166,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.20 not in [0.6, 0.7] (Rash entry $1700 @ 0.170)"
+    },
+    {
+      "ts": 1791062589,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791062589,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791063072,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.20 not in [0.6, 0.7] (Rash entry $1712 @ 0.170)"
+    },
+    {
+      "ts": 1791063193,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791063194,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
     }
   ],
-  "iterations": 6240,
-  "cum_pnl": 3124.2250310271374,
+  "iterations": 6295,
+  "cum_pnl": 3857.5371060632515,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
     "59791274182564502652034972722656381080188306472031620654012968744576890493920": 1789644222,
@@ -3854,25 +3859,6 @@
     "100498151814773672878708486124555165778476883635396850024661551517192144656651": 1790290571
   },
   "seen_tx_hashes": [
-    "0xf94f0a10c2fd55478c1bafab21f9d06581d46368e2fac767b80242488a8e7de3",
-    "0xb1421f756114f149635f4d03f766222b558a084139dcb6e0d3da9e331102d360",
-    "0x86de1c919f41d9a611a08ac50807ddbc2e4dc249a17da588337cbcd5614ec482",
-    "0x6cb4cae590238327e4dd12668b11d364bcfc7ae4aab4e836b22da68c3fc78b45",
-    "0x501cece6de234dbc8c70946eefba628e2eabd70f294ad15aa64dae0fa97fbf7d",
-    "0x1913d986b1c6d03fab88f251e021f13c7af96140aaad3fbec9074f8f3a12b32f",
-    "0xa3e9694112806b659a899840a4ba07d5848e7186b814d5f3b11a1e07ead82fe5",
-    "0xabab4a00dee07b5e66c778a02c617a7b86aec6ba55a377f51fd2fb168e0332c4",
-    "0x54363aee9facd0f769db905a00dde5172795f637c638fc5c6bb220da9bcec1cb",
-    "0x615b26b8bc286fbab4884518e32efe8f0c248fb31f9c6c3df2eb2739119c8085",
-    "0x8aca70392b3307718caac6eb7f793cd3bdaf8d9df71a407ed14079341749d504",
-    "0x51df59453cb34751655dff2200795b71bf1c8a60aa6beedd89d6e4ad0b51d6a0",
-    "0xc62a23827caf8047221edec693862d1ab4f70b7277c7e6593c3e1b61e552c622",
-    "0x28da54cd3d66110a58644797e3873784c972d626c8fa693254d4b41cf1a5ef26",
-    "0x02e14e21550fceda082a28686a7e63360fce91676637b3763295e2e552d0f313",
-    "0x23e8dccc1bdfd4ed3f263b0fef0449bda57114d81c5eab1f4e8956406ae97612",
-    "0x8d58e66c2ec8d902c3d7db98eb6f8b19f9f824ed7be84e888dbefd094cb5ca04",
-    "0xf25a4585ef4a70619475e8f54f21555f245a5e96c3e32129b30312e22e0d227b",
-    "0xa6330d4fdb413e21398b661a1cd97684028cbe00b9cee2085ba5e130db2f1213",
     "0xebf14a10cdd063ad06c9a83baa7e6125ed2d2398bed0cea5bbacda75ab18f6fd",
     "0x980a4f82d819b500c688f2501f2aef499f81698d12da5d22bf2bad9716293a6b",
     "0xcff2af7c4a10077a9a1560e7c944892f40a8c66d40ea022788dfe308ccbec2a2",
@@ -5853,6 +5839,25 @@
     "0xc745a7000d265f83d026511bd4473e6a64c63b2fa924b8d25710d5f146df7262",
     "0x15337b0ad5b721009fe6298935691ece86fdd85dd34443eabfcd6db76d8dcd7f",
     "0xbd7bd38715b6e6696287c435125909e73768eb5b216d669e6f4abf873065f516",
-    "0xc5663064fc6562f19086b774a12134ed4e10362ad54ff6bc720170292647d1ef"
+    "0xc5663064fc6562f19086b774a12134ed4e10362ad54ff6bc720170292647d1ef",
+    "0x038a3cbc6de6fdff6ae14f4f8824975ea55fc6c6c4c4709be885407e968b5372",
+    "0xc5f68bf0b9f3dd035849ace91d65c85cbea9b95a5b6c9c1471b97f8808a22c4d",
+    "0x8c91cad4ab3cb6d07b7578634b7c8b80beb68383c64bf70c1a8a37952d2dfe32",
+    "0x92e3fc9d59f60aa33698e0eb7145cb9c0831e541f71da19e2471a3d454e3fcb4",
+    "0x876a57525f4a26586db470af173a9236bf142fcf6febb68eea636fd237897654",
+    "0xa1f70591ea4fd21eca9a72552b083c0f713ca51bfe7c41a63d582678a40c0ab3",
+    "0xff16851bd95010ce118eb4c209bc169b071b38abc767e208f873ff9ad87c6034",
+    "0x3664a3701838e4a2508439f4ba1031f1d7920b53af132f1a42098c9b00c27ffe",
+    "0xf52f9fc7a252633a8c8a4a945d639a038909af91a0a01178d274fec3f6af4a53",
+    "0x1b437ac0afae381400f8020341bc833a90042287aa5b2aa0b89cdc6a7d9cda11",
+    "0x55b6f865a5cda458dcc51a1664ebe05d99cb87e97d189654965414f3094ceb6b",
+    "0xc0a373670be035d5e30ec0d33dcb2cf887a67db6a4c53df51ae0e14a46ef9490",
+    "0x06f773a7e75a366fc380aba7e6d90478ddc49041d36ebf9e593793cd35eb77f5",
+    "0x89860bc03000dd4386dae04889d2443bb67fc18abbd3b25075dedb296f378abb",
+    "0xa088b7a73538c4e35b31dc349b7149c361cc113dffa67d3db82135a4f26654d5",
+    "0x2e05630fe5e5ba1ca5c803b4216418ff5394e6195c135932e42a10ae2f10da0f",
+    "0xcbd4423207fbb9b779c005cae4a41c16dc73a253473c69b2427fef534946d20c",
+    "0x50e7dab4f6eb3ec4390b024a8263a888f9557a7142018e433e05c82d9a451183",
+    "0x05b23b072bf21b5c30609fe7d7a699f78b2295cf9972d6370be635c36ad45b47"
   ]
 }
