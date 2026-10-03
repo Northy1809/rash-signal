@@ -1,7 +1,7 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1791009899,
-  "cash": 6271.196670056203,
+  "last_rash_trade_ts": 1791031458,
+  "cash": 7569.2401288342035,
   "open_positions": [
     {
       "id": "D_1789646934_1098206692",
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1791011342
+      "exit_at": 1791033500
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,7 +31,7 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1791011342
+      "exit_at": 1791033500
     },
     {
       "id": "A_1790986383_1584096714",
@@ -53,25 +53,6 @@
       "exit_type": "resolution"
     },
     {
-      "id": "A_1791007687_2335097688",
-      "strategy": "A",
-      "asset": "23350976888622683161103322240446199396348990664001518005617508322063277142570",
-      "condition": "0x4326fc9d6b43c39a7fd1da75656b3660b3a60865a3087f6c547156883dbd81ef",
-      "outcome": "NIP",
-      "title": "Counter-Strike: Sinners vs NIP (BO3) - ROG Journey Playoffs",
-      "entry_price": 0.614,
-      "entry_time": 1791007687,
-      "fill_usdc": 806.5565399999999,
-      "shares_gross": 1313.61,
-      "fee_shares": 15.566541222,
-      "net_shares": 1298.0434587779998,
-      "rash_trade_price": 0.6499282731,
-      "rash_trade_usdc": 3171.402999984222,
-      "rash_trade_ts": 1791001797,
-      "kelly_target_usdc": 1119.212315186822,
-      "exit_type": "resolution"
-    },
-    {
       "id": "A_1791007687_2068194198",
       "strategy": "A",
       "asset": "20681941987071693630037079418026320042513131493357892254867866642148719037595",
@@ -88,25 +69,6 @@
       "rash_trade_usdc": 2016.4889999999998,
       "rash_trade_ts": 1791001799,
       "kelly_target_usdc": 1119.2123151868223,
-      "exit_type": "resolution"
-    },
-    {
-      "id": "A_1791007688_3138005608",
-      "strategy": "A",
-      "asset": "31380056089515586292636974038734489999539475992686204998056234513548961014650",
-      "condition": "0xb3140b1b36f472543da1bd217c01bb03dc27b7f9b7bff04b33358bc3154c9a7f",
-      "outcome": "100 Thieves",
-      "title": "Counter-Strike: JiJieHao vs 100 Thieves (BO3) - ROG Journey Playoffs",
-      "entry_price": 0.694,
-      "entry_time": 1791007688,
-      "fill_usdc": 1420.0758407746775,
-      "shares_gross": 2046.2187907416105,
-      "fee_shares": 21.72716036385257,
-      "net_shares": 2024.491630377758,
-      "rash_trade_price": 0.6895989826,
-      "rash_trade_usdc": 2407.472800134512,
-      "rash_trade_ts": 1791002709,
-      "kelly_target_usdc": 1420.0758407746775,
       "exit_type": "resolution"
     },
     {
@@ -1272,148 +1234,53 @@
       "exit_time": 1791007688,
       "exit_price": 1.0,
       "pnl": 668.2451973388229
+    },
+    {
+      "id": "A_1791007688_3138005608",
+      "strategy": "A",
+      "asset": "31380056089515586292636974038734489999539475992686204998056234513548961014650",
+      "condition": "0xb3140b1b36f472543da1bd217c01bb03dc27b7f9b7bff04b33358bc3154c9a7f",
+      "outcome": "100 Thieves",
+      "title": "Counter-Strike: JiJieHao vs 100 Thieves (BO3) - ROG Journey Playoffs",
+      "entry_price": 0.694,
+      "entry_time": 1791007688,
+      "fill_usdc": 1420.0758407746775,
+      "shares_gross": 2046.2187907416105,
+      "fee_shares": 21.72716036385257,
+      "net_shares": 2024.491630377758,
+      "rash_trade_price": 0.6895989826,
+      "rash_trade_usdc": 2407.472800134512,
+      "rash_trade_ts": 1791002709,
+      "kelly_target_usdc": 1420.0758407746775,
+      "exit_type": "resolution",
+      "exit_time": 1791031681,
+      "exit_price": 0.0,
+      "pnl": -1420.0758407746775
+    },
+    {
+      "id": "A_1791007687_2335097688",
+      "strategy": "A",
+      "asset": "23350976888622683161103322240446199396348990664001518005617508322063277142570",
+      "condition": "0x4326fc9d6b43c39a7fd1da75656b3660b3a60865a3087f6c547156883dbd81ef",
+      "outcome": "NIP",
+      "title": "Counter-Strike: Sinners vs NIP (BO3) - ROG Journey Playoffs",
+      "entry_price": 0.614,
+      "entry_time": 1791007687,
+      "fill_usdc": 806.5565399999999,
+      "shares_gross": 1313.61,
+      "fee_shares": 15.566541222,
+      "net_shares": 1298.0434587779998,
+      "rash_trade_price": 0.6499282731,
+      "rash_trade_usdc": 3171.402999984222,
+      "rash_trade_ts": 1791001797,
+      "kelly_target_usdc": 1119.212315186822,
+      "exit_type": "resolution",
+      "exit_time": 1791032413,
+      "exit_price": 1.0,
+      "pnl": 491.4869187779999
     }
   ],
   "decisions": [
-    {
-      "ts": 1790441680,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790441680,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790441680,
-      "kind": "EXIT_A_RES",
-      "msg": "resolved 1 \u2192 pnl $+652.07 (Counter-Strike: EYEBALLERS vs K27 (BO3) - 1win Pri)",
-      "asset": "38021318991730695961",
-      "pnl": 652.0682577456034
-    },
-    {
-      "ts": 1790442286,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790442286,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790442893,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790442893,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790443499,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790443500,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790444106,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790444107,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790444713,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790444713,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790451266,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790451266,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790451266,
-      "kind": "EXIT_A_RES",
-      "msg": "resolved 1 \u2192 pnl $+629.87 (Counter-Strike: Sinners vs NIP (BO3) - 1win Privat)",
-      "asset": "26205446444471501006",
-      "pnl": 629.8715618727338
-    },
-    {
-      "ts": 1790451873,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790451873,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790452479,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790452479,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790453086,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790453086,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790453693,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790453693,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790454299,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790454299,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790461648,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
     {
       "ts": 1790461649,
       "kind": "WAIT_D",
@@ -3815,10 +3682,149 @@
       "ts": 1791010743,
       "kind": "WAIT_D",
       "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791029847,
+      "kind": "SKIP_A",
+      "msg": "already have position on 3138005608..."
+    },
+    {
+      "ts": 1791029847,
+      "kind": "SKIP_A",
+      "msg": "already have position on 3138005608..."
+    },
+    {
+      "ts": 1791029847,
+      "kind": "SKIP_A",
+      "msg": "already have position on 2335097688..."
+    },
+    {
+      "ts": 1791029847,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2847 @ 0.450)"
+    },
+    {
+      "ts": 1791029847,
+      "kind": "SKIP_A",
+      "msg": "already have position on 2335097688..."
+    },
+    {
+      "ts": 1791029847,
+      "kind": "SKIP_A",
+      "msg": "already have position on 2335097688..."
+    },
+    {
+      "ts": 1791029847,
+      "kind": "SKIP_A",
+      "msg": "effective_ask 0.724 (best 0.720 + slip) > limit 0.716 (bucket 0.7)"
+    },
+    {
+      "ts": 1791029847,
+      "kind": "SKIP_A",
+      "msg": "effective_ask 0.724 (best 0.720 + slip) > limit 0.716 (bucket 0.7)"
+    },
+    {
+      "ts": 1791029847,
+      "kind": "SKIP_A",
+      "msg": "already have position on 5558047343..."
+    },
+    {
+      "ts": 1791029847,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $1673 @ 0.390)"
+    },
+    {
+      "ts": 1791029847,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791029848,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791029909,
+      "kind": "SKIP_A",
+      "msg": "already have position on 5558047343..."
+    },
+    {
+      "ts": 1791029909,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $1694 @ 0.390)"
+    },
+    {
+      "ts": 1791030459,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791030459,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791030826,
+      "kind": "SKIP_A",
+      "msg": "already have position on 5558047343..."
+    },
+    {
+      "ts": 1791031070,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791031070,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791031681,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791031681,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791031682,
+      "kind": "EXIT_A_RES",
+      "msg": "resolved 0 \u2192 pnl $-1420.08 (Counter-Strike: JiJieHao vs 100 Thieves (BO3) - RO)",
+      "asset": "31380056089515586292",
+      "pnl": -1420.0758407746775
+    },
+    {
+      "ts": 1791032291,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791032291,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791032414,
+      "kind": "EXIT_A_RES",
+      "msg": "resolved 1 \u2192 pnl $+491.49 (Counter-Strike: Sinners vs NIP (BO3) - ROG Journey)",
+      "asset": "23350976888622683161",
+      "pnl": 491.4869187779999
+    },
+    {
+      "ts": 1791032900,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791032900,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
     }
   ],
-  "iterations": 6130,
-  "cum_pnl": 2702.786220853038,
+  "iterations": 6185,
+  "cum_pnl": 1774.1972988563602,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
     "59791274182564502652034972722656381080188306472031620654012968744576890493920": 1789644222,
@@ -3840,63 +3846,6 @@
     "100498151814773672878708486124555165778476883635396850024661551517192144656651": 1790290571
   },
   "seen_tx_hashes": [
-    "0x2698cb4f8a134c51597050607f7271e58e065115b83c6fb1e8a4df42e485362c",
-    "0x1300027b47ea89f8828b06bdcd91036e6f957999b92c3fd4dad0aa6fb040f574",
-    "0x3ab183b9db00eec9c9206b4da9f73c400c6ecb8365cc8876fa64173128cddbc5",
-    "0x289bd604b0ed181a7b2a69b1b15e65919132487d2d0e6df929a3c5ded0ce1ba2",
-    "0xdb6ee9d916e22abdd6505609277032a5a7fc1e4882e27fa5617a6284245231a6",
-    "0xba73a22cf39782c5b951e86beef92004f67a17bab515f2c6b3efd3da6537c44b",
-    "0x87a8f383095fc2b616fbc537960cf2005aa3511dad95cd7999384b06ea5837a5",
-    "0x565cd9a3afbf965da80883899788b82873daf929d27fa9e26353dd1fede4c066",
-    "0x035d44172d976562435477f15585350f2b4deda4a71a1bdcaa74ae5e70f09183",
-    "0xcbee8c71dcc3a0ba7dc7942548b36a72dc52e265a2762619806e96b90ffaad73",
-    "0x3a66b2857739ae9a77ca118f66bfbb29f6fd47e048c39fe70bf39d35312479ee",
-    "0xaa50f4c6f5a7b392091fbbfe1f349e2cf4b50c55611d686d7475a19c7c13e1a1",
-    "0xacec84585ef3ab4eaf41c87eb777df917263451c23f751db66c3a2d4389f9670",
-    "0x3b9a4cb85d5ddfd9c304bcfe6892561695d5eabbf66675b68a009d6b2afc3920",
-    "0xc0c9ac9324913ba19688a12b55c8e00c8d7f8e9c9b659f7cdf8a98aa08f3f192",
-    "0x9cc3844e9a167397cf798cf20bc869c7942e69b23e06e43ccf817539c3c44fbd",
-    "0xb0b455672d94779f28f1ed2102c0d1d7f0e69a868fad0419d74e5e9702bd3514",
-    "0x84716db88b9d17cf3158ae57ea618312d7375e9e80654f5b0af542bc11050233",
-    "0xfa9fcb2d358d5c18a463734c1422f31c73615e42a6a92228432f648479c79fd2",
-    "0x6424d76e33f9defebf007da24318f5de6987888b4ceb39df95cf7a5643ed1522",
-    "0xc8de86f1bdb09faa4cb720409c15314637ac9433e0064a568e1f01cc49cec2b2",
-    "0x299dac5f3c839806ff5a26a0c8571dbee6ac33950f955005575d265702d5f373",
-    "0xcd24a1f091ba277daad45bff355d851197543f39a866ad78a0b92c841213bf06",
-    "0x67bd349c1d350d88cb513a37e932cd41dfe4bf984252310af6b5749c6c1afb56",
-    "0x89c5083d9262083bdcfc943ebf1ac4f61849163add08bd661cbb7bc9698b499a",
-    "0xf3476e1b6a20c85bd055b24466c7c26270b52955ff400bd84ebc15eb03ecdd76",
-    "0xd6b3f9df6f02e93baf02c50f8adfb30c6f971ed39941b64d22af79c12ba768db",
-    "0x62a80cf6a96199bcece0c75615c7fb3b79f7a5e882150fc1667ec25b311023ba",
-    "0x07cac6ed32bdceda33f73f865c68d13d518ca8e85f53fb4adfb1267148f650d8",
-    "0xe834d3b17f7cdc8dfbf67692e09e0b0403d6f1d1ee2e916ed0c602c3db6c1edd",
-    "0x35284531c65f035d4b3a8e7de865f84b6e0ebb47a6a217b6e3852ccd8763acbd",
-    "0xfc537c848445966e7f544cf43e346c33821f2a270bb048aeb56d178b9311cd24",
-    "0x86c120520d546b7c5b460ba472c5741f0a974176e8d62643940acc8a7158d825",
-    "0xc82ea66c654d12abaa2c32da5e871c681d1b4f336666ba13eae01af9bc77cdd5",
-    "0xb2e6d95cbc92918ebccbd0c5d0d3a271f2cc0413776c6c0ca6e40805c413ae3f",
-    "0xabf272dcbf41117553181abab5db3fbeb2b08e0b5ff0ce9c913e67cd05279751",
-    "0x2196b79d8d699f27c40f78935b24a69e21fb08c0e4ff38dad39d21f2e2c76e89",
-    "0x099e2d3211d6eec78859086d3005a970fc7f7b5cc8810229d85e09d9913d2019",
-    "0xa56f2892ba2844df38ff3bea404a12d19b00a25801ce1b29d3ce9fb21d583fec",
-    "0x9363f4437cbc7214314bb2f5de9f72924166186a238d3a90154ec37bac41e257",
-    "0x410cdc86f3ca61f44077a7281d6af538b9b15aac3e0ee964ac22400849aedd41",
-    "0x385da48bce3686df864c71284f6d719ddb2748fca89833f41b30fd2c60249895",
-    "0x644cde0e7e149fc4ba740992b0eeb9516070023893355039d5745cc8c079ba04",
-    "0xd9480b84e139ffdec608d11e1916919a707a5f5eeb7071afccb40f1142dcae9d",
-    "0x42e1aecdecc781b1ce3a2046402309ca25eaff211b6d03b902d61d79d60dc718",
-    "0xb3a39a6f8526e87765b679b193240f38eedac4b7290c708a5a107db0a139a11e",
-    "0xf13782ede389bf531738dd6bc44f56cc73a68666bd6fe77d8c90852e64602927",
-    "0x9dc57982155e8e4d1236ee819df1c0f12c929d541a3ad90c33a7d32f75a48628",
-    "0x3dfa4e2f29dd9fbcec2d126c39da5eed0be7f0c4700d5647c6522c491599f31e",
-    "0x04d7b38a3e7407f51ea60d18ca4b7f8cc765c931c3b19a7c181c5e8e85eb0831",
-    "0xca07f545f573fe1b6076e23b13170e8f672552e8c533bb793010b61b91f8e869",
-    "0x578a5a02e877babd82d74fdd4bf2d7183ce8c5ec51bbc8be065f048f2f481f62",
-    "0x2e60df2a47bf344240e3a79797a10636f69e4b794ef4c386fa8b38cd3e0db04a",
-    "0xb45693d55a81b20bd695b0a93c0b7e8f5df9a5b8d3db43b15beb824491581929",
-    "0x8b7e001461fde4d3d9e221887e47fb860b9fe1843048ac1d95b5520a794dcae5",
-    "0xd857dc01ba8cc6cdad3842a0c086dc7a3f7df49c5fb284c89db7d870708040c2",
-    "0x31ae970b9b6309269583f060729c485e5889a540d1270d6280f4c3c98a4837b0",
     "0xcfedc3653569abec6152589769198a42e6937f74338273da7b61c99b512f3ba7",
     "0x7b85ea4923149fa82c8ad5778fe885264f12af5499546bdafbbf4a48aeb1f37a",
     "0xa287ea4ee5b622a0fc81f9b28a74b2710403c2aee8d80d695b81c221d0f1711c",
@@ -5839,6 +5788,63 @@
     "0xb59a806c5ec10ed20c51658e07e39f4da8b879b7d5a04e81cbece68c4582c4c4",
     "0x9543cec30176a11e07d8f8996a7e5fe06a29a8c57d50891204943afc818cd3d5",
     "0x3e2942f523411bea4206b3c78428e33b85cf30e6be1be4b06dab96dda325aa10",
-    "0x95dc35571b0193087fa87ab2e5d1c4355ca3f9a5900bb778e211ee98024e62e4"
+    "0x95dc35571b0193087fa87ab2e5d1c4355ca3f9a5900bb778e211ee98024e62e4",
+    "0x802681855bb73b0ca5a2cd000c4f790e8a8e831fb178eb3ca35fb430ae18fb1f",
+    "0x3221880785b61b179216a7e63a38b9f86ade63469d939577bc4e5aecaad3b084",
+    "0xcff450db279158dec69af5392d27fc8607722a7089009fdd76b0df28275afad9",
+    "0xed6a783fe1d26eb44bfb85615159fafe286a33a811d91ffc6f25f3dee048423b",
+    "0xd4bc3a495c5da569cdeeed51b0efaa1d6d74bc226714df79ca0dad2f089bbee2",
+    "0xc9827f1b2582c82020a98355c95e40e66753301d1f315b8b7454cbedc186776b",
+    "0xd70216a1785f487314b0f3074d190c254309477dd8027ccbb5aa3dfbd59ec21b",
+    "0xb28f41cec65e78b9dc7b4909f213d6a40a7f9af9bc7a07649192044314c03fe6",
+    "0x9680831f1a1fc22fe782ba306ab4ee04f1ea009e9aa25efee09ad7b8cd43f4c8",
+    "0xb741182d1e6e1e9e43d923d573af0f126419a757eb5722e186f45c2487c532c9",
+    "0x479c4e11cdc234428e73699a874f9f569a8ca2c80434ae27d0f4daaa223941ef",
+    "0x12a52ff1c2d43014310272e9dae9476a851447e95be86375eef66cd08a5d0493",
+    "0xc80d3be518b4d708a716a4eeec8ba58443ba4004d8ca2c5a91e41a177e29eebc",
+    "0xdf5e3c5bd9e0169ee4acbb962b1e53c7f99d89b36dddcdba6e28f7863006e6b8",
+    "0xf5fc504406558ea62e728d65946ab55f9bf143d0bd6745f0d54ade95b2871617",
+    "0x862b43b7d485362327b30ad036ae366a23ffd86c515c22ae2d99133b508daf07",
+    "0x361023b42f53341346dc268ab983f3684163aa4995489e0047e41ccdec583a34",
+    "0xa23ac0188728c571af5fd9289e4dd05393c17a09afe98c32bdbcfb74f5178410",
+    "0xb636a996a336c1f90255348f381a136755d3a4bcf738ff05ba14aeffb2c3c090",
+    "0xe4839ab71483ed5e58a1ce689f24fe8540d3053c84334f81fd52d75a7c9d8b98",
+    "0x29ef4ad3e5653dfb028b2eeb5f9e852612984e604b078716a57ec778daf932e6",
+    "0xc4165708b5d266b4f9f0ba9158373f8ece2e8a54c0e9cc07eda6f6be37416c54",
+    "0x73aecd20bc4b3bde6cd0b06368a906c1cf86dc77d5acbecfd4b8d099490a3e21",
+    "0x783f7c086ce5d57574bdfe9bbe26813959266989d5d49f34a930dc3448668de4",
+    "0xa3ec5c554063d68b253e9e1a233a3de75b3d40f82cb588327e18921f2181c784",
+    "0x63cda9df2f48a3f745e4718ee34f8ae9f2d64e81f3458a60333c2f9d2f821080",
+    "0xc26c85a0a8ba9e391037bb4c9321d9505ab262751ca2036ff28dd9e6b89ac8b6",
+    "0x30fbde72a22dc3dd05045cfd12dda0114798dab36d3809ef80c39ab5666716c8",
+    "0x67076ccde491f446a54871ab6f5db251af732ab0db6cbc9e9631fd365cb91a6a",
+    "0x6f225fa3e42dff3ccf30a948e873cad1a767d1e394d13499852893be63fe6394",
+    "0xffd7719ec4a4c782e86c556b228e196ec4a6f6f75ddefbff19e395b40e2c677c",
+    "0x545d7f7db25000af1afe63437d2aba475d9df31f959fbb67d82fda4270501da4",
+    "0xe7dddf872cb97aa90a93a21f2377cce34a6f584b4f84c765dd373416ce013362",
+    "0x6bc3dc6b813dbec66c8b9710fec304f1f88155721b850852c0638ecb213ffefc",
+    "0x8238b3b4178cbf231aa1f9e95e1eeb202bc9d260244beacc5f95ab08ac64a2e0",
+    "0x639db911b834f5cd295b916163d70144d4e6db6333d8bd4e186896cf1685fe73",
+    "0x94226265329165fcfe9cb33ec1849d3693a1933f7c0bc94a10148ace6ce3a09d",
+    "0xeca132ac92eac8983d1b3c5a55bc1f46c9a8a9a350b288c5102b2493e76afc13",
+    "0xa5f76e0ba0491ee8b701212f5a708eafcc402d7a62d99c98680906bda196147b",
+    "0x53b0ce50c8662991b74d1065831c8d554967e9c51954d2fe6384b39836a64a90",
+    "0xb65ce616b7bc3ee8e6471622b882dabe1be83b7c947f6c23c50b76845cd8b9fc",
+    "0xc18d8f0eb44acf5e515f30e03570fa931818084ad7b2571b8fc58bd6c5445b71",
+    "0x1844b87a544012aa1ef69ca2ebbcca7a9ce646624a3dcf71d30fa95ff9aa621e",
+    "0xdf19450185987424ddab0cae3102772425140417f1aa144aba31f671bbae53f1",
+    "0x4c56b925c53bf3ae5692449e7fdaeac24495e9fa80184d3259533b52d01c6f2e",
+    "0x378bb6b0cfe8ef710c4799cd0e2542b242acd0ebaea47606f37cd6a5b8b4f941",
+    "0x0fe137def3cbd35d2ff8c831f7705d29a5d29abd428fd8a2a1558a04defc0c6e",
+    "0xc5764aa3bfea5be914abc5d4de973322e0acd42e59bb6e9f2f4bb9a6bab53f9a",
+    "0xef0542b728b509ac9810712c9d8e9db0ddb0dd32c8a64eb997dabc0d10a4bd4c",
+    "0x0d38cd5b876f0185badf988adcc86d49301736c43f6dad163659e50b3e5b2698",
+    "0x422bdcf11a29a034053ebbe7cfd24d39bf08b574229d669455c62e695ed38e8a",
+    "0x31ba1deebfb5d51d205a02a39fe6235081fe5c5006d482c4bdd0f370e3077a94",
+    "0x9e45c71892beb646f13c36971fba69141e2a75bfc941b9fe3d5ae11f1aa98ded",
+    "0xa1fda18df697f141cda37103eb184e9ac74f4041f1fb4b8061c6808ffb99d7b4",
+    "0x8809d0582ba8a59bd4d0e93d811bfb44b8fdf70201564e0c2090da3b8c4a3b4c",
+    "0x43fe9f4b14218e6a1db7ed0152564817ce3e71ef2cb0d08bd0ba700e16420e4b",
+    "0xf2ac12e68fb3a20f2d1ad188828b55f344ecf8b296f3f20c50bbf85e4776908f"
   ]
 }
