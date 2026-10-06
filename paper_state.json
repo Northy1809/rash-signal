@@ -1,7 +1,7 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1791218630,
-  "cash": 15411.181306223232,
+  "last_rash_trade_ts": 1791250178,
+  "cash": 13962.434602424471,
   "open_positions": [
     {
       "id": "D_1789646934_1098206692",
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1791227001
+      "exit_at": 1791250726
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,7 +31,26 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1791227001
+      "exit_at": 1791250726
+    },
+    {
+      "id": "A_1791247091_6774674994",
+      "strategy": "A",
+      "asset": "67746749948620493829254936938448532754404882005250512761639099672651154324487",
+      "condition": "0xc57c2f14b4eeaa48d8dc6d41590c80c8edd4b512e4dfe5910f81dcb34d1c9168",
+      "outcome": "G2",
+      "title": "Counter-Strike: G2 vs PARIVISION (BO3) - ESL Pro League Group Stage",
+      "entry_price": 0.574,
+      "entry_time": 1791247091,
+      "fill_usdc": 1448.7467037987606,
+      "shares_gross": 2523.9489613218825,
+      "fee_shares": 30.858304790913603,
+      "net_shares": 2493.0906565309688,
+      "rash_trade_price": 0.57,
+      "rash_trade_usdc": 7076.863499999999,
+      "rash_trade_ts": 1791245674,
+      "kelly_target_usdc": 1448.7467037987606,
+      "exit_type": "resolution"
     }
   ],
   "closed_positions": [
@@ -1334,96 +1353,6 @@
     }
   ],
   "decisions": [
-    {
-      "ts": 1790777002,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790777002,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790777606,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790777606,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790794310,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790794310,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790794915,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790794915,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790795519,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790795519,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790796123,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790796124,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790796728,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790796728,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790797332,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790797333,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790808592,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790808592,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
     {
       "ts": 1790809198,
       "kind": "WAIT_D",
@@ -3888,9 +3817,102 @@
       "ts": 1791226402,
       "kind": "WAIT_D",
       "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791247091,
+      "kind": "FILL_A",
+      "msg": "BUY $1449 @ 0.574 (best 0.570+slip, kelly target $1449) bucket 0.6 (2523.9 shares) \u2014 Counter-Strike: G2 vs PARIVISION (BO3) - ESL Pro League Grou",
+      "asset": "67746749948620493829",
+      "entry": 0.574,
+      "size": 1448.7467037987606
+    },
+    {
+      "ts": 1791247091,
+      "kind": "SKIP_A",
+      "msg": "already have position on 6774674994..."
+    },
+    {
+      "ts": 1791247092,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791247092,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791247699,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791247699,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791247880,
+      "kind": "SKIP_A",
+      "msg": "already have position on 6774674994..."
+    },
+    {
+      "ts": 1791248306,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791248306,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791248791,
+      "kind": "SKIP_A",
+      "msg": "already have position on 6774674994..."
+    },
+    {
+      "ts": 1791248913,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791248913,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791249520,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791249520,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791249701,
+      "kind": "SKIP_A",
+      "msg": "already have position on 6774674994..."
+    },
+    {
+      "ts": 1791250127,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791250127,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791250309,
+      "kind": "SKIP_A",
+      "msg": "already have position on 6774674994..."
     }
   ],
-  "iterations": 6790,
+  "iterations": 6845,
   "cum_pnl": 5577.92154622323,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
@@ -3913,21 +3935,6 @@
     "100498151814773672878708486124555165778476883635396850024661551517192144656651": 1790290571
   },
   "seen_tx_hashes": [
-    "0xa08e1b95b6f53cfe1a2854fc5df3ddb06d4faa6fa3a0a19447da5ee6fc1b1981",
-    "0xf394bd0cb3fd08f0f750eda1b3fe9b39b81dc5414cf24249c06df88afce4dc33",
-    "0xb659a26e08d3762e7e7aeace59406061f1f32b050a327bdd4baadd63ff750038",
-    "0x8b13e9750d4d5b45e3232fa4fce864ccad2953e9308ae44cd749412a87099977",
-    "0x43cbbdd487e88ba3b50f8fb30bb964d153d3fb0541306443b1917d1c98849ca0",
-    "0x836fe97a85840a86ea81f725463730ecbe1893be19b3f29318513fbb88b288de",
-    "0xab06a83e6cd04604b6e7e7ec285e83b05b818f196408e25e29effe6652dc04d5",
-    "0xc8cdb86e09ec0ec932cec4e37b1f3eef3c6c7b096833cc51d0ebe8b39d6f21be",
-    "0xba5d917a8c173efc293652340266bf7b620243e08a5e9a5f86c97984ac1e718e",
-    "0x6f65db696672a6f478c4d52c1539e023eef6a0b2c77387e5effea9236aceabdf",
-    "0xb87320a90870ccb182183a31c12a1667ee6971ef78053e79f97acb5869fdca85",
-    "0x39cfa87930f9ad3cbe51fc1941bbd619cae7f9a8a27c8f28bd82808c00996173",
-    "0xa4b7024def7dfc48f667a33ee84864c0f9a434b322cfb29eb206ae9192aa1914",
-    "0x754c4516d57f0be5a12e5ac908fbbadc6107fbbbb8e86801e44898528629b095",
-    "0xdba7c0b2ec4dd5645fa8589a9c3a84246e7cfaa8ded0bbd606edc2dd6c2f6ebb",
     "0xb41217aef651ba6d3ec34eb4c12952775a059a41f00922b9671e8d16b8585bb9",
     "0x4241cab7ecc4f5d83be4cad44080e6d3862f7ada94a36acdc6bc299a7dfba520",
     "0x3e713bf3b50c3e807061153a026f1931c778227f7147c15a73a3f36d47240bb1",
@@ -5912,6 +5919,21 @@
     "0xb2c782635947718854ea8f73ae1aa866362859406b3e61629cf1f6c35e21ddd9",
     "0x3ef3e39fed242e0a037a63ec89e4dba264502fbb83450ffa32b89ed7845f08c3",
     "0x3ba657d0730a4ba9e502d6c8c6e91d148e162c7e3fcdc834a5b29294c2286d88",
-    "0x57756d332d630bc2bf824f687523115b09b17dac19cc1cd0d2bff3a7b2685f90"
+    "0x57756d332d630bc2bf824f687523115b09b17dac19cc1cd0d2bff3a7b2685f90",
+    "0xc2835d84083225c5544a7d2e00de8b2040cf5065bdb5dc3e630b41909d6c4892",
+    "0xbab4ba0c2314147e547eb20636e7b286c87fa8ca5b871d3266bada7117d7ea14",
+    "0x13480d194992af5f1e9de2562eb8950e343bee0246f8972efb2f014c00e5749e",
+    "0xea6e02fd01a9c981fbe821b676b0f662c104f8636d2f5af67c4295285d682e3f",
+    "0x7834a843b720c067abb7d1d4b87aa0896cd6aff2f956779732e13c506632fc71",
+    "0x357dbfb647cf2622fdb1ca39d10950f837b8deabbba6ddf8337847f5c8bab76f",
+    "0x1aa446d20cb98965c1ced3a97a77ae7046da2b6592a63695291c044e6af356f1",
+    "0x9f1f0668f1a074e8674b4bc34c9dd16fafade292f1536392c1d7d132ba07f59e",
+    "0x2dda9d078fe4b1853031d8790b2f152084aedb674072e788d24ecaac32e0aa20",
+    "0xe6a9db7884257720f17064d21459552a81f0d34bafcfad3b3a66df56c89684d1",
+    "0x212f712dffe689d72cb5e1070d028abdef833e7269806899bb75a0fa6e4bad63",
+    "0x3899f0e26f800a6ff57801401c929a29f6bdc4158b5e97d2c0985a5805f66a53",
+    "0x27e18f33727ba92ea6fdf1e49f9f2ccebe159d038e65d0c170c4c9a6737f9449",
+    "0x9a57e1131af5421be5d8157bd611b4727d44e89b61e7cceba77eb9bf0c28c59e",
+    "0x42fbbbaa992cb47f80a483a96039cf4023f869d66487e6dec5475d0d481ac738"
   ]
 }
