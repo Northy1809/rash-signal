@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1791301847
+      "exit_at": 1791320524
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,26 +31,7 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1791301847
-    },
-    {
-      "id": "A_1791247091_6774674994",
-      "strategy": "A",
-      "asset": "67746749948620493829254936938448532754404882005250512761639099672651154324487",
-      "condition": "0xc57c2f14b4eeaa48d8dc6d41590c80c8edd4b512e4dfe5910f81dcb34d1c9168",
-      "outcome": "G2",
-      "title": "Counter-Strike: G2 vs PARIVISION (BO3) - ESL Pro League Group Stage",
-      "entry_price": 0.574,
-      "entry_time": 1791247091,
-      "fill_usdc": 1448.7467037987606,
-      "shares_gross": 2523.9489613218825,
-      "fee_shares": 30.858304790913603,
-      "net_shares": 2493.0906565309688,
-      "rash_trade_price": 0.57,
-      "rash_trade_usdc": 7076.863499999999,
-      "rash_trade_ts": 1791245674,
-      "kelly_target_usdc": 1448.7467037987606,
-      "exit_type": "resolution"
+      "exit_at": 1791320524
     },
     {
       "id": "A_1791271027_1062305497",
@@ -69,25 +50,6 @@
       "rash_trade_usdc": 5586.621600000001,
       "rash_trade_ts": 1791264588,
       "kelly_target_usdc": 1838.1947424543412,
-      "exit_type": "resolution"
-    },
-    {
-      "id": "A_1791298183_7462701538",
-      "strategy": "A",
-      "asset": "74627015383963057463201922031209328488140577829689539855687158413093730841281",
-      "condition": "0xee239c787b24f4ad595dde90080b812f2dcca456302bf2e647b558e689b0a54c",
-      "outcome": "Legacy",
-      "title": "Counter-Strike: Legacy vs M80 (BO3) - ESL Pro League Group Stage",
-      "entry_price": 0.554,
-      "entry_time": 1791298183,
-      "fill_usdc": 1448.7467037987606,
-      "shares_gross": 2615.066252344333,
-      "fee_shares": 32.30705149471236,
-      "net_shares": 2582.759200849621,
-      "rash_trade_price": 0.56,
-      "rash_trade_usdc": 1673.6608,
-      "rash_trade_ts": 1791281704,
-      "kelly_target_usdc": 1448.7467037987606,
       "exit_type": "resolution"
     }
   ],
@@ -1388,79 +1350,53 @@
       "exit_time": 1791223372,
       "exit_price": 1.0,
       "pnl": 711.60928296119
+    },
+    {
+      "id": "A_1791247091_6774674994",
+      "strategy": "A",
+      "asset": "67746749948620493829254936938448532754404882005250512761639099672651154324487",
+      "condition": "0xc57c2f14b4eeaa48d8dc6d41590c80c8edd4b512e4dfe5910f81dcb34d1c9168",
+      "outcome": "G2",
+      "title": "Counter-Strike: G2 vs PARIVISION (BO3) - ESL Pro League Group Stage",
+      "entry_price": 0.574,
+      "entry_time": 1791247091,
+      "fill_usdc": 1448.7467037987606,
+      "shares_gross": 2523.9489613218825,
+      "fee_shares": 30.858304790913603,
+      "net_shares": 2493.0906565309688,
+      "rash_trade_price": 0.57,
+      "rash_trade_usdc": 7076.863499999999,
+      "rash_trade_ts": 1791245674,
+      "kelly_target_usdc": 1448.7467037987606,
+      "exit_type": "resolution",
+      "exit_time": 1791316881,
+      "exit_price": 0.0,
+      "pnl": -1448.7467037987606
+    },
+    {
+      "id": "A_1791298183_7462701538",
+      "strategy": "A",
+      "asset": "74627015383963057463201922031209328488140577829689539855687158413093730841281",
+      "condition": "0xee239c787b24f4ad595dde90080b812f2dcca456302bf2e647b558e689b0a54c",
+      "outcome": "Legacy",
+      "title": "Counter-Strike: Legacy vs M80 (BO3) - ESL Pro League Group Stage",
+      "entry_price": 0.554,
+      "entry_time": 1791298183,
+      "fill_usdc": 1448.7467037987606,
+      "shares_gross": 2615.066252344333,
+      "fee_shares": 32.30705149471236,
+      "net_shares": 2582.759200849621,
+      "rash_trade_price": 0.56,
+      "rash_trade_usdc": 1673.6608,
+      "rash_trade_ts": 1791281704,
+      "kelly_target_usdc": 1448.7467037987606,
+      "exit_type": "resolution",
+      "exit_time": 1791317796,
+      "exit_price": 0.0,
+      "pnl": -1448.7467037987606
     }
   ],
   "decisions": [
-    {
-      "ts": 1790845726,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790846332,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $3314 @ 0.549)"
-    },
-    {
-      "ts": 1790846332,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790846332,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790870702,
-      "kind": "SKIP_A",
-      "msg": "no ask book for 2561774503..."
-    },
-    {
-      "ts": 1790870702,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $1761 @ 0.530)"
-    },
-    {
-      "ts": 1790870702,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.80 not in [0.6, 0.7] (Rash entry $2868 @ 0.780)"
-    },
-    {
-      "ts": 1790870702,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $3192 @ 0.360)"
-    },
-    {
-      "ts": 1790870702,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.80 not in [0.6, 0.7] (Rash entry $2881 @ 0.780)"
-    },
-    {
-      "ts": 1790870702,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $3150 @ 0.440)"
-    },
-    {
-      "ts": 1790870702,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $3249 @ 0.440)"
-    },
-    {
-      "ts": 1790870702,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $4468 @ 0.439)"
-    },
-    {
-      "ts": 1790870702,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $4552 @ 0.440)"
-    },
-    {
-      "ts": 1790870702,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2346 @ 0.440)"
-    },
     {
       "ts": 1790870702,
       "kind": "SKIP_A",
@@ -3951,10 +3887,84 @@
       "ts": 1791301248,
       "kind": "WAIT_D",
       "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791316881,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791316881,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791316881,
+      "kind": "EXIT_A_RES",
+      "msg": "resolved 0 \u2192 pnl $-1448.75 (Counter-Strike: G2 vs PARIVISION (BO3) - ESL Pro L)",
+      "asset": "67746749948620493829",
+      "pnl": -1448.7467037987606
+    },
+    {
+      "ts": 1791317491,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791317491,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791317797,
+      "kind": "EXIT_A_RES",
+      "msg": "resolved 0 \u2192 pnl $-1448.75 (Counter-Strike: Legacy vs M80 (BO3) - ESL Pro Leag)",
+      "asset": "74627015383963057463",
+      "pnl": -1448.7467037987606
+    },
+    {
+      "ts": 1791318100,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791318101,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791318708,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791318708,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791319316,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791319316,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791319924,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791319924,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
     }
   ],
-  "iterations": 6955,
-  "cum_pnl": 5577.92154622323,
+  "iterations": 7010,
+  "cum_pnl": 2680.428138625708,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
     "59791274182564502652034972722656381080188306472031620654012968744576890493920": 1789644222,
