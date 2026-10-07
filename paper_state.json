@@ -1,7 +1,7 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1791297918,
-  "cash": 11480.56479862571,
+  "last_rash_trade_ts": 1791334814,
+  "cash": 12953.40801519571,
   "open_positions": [
     {
       "id": "D_1789646934_1098206692",
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1791320524
+      "exit_at": 1791336358
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,26 +31,7 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1791320524
-    },
-    {
-      "id": "A_1791271027_1062305497",
-      "strategy": "A",
-      "asset": "106230549717880629954758731690098485073185059967036690954718319089361550137095",
-      "condition": "0x05059849e9c24802f153d38b0a06437a99393b842a5c4f792cb1c54701c0c8b2",
-      "outcome": "Natus Vincere",
-      "title": "Map Handicap: FAL (-1.5) vs Natus Vincere (+1.5)",
-      "entry_price": 0.694,
-      "entry_time": 1791271027,
-      "fill_usdc": 1033.1231,
-      "shares_gross": 1488.65,
-      "fee_shares": 15.806783430000001,
-      "net_shares": 1472.84321657,
-      "rash_trade_price": 0.68,
-      "rash_trade_usdc": 5586.621600000001,
-      "rash_trade_ts": 1791264588,
-      "kelly_target_usdc": 1838.1947424543412,
-      "exit_type": "resolution"
+      "exit_at": 1791336358
     }
   ],
   "closed_positions": [
@@ -1394,76 +1375,31 @@
       "exit_time": 1791317796,
       "exit_price": 0.0,
       "pnl": -1448.7467037987606
+    },
+    {
+      "id": "A_1791271027_1062305497",
+      "strategy": "A",
+      "asset": "106230549717880629954758731690098485073185059967036690954718319089361550137095",
+      "condition": "0x05059849e9c24802f153d38b0a06437a99393b842a5c4f792cb1c54701c0c8b2",
+      "outcome": "Natus Vincere",
+      "title": "Map Handicap: FAL (-1.5) vs Natus Vincere (+1.5)",
+      "entry_price": 0.694,
+      "entry_time": 1791271027,
+      "fill_usdc": 1033.1231,
+      "shares_gross": 1488.65,
+      "fee_shares": 15.806783430000001,
+      "net_shares": 1472.84321657,
+      "rash_trade_price": 0.68,
+      "rash_trade_usdc": 5586.621600000001,
+      "rash_trade_ts": 1791264588,
+      "kelly_target_usdc": 1838.1947424543412,
+      "exit_type": "resolution",
+      "exit_time": 1791332726,
+      "exit_price": 1.0,
+      "pnl": 439.7201165700001
     }
   ],
   "decisions": [
-    {
-      "ts": 1790870702,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2881 @ 0.450)"
-    },
-    {
-      "ts": 1790870702,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $8099 @ 0.523)"
-    },
-    {
-      "ts": 1790870702,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $4132 @ 0.520)"
-    },
-    {
-      "ts": 1790870702,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2975 @ 0.450)"
-    },
-    {
-      "ts": 1790870702,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790870702,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790870702,
-      "kind": "EXIT_A_RES",
-      "msg": "resolved 0 \u2192 pnl $-53.73 (Counter-Strike: NAVI Junior vs aimclub (BO1) - FOX)",
-      "asset": "80203162929989387968",
-      "pnl": -53.727999999999994
-    },
-    {
-      "ts": 1790871307,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790871307,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790871488,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2589 @ 0.430)"
-    },
-    {
-      "ts": 1790871915,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790871915,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790872519,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
     {
       "ts": 1790872519,
       "kind": "WAIT_D",
@@ -3961,10 +3897,77 @@
       "ts": 1791319924,
       "kind": "WAIT_D",
       "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791332726,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791332727,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791332727,
+      "kind": "EXIT_A_RES",
+      "msg": "resolved 1 \u2192 pnl $+439.72 (Map Handicap: FAL (-1.5) vs Natus Vincere (+1.5))",
+      "asset": "10623054971788062995",
+      "pnl": 439.7201165700001
+    },
+    {
+      "ts": 1791333333,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791333333,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791333939,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791333939,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791334545,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791334545,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791335151,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791335151,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791335759,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791335759,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
     }
   ],
-  "iterations": 7010,
-  "cum_pnl": 2680.428138625708,
+  "iterations": 7065,
+  "cum_pnl": 3120.148255195708,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
     "59791274182564502652034972722656381080188306472031620654012968744576890493920": 1789644222,
@@ -3986,15 +3989,6 @@
     "100498151814773672878708486124555165778476883635396850024661551517192144656651": 1790290571
   },
   "seen_tx_hashes": [
-    "0x9094ed010cb62d4113241c75641d9e56dfe114a9a1327e7f6004ace5b904ebe6",
-    "0xf5d9cb034e643e43e9eaadfb3948ba06b09ad9e4de5a16e7c26e14e9a0f40c04",
-    "0xa88a32b082faa9c6b93154521ad9644179ca93cc8b339e1a0c2cccfa114b3037",
-    "0x7f5e5212fa5bf9fca256fe76cc813699ee72c404537d66917a053485fa114b20",
-    "0x6d7c902568ca5373e39e758efc1d94dca85969c6f65b6c4c07ed72e5075feb47",
-    "0xb0017d5e59ffd8b78e87f6ad2eeecb5e19ad45a9e7065e6ace2147f2afc4f960",
-    "0x875c5097908f36867061e468ea6d83f6a19aeeb9dba94ffda6c0b0a93c6d51f2",
-    "0x3f5bf99bd5142fee756be484f0f3a6db5a84cbbf7fdf685f6866c1f153fdac43",
-    "0x6163f9d91cff1f5eaf02e422b32cfb4a5b37185c980226dff5175c890de00d7c",
     "0xe6f8f9d28ef5465525b30173b2065734a4d85ce447311bc7c757b3ad8940b000",
     "0x06072cfcb15f148f4f3b4c7a1b242876c5372f3fcf4819cdc4110eca80f94727",
     "0xf3229b05f58dd329b9f8228aded8abd139b6fefd953d31ba2c4ec912d078a964",
@@ -5985,6 +5979,15 @@
     "0x3ef6151946a814d3417b73e2dcde5297a87bef009c287e1eaae96ea1d2909f7b",
     "0x5521cc838eabcabc1ff3cd9a811043355473b682c40e7c52e1d126be75d17953",
     "0xf5727bf8473d8a6810faaa18eb71081eee3023a0274fa0454affcfcd0dc763af",
-    "0xf7e15ef6ea60f81b4cef4d6af6dbcc5fef9a1acb1a703cf9d5023151c58fef06"
+    "0xf7e15ef6ea60f81b4cef4d6af6dbcc5fef9a1acb1a703cf9d5023151c58fef06",
+    "0x8aa650da1a19e5fa63312978400becf816dd265f23fbe5f86aff6b3c478f2e22",
+    "0xdea9f9acfcce7efb5683c8cd81f5c5cc445d418b3a2d6a9c5a7ceda248840007",
+    "0x5599641cbc880443da423c6c60cebcb3eff6a9ba34aad6eec1dac861927a2c24",
+    "0x713a893b7031846593916be88c3ce2646ddc878a39962aae68fe1249546f487f",
+    "0x41a36793e769f3e602f06daa38842d5c644c78a97d919cdfa6afa771a3a86227",
+    "0x458f35c314e10e58084c0423a5b70d6ca4115e8659e173050836e423a8671c3f",
+    "0x3d9ed31837becce14d097be7afce593fbaa7999b95b34888d20e11392f47a1f0",
+    "0xf3baacc42bd9643053a1b2cc7b65783d82e622dff8c20114acbe0a56bfcf5eff",
+    "0xd5e483f2e123c75ffba2c053dfb48b7e94c8ac4a2875ce9dc9163945a042b01f"
   ]
 }
