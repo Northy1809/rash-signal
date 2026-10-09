@@ -1,7 +1,7 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1791490361,
-  "cash": 12953.40801519571,
+  "last_rash_trade_ts": 1791512979,
+  "cash": 10185.056733349415,
   "open_positions": [
     {
       "id": "D_1789646934_1098206692",
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1791497174
+      "exit_at": 1791514072
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,7 +31,45 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1791497174
+      "exit_at": 1791514072
+    },
+    {
+      "id": "A_1791510434_3682194667",
+      "strategy": "A",
+      "asset": "3682194667185432069693372145986627598942882129262859378549469899171080874915",
+      "condition": "0x2ffea68248a337fb2a5b68b3967a32591030ccdb001f70b3008c4e708ed06f36",
+      "outcome": "1WIN",
+      "title": "Map Handicap: AUR (-1.5) vs 1WIN (+1.5)",
+      "entry_price": 0.584,
+      "entry_time": 1791510434,
+      "fill_usdc": 1220.173787733201,
+      "shares_gross": 2089.338677625344,
+      "fee_shares": 25.37961478485058,
+      "net_shares": 2063.9590628404935,
+      "rash_trade_price": 0.58,
+      "rash_trade_usdc": 2720.8322,
+      "rash_trade_ts": 1791510125,
+      "kelly_target_usdc": 1220.173787733201,
+      "exit_type": "resolution"
+    },
+    {
+      "id": "A_1791513106_2108132647",
+      "strategy": "A",
+      "asset": "21081326476078215010326274756326409352413062475446863041019081255260349664035",
+      "condition": "0x7be891f535838f47a8b24dd271042947f87f18e4625fcbb7b3779d0d8d81f0bf",
+      "outcome": "FURIA",
+      "title": "Map Handicap: MOUZ (-1.5) vs FURIA (+1.5)",
+      "entry_price": 0.674,
+      "entry_time": 1791513106,
+      "fill_usdc": 1548.1774941130936,
+      "shares_gross": 2296.999249425955,
+      "fee_shares": 25.23529315404343,
+      "net_shares": 2271.7639562719114,
+      "rash_trade_price": 0.67,
+      "rash_trade_usdc": 1649.0442000000003,
+      "rash_trade_ts": 1791512972,
+      "kelly_target_usdc": 1548.1774941130936,
+      "exit_type": "resolution"
     }
   ],
   "closed_positions": [
@@ -1400,95 +1438,6 @@
     }
   ],
   "decisions": [
-    {
-      "ts": 1790986992,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790987601,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790987601,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790988209,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790988209,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790988817,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790988818,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1790989426,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1790989426,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791007687,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2033 @ 0.430)"
-    },
-    {
-      "ts": 1791007687,
-      "kind": "FILL_A",
-      "msg": "BUY $807 @ 0.614 (best 0.610+slip, kelly target $1119) bucket 0.6 (1313.6 shares) \u2014 Counter-Strike: Sinners vs NIP (BO3) - ROG Journey Playoffs",
-      "asset": "23350976888622683161",
-      "entry": 0.614,
-      "size": 806.5565399999999
-    },
-    {
-      "ts": 1791007687,
-      "kind": "FILL_A",
-      "msg": "BUY $1119 @ 0.584 (best 0.580+slip, kelly target $1119) bucket 0.6 (1916.5 shares) \u2014 Counter-Strike: Luminosity vs Nemiga (BO3) - Stake Ranked Ep",
-      "asset": "20681941987071693630",
-      "entry": 0.584,
-      "size": 1119.2123151868223
-    },
-    {
-      "ts": 1791007687,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2054 @ 0.430)"
-    },
-    {
-      "ts": 1791007687,
-      "kind": "SKIP_A",
-      "msg": "already have position on 2335097688..."
-    },
-    {
-      "ts": 1791007688,
-      "kind": "SKIP_A",
-      "msg": "effective_ask 0.664 (best 0.660 + slip) > limit 0.622 (bucket 0.6)"
-    },
-    {
-      "ts": 1791007688,
-      "kind": "FILL_A",
-      "msg": "BUY $1420 @ 0.694 (best 0.690+slip, kelly target $1420) bucket 0.7 (2046.2 shares) \u2014 Counter-Strike: JiJieHao vs 100 Thieves (BO3) - ROG Journey ",
-      "asset": "31380056089515586292",
-      "entry": 0.694,
-      "size": 1420.0758407746775
-    },
     {
       "ts": 1791007688,
       "kind": "SKIP_A",
@@ -3948,9 +3897,95 @@
       "ts": 1791496575,
       "kind": "WAIT_D",
       "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791510434,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $1932 @ 0.420)"
+    },
+    {
+      "ts": 1791510434,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2495 @ 0.420)"
+    },
+    {
+      "ts": 1791510434,
+      "kind": "FILL_A",
+      "msg": "BUY $1220 @ 0.584 (best 0.580+slip, kelly target $1220) bucket 0.6 (2089.3 shares) \u2014 Map Handicap: AUR (-1.5) vs 1WIN (+1.5)",
+      "asset": "36821946671854320696",
+      "entry": 0.584,
+      "size": 1220.173787733201
+    },
+    {
+      "ts": 1791510434,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791510434,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791511041,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791511041,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791511648,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791511648,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791512256,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791512256,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791512863,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791512863,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791513106,
+      "kind": "FILL_A",
+      "msg": "BUY $1548 @ 0.674 (best 0.670+slip, kelly target $1548) bucket 0.7 (2297.0 shares) \u2014 Map Handicap: MOUZ (-1.5) vs FURIA (+1.5)",
+      "asset": "21081326476078215010",
+      "entry": 0.674,
+      "size": 1548.1774941130936
+    },
+    {
+      "ts": 1791513472,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791513472,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
     }
   ],
-  "iterations": 7395,
+  "iterations": 7450,
   "cum_pnl": 3120.148255195708,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
@@ -3973,18 +4008,6 @@
     "100498151814773672878708486124555165778476883635396850024661551517192144656651": 1790290571
   },
   "seen_tx_hashes": [
-    "0x587a4f3d9a5034fafa2baca639f6e3674b8d5ffd6b9b015b4254ad97725ebc7d",
-    "0xbeb1ec4bad235ff5f0fc49c705bb8fb4797ea10298f77e8155f5ae78245b44ba",
-    "0x707c89abf2b3621ec0d32769ad4d90304fca80e624aaec7d214107ad7c6b643c",
-    "0x3cb0b06751ff960d0f58bdca801974ef67b210260de637536a91c3c01eb1f8a9",
-    "0x89fcf2e10f08dd8cda0dc037921768062f55cf6225edd592eee4d600f7c95a79",
-    "0xe233d89b6ce093a2999875060c013fc125cd0ca568a73484116ec387dc272294",
-    "0x2a162ed4542ba016e7a977f0b0ef2a1111358e3dc4bb6d9c424db6f597be5379",
-    "0xe2bc55face3229ea869a54bc462587c17fa4ff35f3bc51e8183f47c052fd3b5b",
-    "0xfb44eb76bf996568af10b7d26be1dc1ddf63745233e3fc2bd94765f54a03eb7e",
-    "0x40872bd219d0e37c0b3926842940fa45db840c63a506f4e4454e66570dc57b57",
-    "0x6c01c6a69789e9ad1ff64ae28e4dbebda9008ae38c62a5acb493bd0b8f573b2e",
-    "0xd17ab7af1426a51d679d8da18806505b05df3b8de6ad3fb9fd8a2410e0990902",
     "0xb2999c4bf80ebb3e424b40a9927f382e9e45b5f9827201395bfd430fe8bfc74e",
     "0x23e2517e207135714bfb25ed0ea3bb69f9782a60e46217dc663740561c9ce9f3",
     "0x362f95e5ea9ed4bdbc31667af855f1260d112b2331f58d9b742aa844a553db01",
@@ -5972,6 +5995,18 @@
     "0x7780d9f96f86ea20c1f540e7fee7f8205280b3c5bbf468aff07886dc61e70f19",
     "0xd2233d99498af7f348f7b17752e87a865f25b38bc33e4797b75ec249e6cd5ae1",
     "0x432bec81f811dad4d88590b178cf2433fff6074709b176b34611b500653c2ad9",
-    "0xbfcd68d60daa3a81501197f7cdfb27ce0f4e3b625b43b492316a64a2ae5dccb1"
+    "0xbfcd68d60daa3a81501197f7cdfb27ce0f4e3b625b43b492316a64a2ae5dccb1",
+    "0x54fd8cfe83155ef5b462f25c5b2612aed06c47277d3fac4c63fdd771139c6dd9",
+    "0x07168d03e133485b9c11cefaa4c43e893e2ed7f859cc1cd58aafb84dba5412ee",
+    "0x99573d6261329fb7ccf51293e029996c7e7a878789c1b916d550a659b88c275d",
+    "0xeebe6275d4386b0e3a8f86db4ab150c4701241355fe238fdbf5a87ab608a852e",
+    "0x7f716fb4ac4cc3809354c62bce362a6ade924112e2b4743e81e5a56efd45ec11",
+    "0x4f4d01cea7f5a583f9e6c33346eff7f29c54f59cd2db456aa7a9c043002551e9",
+    "0x6180c8e8eef432cb5ed5fdc254117cb914c887a7ceb2e4c327b8937b0e3a5e9a",
+    "0x33c60c251221a09045e4562f6adff2f63fd4dac347e2514f575bf7a735ceaca6",
+    "0x0479eb2c9e50362746e2787edab45e87a519152f5c0c2e712ea540480ea3d3cc",
+    "0x9214786e179c8a2cfefa70a8ea47e09d7cb65c2cb3e7bc07a57e26b0326f5179",
+    "0x958c9d7cb0f2aa10a41075bbdca5abf756d5689f432f83fccc0deb2cef596f24",
+    "0xda20f2002f06ce24acf309f326ff5a839b36e12152e2dec30ea209d85d6bb722"
   ]
 }
