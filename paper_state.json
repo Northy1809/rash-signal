@@ -1,7 +1,7 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1791563758,
-  "cash": 7416.70545150312,
+  "last_rash_trade_ts": 1791581072,
+  "cash": 9446.100549425606,
   "open_positions": [
     {
       "id": "D_1789646934_1098206692",
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1791564840
+      "exit_at": 1791581844
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,26 +31,7 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1791564840
-    },
-    {
-      "id": "A_1791534930_5243232659",
-      "strategy": "A",
-      "asset": "52432326592766985889904864072120027476423452394801032577489977348186625403937",
-      "condition": "0x363c38f38536398ea3eab5f57bef48fded8c3291934060346e717f2738805e8f",
-      "outcome": "Spirit",
-      "title": "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs",
-      "entry_price": 0.594,
-      "entry_time": 1791534930,
-      "fill_usdc": 1220.173787733201,
-      "shares_gross": 2054.1646258134697,
-      "fee_shares": 24.769527890983984,
-      "net_shares": 2029.3950979224858,
-      "rash_trade_price": 0.59,
-      "rash_trade_usdc": 1670.5967999999998,
-      "rash_trade_ts": 1791526497,
-      "kelly_target_usdc": 1220.173787733201,
-      "exit_type": "resolution"
+      "exit_at": 1791581844
     }
   ],
   "closed_positions": [
@@ -1482,78 +1463,31 @@
       "exit_time": 1791564301,
       "exit_price": 0.0,
       "pnl": -1548.1774941130936
+    },
+    {
+      "id": "A_1791534930_5243232659",
+      "strategy": "A",
+      "asset": "52432326592766985889904864072120027476423452394801032577489977348186625403937",
+      "condition": "0x363c38f38536398ea3eab5f57bef48fded8c3291934060346e717f2738805e8f",
+      "outcome": "Spirit",
+      "title": "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs",
+      "entry_price": 0.594,
+      "entry_time": 1791534930,
+      "fill_usdc": 1220.173787733201,
+      "shares_gross": 2054.1646258134697,
+      "fee_shares": 24.769527890983984,
+      "net_shares": 2029.3950979224858,
+      "rash_trade_price": 0.59,
+      "rash_trade_usdc": 1670.5967999999998,
+      "rash_trade_ts": 1791526497,
+      "kelly_target_usdc": 1220.173787733201,
+      "exit_type": "resolution",
+      "exit_time": 1791578223,
+      "exit_price": 1.0,
+      "pnl": 809.2213101892848
     }
   ],
   "decisions": [
-    {
-      "ts": 1791030826,
-      "kind": "SKIP_A",
-      "msg": "already have position on 5558047343..."
-    },
-    {
-      "ts": 1791031070,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791031070,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791031681,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791031681,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791031682,
-      "kind": "EXIT_A_RES",
-      "msg": "resolved 0 \u2192 pnl $-1420.08 (Counter-Strike: JiJieHao vs 100 Thieves (BO3) - RO)",
-      "asset": "31380056089515586292",
-      "pnl": -1420.0758407746775
-    },
-    {
-      "ts": 1791032291,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791032291,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791032414,
-      "kind": "EXIT_A_RES",
-      "msg": "resolved 1 \u2192 pnl $+491.49 (Counter-Strike: Sinners vs NIP (BO3) - ROG Journey)",
-      "asset": "23350976888622683161",
-      "pnl": 491.4869187779999
-    },
-    {
-      "ts": 1791032900,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791032900,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791046907,
-      "kind": "SKIP_A",
-      "msg": "effective_ask 0.924 (best 0.920 + slip) > limit 0.716 (bucket 0.7)"
-    },
-    {
-      "ts": 1791046907,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $9419 @ 0.500)"
-    },
     {
       "ts": 1791046907,
       "kind": "SKIP_A",
@@ -4037,10 +3971,77 @@
       "msg": "resolved 0 \u2192 pnl $-1548.18 (Map Handicap: MOUZ (-1.5) vs FURIA (+1.5))",
       "asset": "21081326476078215010",
       "pnl": -1548.1774941130936
+    },
+    {
+      "ts": 1791578223,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791578223,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791578224,
+      "kind": "EXIT_A_RES",
+      "msg": "resolved 1 \u2192 pnl $+809.22 (Counter-Strike: Team Falcons vs Spirit (BO3) - ESL)",
+      "asset": "52432326592766985889",
+      "pnl": 809.2213101892848
+    },
+    {
+      "ts": 1791578827,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791578828,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791579432,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791579432,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791580036,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791580036,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791580640,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791580640,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1791581244,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1791581244,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
     }
   ],
-  "iterations": 7560,
-  "cum_pnl": -1196.3805207636804,
+  "iterations": 7615,
+  "cum_pnl": -387.1592105743955,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
     "59791274182564502652034972722656381080188306472031620654012968744576890493920": 1789644222,
@@ -4062,23 +4063,6 @@
     "100498151814773672878708486124555165778476883635396850024661551517192144656651": 1790290571
   },
   "seen_tx_hashes": [
-    "0xc2b983dcd3d80da322bd1428aa4f9c91b2c2ee8da3458f7c966d30ba25d67820",
-    "0x80115a6bcd78698cfcaa0bcaa0306a0f7326154074f0078b825509b565789dff",
-    "0x07020449c057763623e9042d2bcabbdca5bc76e05ce40aa881554d6dcfac6c86",
-    "0x47ee50f16387e943483a2a330afa5997bc7978fa43d5d2407432f5171588fb71",
-    "0x333f55857d5c83416e960a2c6df5ebf0945de354a6ae8f17ceb14d2b463b9bd2",
-    "0xc904c929ced527387e299230cfa5c1d58d0ddc974722ed31422c2084afa834f0",
-    "0xd7779af1a447535f759676fab86e46d329a2b7f53a64fab766b70aab7b7c5ab0",
-    "0xc04c756ab74b0d2537ede3abe65cde03d8f64371124144e070d0b1afd5cf5f4e",
-    "0xee5d4e70ada0ca9233dd27efb7232e2c2d157e1fd986fad1f5e23d9e41df193f",
-    "0x9c330c4fa790671bd8d33ecd618944cc689cef03590db78375e4902e2f05fe92",
-    "0xcd5243c536f68dbad52c70503108a5e9bceb382a6d1cb042b528cbff9c0c39fd",
-    "0xb876e0121db989adc9e9270c605a88cf5504e46c3dd475c1be886c7dc48a6157",
-    "0x75c0ed6444f2e883afc3711563e49419f2e342ed9bac46d6acb0e2802a02a02d",
-    "0x633578371c965d0875e003c0185bbc47fc210894ccb78f2deab5de837e8ea490",
-    "0xe6e4dadf08cb0af828ea25c97ce9e4bcdcdfe23c79872e86c952b40795f3c189",
-    "0xc237b03d546c6ef471db1cb1ea24abf7485716b081d95b1ae00f142fb89fa44c",
-    "0x7d53361986eb2130a3a831bb2dd20f67b9ce3c1e311d776c0684d48a9f11e6bb",
     "0xccc0e712cbf4fee60046ec10f01dbb69c40b6756c3cc61d5139991a22e0d9225",
     "0xbdb36d78bac3ed20e7ffccf4c9103f1780f3f58b691aa90b53a3fed08074053e",
     "0xb6f59d8073899c02e8dc6ff988f17b59124aa0a8e094a7e0d3b0ba8868be49b3",
@@ -6061,6 +6045,23 @@
     "0x945eadc9ff917c60482f67afc790b4a4fc6974328372906929999f8040a057da",
     "0x985b97f2d039b9fc512b73769c4c6a61da3f13b05f3818df47d95ff45e93724e",
     "0x9a2c86f1fc784acb27b26f943fd4e9848897e5fd5f4798b40db776e67e80fdbe",
-    "0x3d000f8f4169c8a4e48c9c400865fd96e2193126c087d94bf0a7910ab25e4367"
+    "0x3d000f8f4169c8a4e48c9c400865fd96e2193126c087d94bf0a7910ab25e4367",
+    "0x0a9fc02e36aa17e4ccbef18cf900cf9ad3af51dbf0e28f9782c83043c2547645",
+    "0xb1e55acf04ab9bea79490fe60d949810f6aab9df42f9f912da30d2a59706416e",
+    "0xa5f398407b91564eb7be47048f6057d26d0f0400bc7b6d7175d84acb7feccf81",
+    "0x57efcbe703c570f86516dec85a80f6cd0427c1511bf9da1a6b4a8d03cd0e1eb6",
+    "0xd6c5a7c2f63534c06ce047f54974ffaf8a3732b8a44c97e79e1849bc8dc31676",
+    "0xe115dccb4afe6dbc3b95f1255f18b5182de43e7d7a1c0929b264d6c76a4ff8ae",
+    "0x67e7cf67260e8d929d23ac6b3ad6f1053e4abad470a63127da907a1e1727f0f6",
+    "0xa22bdfc7f7972dd24ca961ac63f3ba2f882841b2b772bc6fbc514150e5c2b6e6",
+    "0x170935708b379c1dba2f4373922ba768d7b074a9fc31cd8f818e053d8d834a1c",
+    "0x0a20812cdd7354363251130ae38c7158408dcf5fbccd94fb315a66d749660e3f",
+    "0x91b157108489163abd3fdf03920303316949cb811c9378e1364d2f93737ab3c4",
+    "0xa3234195254cbc154c227498bc86afef6e18e6d9152348039bd98b8052f25a2b",
+    "0x3a04cc1b5b9e5c0bde47d301e7e527a0308b5d5d8c4da998fbb091cd0be03f38",
+    "0x5c164f31543123290a3bea01b4851d3e05938c89e247bd2c17eab4852ae5ed85",
+    "0x168240721dc6d26ea93ef63df0bf9a5d6a7b870bfe1ae7d3d64b63f2a26c0bdc",
+    "0x42f069c07757f51fcffc7f7f4ef24a5be09e3dd71318acf86e9e343d0791be78",
+    "0xf34bbc9b6ef6943065bdee53d23bb14aa2fa0d1ba572fd400be3f3b572395515"
   ]
 }
