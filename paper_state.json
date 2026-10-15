@@ -1,6 +1,6 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1792071001,
+  "last_rash_trade_ts": 1792088996,
   "cash": 8629.983070647826,
   "open_positions": [
     {
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1792076717
+      "exit_at": 1792094144
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,7 +31,7 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1792076717
+      "exit_at": 1792094144
     }
   ],
   "closed_positions": [
@@ -1532,69 +1532,6 @@
     }
   ],
   "decisions": [
-    {
-      "ts": 1791496575,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791510434,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $1932 @ 0.420)"
-    },
-    {
-      "ts": 1791510434,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2495 @ 0.420)"
-    },
-    {
-      "ts": 1791510434,
-      "kind": "FILL_A",
-      "msg": "BUY $1220 @ 0.584 (best 0.580+slip, kelly target $1220) bucket 0.6 (2089.3 shares) \u2014 Map Handicap: AUR (-1.5) vs 1WIN (+1.5)",
-      "asset": "36821946671854320696",
-      "entry": 0.584,
-      "size": 1220.173787733201
-    },
-    {
-      "ts": 1791510434,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791510434,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791511041,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791511041,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791511648,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791511648,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791512256,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791512256,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
     {
       "ts": 1791512863,
       "kind": "WAIT_D",
@@ -4061,9 +3998,69 @@
       "ts": 1792076117,
       "kind": "WAIT_D",
       "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792090514,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792090514,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792091120,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792091121,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792091727,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792091727,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792092333,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792092333,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792092939,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792092939,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792093544,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792093545,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
     }
   ],
-  "iterations": 8990,
+  "iterations": 9045,
   "cum_pnl": -1203.2766893521768,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
@@ -4086,13 +4083,6 @@
     "100498151814773672878708486124555165778476883635396850024661551517192144656651": 1790290571
   },
   "seen_tx_hashes": [
-    "0xcbce31e5107e21df89fb320a70edf819903cec2150b3f31b7c13a22509e94de4",
-    "0x73f7d486b0410357f314e3c10682f4e9cd898713f57cc6acc254e793c4a307ef",
-    "0x5b222ee65420f3b2c1bfaee5585d803f1d336524fd3beb2de2d3c61621af2e02",
-    "0x1e7144f6808cd95c7a670b31228d5f3270e3e85e3c051d3859b8c98ac44793ae",
-    "0x3d51f68274da9f48c14b06f06b2d2681a721b335063a4bc699d351126e77be3e",
-    "0xf3ab9fc403acd479799597ffe30dc26704407b4203bd18973b87fbf78cf316b8",
-    "0x4aa2d48d2319b2edf00a7466408de11b88da6df312efab11e23e9ecb5a4d695c",
     "0x3c4e3284066058b33359ba807c8ac56f9af16ef4e9c396e1e9ceb3c1602a1952",
     "0x58b0a0c09318ca3dd7902e36bb2185193c6733456300894f761493c1c3db616d",
     "0x5113ad69bdfdf43b62827536906e90bd2048ad12ff41be8a3e57699f6a7c9111",
@@ -6085,6 +6075,13 @@
     "0x93b75be3bfb27654f671c035ddbed4faf9df6a52d0c0e12ac6677318a8568b06",
     "0xd08815ed3a44ea6b9a19962b84df60c87b52496af84c34937f92e7652118f742",
     "0xefc83a45387ce8ef688428859586b8e996b4e627340e343ee487359609fd835e",
-    "0xd85bf08c76d1d3fa541970187a8eb2353e6550bb5f25db47b2e8974344a81b20"
+    "0xd85bf08c76d1d3fa541970187a8eb2353e6550bb5f25db47b2e8974344a81b20",
+    "0x6f2d339437e85d5c54bb3a723530097470e48e66e6dda0bf3541617874791e7f",
+    "0xb8d9e0776b30792c8385604c0807dd8dba7ffe90581123c87f2a24e1131af51e",
+    "0x9c68d49bfe059c00fe5e3035d94e523db5071cbe0ae59d83063fbe60ac755144",
+    "0x160bfabf578a8f9c3f1818578bce26716072dcfe4b752b44465080eec86d5c26",
+    "0x4eb498a37c7042bef1ff2f481da84bd4d42c0e7475066ab4b7d20b92070931d4",
+    "0x18edc80b0c5b033b50147fa6f2134878eed302b84c5c4a76d05a3dfd1a6b9eab",
+    "0x845a7d9562bbdd93c8ad6cde9d8586decf2e03accbf8c98f9442347b080157d4"
   ]
 }
