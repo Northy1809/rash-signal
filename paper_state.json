@@ -1,6 +1,6 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1792021473,
+  "last_rash_trade_ts": 1792038583,
   "cash": 8629.983070647826,
   "open_positions": [
     {
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1792022508
+      "exit_at": 1792039224
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,7 +31,7 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1792022508
+      "exit_at": 1792039224
     },
     {
       "id": "A_1792018866_4828108746",
@@ -1529,76 +1529,6 @@
     }
   ],
   "decisions": [
-    {
-      "ts": 1791443020,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $4486 @ 0.440)"
-    },
-    {
-      "ts": 1791443020,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.30 not in [0.6, 0.7] (Rash entry $2491 @ 0.320)"
-    },
-    {
-      "ts": 1791443020,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $3073 @ 0.440)"
-    },
-    {
-      "ts": 1791443020,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $3356 @ 0.440)"
-    },
-    {
-      "ts": 1791443020,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.30 not in [0.6, 0.7] (Rash entry $2510 @ 0.330)"
-    },
-    {
-      "ts": 1791443020,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $5037 @ 0.440)"
-    },
-    {
-      "ts": 1791443020,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $3859 @ 0.440)"
-    },
-    {
-      "ts": 1791443020,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $4959 @ 0.440)"
-    },
-    {
-      "ts": 1791443020,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.30 not in [0.6, 0.7] (Rash entry $2422 @ 0.340)"
-    },
-    {
-      "ts": 1791443020,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2129 @ 0.440)"
-    },
-    {
-      "ts": 1791443020,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791443020,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791443625,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791443625,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
     {
       "ts": 1791444229,
       "kind": "WAIT_D",
@@ -4056,9 +3986,79 @@
       "ts": 1792021909,
       "kind": "WAIT_D",
       "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792035588,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $1797 @ 0.360)"
+    },
+    {
+      "ts": 1792035589,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792035589,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792036196,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792036196,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792036803,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792036803,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792037410,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792037410,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792038017,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792038017,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792038624,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792038625,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792038685,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $3175 @ 0.360)"
     }
   ],
-  "iterations": 8825,
+  "iterations": 8880,
   "cum_pnl": -301.2973421743955,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
@@ -4081,52 +4081,6 @@
     "100498151814773672878708486124555165778476883635396850024661551517192144656651": 1790290571
   },
   "seen_tx_hashes": [
-    "0x63f2c75b8250dd8d3f4890e9180f90326aa3abb451273098fc70ed29e3260fde",
-    "0x8cb4a278488cc4794896064e4261ff389e26d26d283726819ea1c8b628fff621",
-    "0xaef3b9c9389978e3ce53416c2dfc538921019acb65a1243adfc7bdfed200db2e",
-    "0x59a9d97f59488bcce384e77e2cafb61f75c6e269be5d837080d80c05188f6375",
-    "0x5f53ae7b888bdd744dc7e72001da0a8b56b8f46450582a61fcaf7a1d3674fd14",
-    "0x5a6fd1ee5e4d0be44e29f8dd9d74032e178650bd0ed56ad9ced4f10b5a824c61",
-    "0x21db08f202039f8d1fe6bf56da9f60eb5aed8271b95e2b50010b89ec263520c1",
-    "0x4504ec32c2469b8a121bd3e479727ba5feef4fe222176fa3e99c50e2308570e4",
-    "0xe1b72149a277f535aa5da24884fb4e26b193104aed5770fa45bf3f77a9ecf5ea",
-    "0x9f42e5935a54a94f043f3383747fc568e923a14c62db4603e2b6d1286795b4fe",
-    "0x3a235a00a27150756a04c9e929680b52cfb55f430d2276b404e8edaf089c7967",
-    "0xea790826d64e6c4819683b4430511e8fd4ab2151ca411b3656284d22920b9d9e",
-    "0x0d0067b95cef2f12109a5d070bf20fcc2b115ef41717e8430345dd5d87715b27",
-    "0x1c4dfc2064a889f142a26ab5c71eb19e3e0d48a0ce9b09a7e3aab0f874500141",
-    "0x292f0babd22dfef5a0b2a4e6a7cf9ad0454e25b62d422080e040a482fb05eafe",
-    "0x7edcb54b36fdde4dbe1a9112db9307f23a137ecb1601e27c6e1e4b0c7ae6fe7f",
-    "0xafea0c05fbf5ae41a9459e5fe58fa9de0766d05546a13ccfb398c0d9789049de",
-    "0x08f9fe522206a90b79f959405748ea587a30a5e5c4d0417ebbc8309e3bee8368",
-    "0x1150320623916206cffd99253a958c71de5c669cc7424c4157d3fbff19c31fe6",
-    "0x43ddb8a0342eeca4f0a08885160c137cb33d2a16a0c4a1c130d7ec692f8e6674",
-    "0x7e36872da1b1399125253fe5a325c4798d5a0719b40268dc89dbb51063965643",
-    "0x4c2d791aab9d927db64939504cdda2e64f47dc6f081f66b6913e008adf402713",
-    "0x4ed9a08619710e5b84f8f36dae02c8325be79e92b469bb6b6a11b23980f86582",
-    "0x22c0b022e9965e7e65621135c41e37275034ed40228378c2399805f106bdd559",
-    "0x03f83a4cd7bdfdd498aae4ac9fd758408bb1169e3cb6595c0206410441278f7b",
-    "0x0cd19d959e905ae8c203beef29d239d39a08591a220f9840a155ab0db128a892",
-    "0x1cb7b0c76fa13283c901c8f5b369ea541558a203d3464f514c571e37ba9a58f3",
-    "0x38df89a515837ba83b39314fbf8d716fb7a7273810f7fa220f55287ad6c2efbb",
-    "0x15c12ddba74a1b74f877dfa66fc8e4acb0a84467843761a4a3724a73ad75afcd",
-    "0xdc8d8bb412c16afc87e55b4f5d8a32deb758fa17564b033fe47319d5a70a5ddd",
-    "0x0f00b351331926ab35094e17dbd9541c857f871cf5c56742609b3bfa788d6177",
-    "0x5efa0ea8afceca0091e3d3270677c0100d1c00349bf907fe6c3553da1002d4ef",
-    "0x629bb52a890e192780918927476954a3b9bfdc87fb4bb4684d69e1b9d5ffd4a5",
-    "0x281317cdf2eb337fdcbd5d94627646a71a28baac2c156d9fe8783b9bf43e82c7",
-    "0x3d9cad7fdd76a659143fbebef116f75077933fde59eade06650df363cf7e187a",
-    "0x3a3774efd5954ca5a8e76c97fadae575b0c8a65fe34e638d0966e47de9581846",
-    "0x93fe5581c2e7e792f62718dc0e253ccb8e8c4ef9b449282e93d780464e29e8b7",
-    "0x9001b65122ef390e82d56face8752f37ed7a75435007f2bbe7ef3282b2dd61f9",
-    "0x2c6c0afb2093a07c24ca73bd9f16590cc8c78f53e3054a66288d930718232cec",
-    "0x7a898bb3b55819d7e39f45d3754dc767d3652e0b5673a70a9266096fdeef3876",
-    "0x7f124653fc0978064a3ab8ed346ac11613704b8aa692f9e8fc5d5a055117d813",
-    "0xbec12bcfed9a9b8b490fe64aafda110c8f6071907e7ac4f67d7b87420462fdbd",
-    "0x1057fa3dd36cd8b9adab948453c8cc09b04ffdfa4217cd3c3b782c7c860392e1",
-    "0xd3b7c917ec2f705241f672ce63724c42a6e45d41e1d07afa0c932784d3a64dd8",
-    "0x29d52ca457fa7f4d653f61e10672d3ffb52236a64e5987e893ecdbdf3539936a",
-    "0x44b588b1e97396d26778e42e43840373480930c600f54808ab92cf137c0fe2d8",
     "0xc672b4c3af3b850884ccc6336eef0da237468f530fba111deb13a9d6fa9432ca",
     "0x0b19e0344a5611a51f562a3de6e7ca643dc457b05dc0fb46699c6f8dee7aa64a",
     "0x6ec707cb6daff06ad43ae0020d2b87f4588977a60ad5c117dbd1ea01d96e828c",
@@ -6080,6 +6034,52 @@
     "0xa63b67e7c6551961b5968231cdcb9382874b197b3702b28be830f012fd5366ed",
     "0xd69eaf9c00a3794cbad20c92f7ba28e7489d99a7b9c3ea728bffa62a003284a4",
     "0x1f68004a84ab727ac68f457eea0ccc57ca23478ea593dc4715b56d68a7aff17d",
-    "0xaa082baabd90faf4da64bb617bc3de47b2b674ee25ed8e479f0d4c90453425ec"
+    "0xaa082baabd90faf4da64bb617bc3de47b2b674ee25ed8e479f0d4c90453425ec",
+    "0xbd9022be816829546c8856d979e29b7084c9ec95f6788483df39117bed9a7fde",
+    "0xb2d0493e4882268ac1ca8a7a6ad0eedb3766f952ee4b921202fa5cc2a2a268da",
+    "0x52b4231e7f01325b56f14cb62b296275d121f6dd37714ad057adced4ab7b17cd",
+    "0x28a5e5da919b2a8fb046a300514e603727f5d30e7dbf539b9b049ddfbea6b15d",
+    "0x4cde8425d544d6a370be5fcc8dbdee92742c95005c2bc6a418dff13fe7c3150b",
+    "0x251215874ee89df13cc9154ac08cc0769658d3f2659e4140073c62db06bb3275",
+    "0x8d026a978d07cafa2dece583cebac5ff1d1af4ca0416681a4c7ca90f22de38ee",
+    "0xbe76a09c277979a9b2a89a7fbb263055794c85b0255f2daca5590b8459c03e51",
+    "0xa4a95bab4c68693e3eb16c5495b74615ae43a92066f909d0e121f6a127aca2bb",
+    "0x6574bc5c50b7bb2182396b7c58e78a2c13cd64cbb73b19b8d8378a5105c8db93",
+    "0x53520c4b411965001ec4a0fe644da14a605e2f41518c7488feb258790edf6f82",
+    "0x7ff8f412df5b72d9a93e8b6eae04249c018ba4ee11ff00821c6d329cce4a49a8",
+    "0x71d9ed835fc0ad330ff897afdda01903f22cd0cd7c763df77a431f944346b7cb",
+    "0xfd877a33195c5b54ce442e135457a6d2c273706b5e68c730dd4912d0fa75ab98",
+    "0x5d7ad7235035780a890710a9d037ef7b86a90718d24686590f59897650bbb778",
+    "0x34b3245d6a7c5e74765151dd683eec1f9da24666d5a409650ead08d32d18ab2b",
+    "0x4c119e7293eb4519179c13be4b97e049314cc6b8d692312028d493aa1d51ca90",
+    "0x7fbae0f163ec6147723942e74582603ecee759edff17a7d71ef207c1dac1d451",
+    "0x8ebf1649c0d551f1793b60915805a5575e1620e946c41a0be1980d2a16ecb2bf",
+    "0x04d96e9bc2faf1e7ff7c54fb2388e0185bd930fc40372409209a17201347be9a",
+    "0x55f0a5654cae3e8647263c20a50b214599849205780fd97c66483402feb7d34f",
+    "0x87dff91a18175244b8ae4d7ea8c3a48f4f8ad892790adf8c075d128d7a474163",
+    "0x5f73bd400e3c5b0bbf3d07b7e3ecbc477982e8cfdd305c76f65c6118bfdcf56c",
+    "0x6b0a60b2645d691813748f0ce04a460d828dd8742f2733a808a8a792c00c99e1",
+    "0xce3274af5218fcccf4a055801753388a170b6b7a9c9ce51cbb1317def96c5f62",
+    "0xea0dcdeca26d49522f5f1ed9145f12c0474fd09c6abe7f6cd4f2d99abfc3e129",
+    "0x125a55e060c467befb4c4e33fe83899bcb6dbb6db43c863c9d473a96fcf51243",
+    "0x7743a5e7cc671e09dfb7bc82625e9e3cd24a755d76116a466456b70199c3e8bb",
+    "0x2a9a7c9279707359e71da28b2cadf8ea6738c96898082f0bac1e52551abf35a0",
+    "0x8ec20fafdfb365b2dd618b5ddccba0158a66d7e15b7880bd5cf0e1006717fe6e",
+    "0x2fe6aff0378a220af2d849b19ef11facba507968367f2dd912f1d0da7483dfef",
+    "0x096059d6d3e7db50776cb8b711cd26592c3ca70f66ed6599782cdc60b8b1c589",
+    "0x5e8a1cd1e39164be38a131ab35e7939ba1487a73b2d17dd8b01160f86b1d3607",
+    "0x724c9ab0cc4307ca19f943eefeeea178d4dc29422e409d4bf5a10444b1569677",
+    "0x2eade6fe1b18a8a5c9bfec3eddd7ad114b791ca40f8a873f1378fc6df3f658ca",
+    "0x76c980c04f13845a0fad95c0a736c1c238483b3f96ca9f4c0e6a97467572a45c",
+    "0xfb189b2de7d0c79e83db2c6eddd75b28cdf4d39bb021281309f41be1e4093cc7",
+    "0x49fcc7f803000457eb9effe926845741ccd60a6e1921bc160416edfc2c17283c",
+    "0xf76744d57e2c580dc54e84e57ae1c383df1f980f0dafdf00eef865408cf4d5a0",
+    "0x941cb82522d80ec99c2fc5d8c62653eb7e639bfc577d2abc1482c5fb9650b1f9",
+    "0xe5023fece5fed1f46600b758ebc1b8efd1707ef813a640b2784ce05391b3c21c",
+    "0x29dc49899e84b5bc3252568d53683215736bf534bbcd6b1336dd7602d778f623",
+    "0x038ba6c92c2432ecf0ee2ae88f31ea62fd29ae6854a4210816b800919e621150",
+    "0xa851284f65b83a6f2ba0b9ca86f9979a586a316fb1f2599e6a00f1df94d0ec8e",
+    "0xf2042effbe56765304afb803756a893b015f5a59757003e038e85ac26cbcbb15",
+    "0xf9cc0e94d39b849fc935335c1881933b039d99d2f3c79eaba2d67d80379b5b00"
   ]
 }
