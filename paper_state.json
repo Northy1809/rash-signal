@@ -1,6 +1,6 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1792038583,
+  "last_rash_trade_ts": 1792057481,
   "cash": 8629.983070647826,
   "open_positions": [
     {
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1792039224
+      "exit_at": 1792058256
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,7 +31,7 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1792039224
+      "exit_at": 1792058256
     },
     {
       "id": "A_1792018866_4828108746",
@@ -1529,111 +1529,6 @@
     }
   ],
   "decisions": [
-    {
-      "ts": 1791444229,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791444230,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791444773,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2281 @ 0.350)"
-    },
-    {
-      "ts": 1791444834,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791444834,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791445439,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791445439,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791445681,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2587 @ 0.350)"
-    },
-    {
-      "ts": 1791446045,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791446045,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791472701,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.30 not in [0.6, 0.7] (Rash entry $2012 @ 0.340)"
-    },
-    {
-      "ts": 1791472701,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $17136 @ 0.490)"
-    },
-    {
-      "ts": 1791472701,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.20 not in [0.6, 0.7] (Rash entry $2668 @ 0.241)"
-    },
-    {
-      "ts": 1791472701,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $15107 @ 0.489)"
-    },
-    {
-      "ts": 1791472701,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791472701,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791472822,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $3084 @ 0.520)"
-    },
-    {
-      "ts": 1791473306,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791473306,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791473911,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791473911,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
     {
       "ts": 1791474516,
       "kind": "WAIT_D",
@@ -4056,9 +3951,114 @@
       "ts": 1792038685,
       "kind": "SKIP_A",
       "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $3175 @ 0.360)"
+    },
+    {
+      "ts": 1792054621,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2170 @ 0.360)"
+    },
+    {
+      "ts": 1792054621,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $2584 @ 0.360)"
+    },
+    {
+      "ts": 1792054621,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $1661 @ 0.360)"
+    },
+    {
+      "ts": 1792054621,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $2262 @ 0.480)"
+    },
+    {
+      "ts": 1792054621,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $2324 @ 0.480)"
+    },
+    {
+      "ts": 1792054621,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $2009 @ 0.480)"
+    },
+    {
+      "ts": 1792054622,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792054622,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792055229,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792055229,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792055836,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792055836,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792055957,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $2642 @ 0.480)"
+    },
+    {
+      "ts": 1792056442,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792056443,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792056867,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $3066 @ 0.480)"
+    },
+    {
+      "ts": 1792057049,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792057049,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792057656,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792057656,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792057777,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.50 not in [0.6, 0.7] (Rash entry $1745 @ 0.480)"
     }
   ],
-  "iterations": 8880,
+  "iterations": 8935,
   "cum_pnl": -301.2973421743955,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
@@ -4081,36 +4081,6 @@
     "100498151814773672878708486124555165778476883635396850024661551517192144656651": 1790290571
   },
   "seen_tx_hashes": [
-    "0xc672b4c3af3b850884ccc6336eef0da237468f530fba111deb13a9d6fa9432ca",
-    "0x0b19e0344a5611a51f562a3de6e7ca643dc457b05dc0fb46699c6f8dee7aa64a",
-    "0x6ec707cb6daff06ad43ae0020d2b87f4588977a60ad5c117dbd1ea01d96e828c",
-    "0xde216e72e2d1af5ce2d1f970baaa8453c59aa0172584c2308c3c8ca96a9ccd1b",
-    "0x10ff893f3ccc24e141fe7138340d98b53f92de315148a8b1bf27ac57b2ac6817",
-    "0x7ee583ddafcd82fc3d2bbe1d943d099f0000693ef541f09d7599f1b353f9e9df",
-    "0x57919de37cb8d8d0aa67fccea570e9c0a473c39e93395b2fa75695d1d8081946",
-    "0x999334caa1170a5d3dc4e9847f0d8ca9691a7486b4a2a450b29c68c8a2023bdd",
-    "0x7e80cd78350b2e7dcd13cf158b27ed41e88bc3b86581f8395632715b9c466e1e",
-    "0x021fc0636d81ddd3adf83ca640e9894b7f48a49c26ff6d1e1fdbbf32cc42a302",
-    "0x28c921e963a83d35b5a172182520eb7a67da29ed4b8b072f4bd5718fe43db1a2",
-    "0xeed1047180cb7c724a012ea54f130c3ec6819ed2a102fd4758878b871fed47d0",
-    "0x8cce85726290ea27f78c5e553e2111b9612f07af1fe1a04a367987f3992be60c",
-    "0xbbcdee67bfe25871d2f6fa6ed3458e2692dadb31937e96da15e138875ab04122",
-    "0xd69d3153bc278fc4a764dd334a858c34c76967c1a17c9c0f1b631ce377a43e54",
-    "0x1ef3733e6f44a52691e08d872d59e453ad75b3eec83f5166ef80c493a536f7f8",
-    "0x92c9a7e8ad1ce7c769656a0d1c744661faf52d402ee81cf33b44146ee7e653cb",
-    "0x483dc21f1625812c2223dd9482559103084b7bd7a46ad1a697cdce616f435395",
-    "0xc2eace8e2b219908ba35cebcc76b614b057c8d3e6d42d29055c258d72c77306a",
-    "0xbee0265a8af76041da64c4f5d1227ab8318561eb5ca2841433f35fa7203eb902",
-    "0xc462954760c635b158010c112e3750f56cd4d92423409cadc5c161d72bc8f5d4",
-    "0x17ee3fc3c8bd9a5195ead3238ba7befbec58d6c54ad624ff599a3e8954216a2a",
-    "0x5e4dc4fd60faed4baf0e93ebff80aae53e6d1d80182073c7fa34d662dabe775a",
-    "0xa27078c2f0c8e669c9104e717cc005e90eb23090553411efd1c01920c3ee69b8",
-    "0xc449f997b3fc0e22eddd9604f5800054089dc4111db8c22ea8e983188a6ee6a1",
-    "0xbc1ec312f90837ecbcea6bc791827dde7efafcc843e579e5f44472fbe2fe2881",
-    "0xacfe7b0eac41d786438b44c6abdd0c30142819bbe151380ff41ed520ad20e7af",
-    "0x794dd42463cc74759b3612089fa750e55b27ab1a2d9dd7e38c7d0372c90866db",
-    "0x297215a009344c10085ab2a203378e9c4333a8c2c404187896c42ab3406fa58b",
-    "0x71663ff79ae7dd87e36917bb3444d1aef2c69dd9b9e645430157f345a85ae8db",
     "0x0856021d7c0b7901288dedd635a47ea83ed6f628534f84a80b3af189abcacc88",
     "0x53bb4073dbf163930157c14b762a8a0cece9668e1c2ff1e89034a517e8fdca66",
     "0x2d3fb2c55d4804d03d912cd3f8e26f23f1049c05a988752d5c573bd0fc17de57",
@@ -6080,6 +6050,36 @@
     "0x038ba6c92c2432ecf0ee2ae88f31ea62fd29ae6854a4210816b800919e621150",
     "0xa851284f65b83a6f2ba0b9ca86f9979a586a316fb1f2599e6a00f1df94d0ec8e",
     "0xf2042effbe56765304afb803756a893b015f5a59757003e038e85ac26cbcbb15",
-    "0xf9cc0e94d39b849fc935335c1881933b039d99d2f3c79eaba2d67d80379b5b00"
+    "0xf9cc0e94d39b849fc935335c1881933b039d99d2f3c79eaba2d67d80379b5b00",
+    "0x2ffc70a305cd09dffa000ef587b7e8a0410205c1c135845932abe3cae5dfc3ef",
+    "0x87bf80075e48d0ae1e7ea308ac7c4dc367a70fecd687f1f59fd5a10b4e0ac321",
+    "0x02e01e3ad08742e47b879d18e6d9925f6eca6f86c13aac58c17dc390cd125ee3",
+    "0x7d546bfef1714a7b653b7276da73e00b62d2f30650f937f18304abb02070f8d2",
+    "0x006bba53261a33f10474337895dbd9943c9a591efaa3c9cdd2f950314c001bc8",
+    "0xfe0def7e9c2d00a049ba3263d156dcf952c0b7fe2a219bd367b8d5d4d7cd2588",
+    "0x5c708c5580ef923ee5d26c2e5520b8f3ad1a9777638e938b56f25210dd6b4bc2",
+    "0xfba83010762c7694e730a30cfd492d52f54ea6ec7367285263c6f9da63d5be93",
+    "0x96b69dd92c7be17262b45e81d7cec573513575e451e87759438d7b5317c6fe4f",
+    "0xdf30cf7e33457ec1ef62803385ca3dc1435c156d3bdf65fb5df46d5e68f7d08a",
+    "0x258aec633a00a99e1c04bc55b8c760afd1c3c42085e8867625c60d814be13751",
+    "0x36ce9696f1450d49ea9ac1c11f5dd50be28807129da005127fa7b57f91b33113",
+    "0x7b23cfd0ac71f51a14ce0f7b331f2c757e17fc29d6a474a26acdeb21c84f0d95",
+    "0x56041f25a54f012934a2be188b705c70a81d996d33b248ff5d5793d9b152c6dd",
+    "0x42e8d20f3d6bac020d465a64cfa9699d4bf1546bb3701f229b6f4245ca60f266",
+    "0x035a8573f7cce3c7d2021a6a5a1cbfc3dde105a915e10f77e206eb1963e76cf8",
+    "0x8c21610afd9f0e2e7ca0b8cf5bf0d7bc1cf9c595ab8bf0d66e25d5a8f74137dd",
+    "0x5477f72c90f8ce610dc1c8b8138fc569b164b0e6522026ed497c0be96f4b6e74",
+    "0xe3d2a2bfdcbeea67403d40b6e03b2eae386572819a5f2a26d2a85dda93405a3f",
+    "0x33f14a82168c444b148b633fcce49a0e839a34e884a4ebc57a83d2f319a41c54",
+    "0x460d80aac67dab3555d158c4be55ee5c2c9f906cf66b730fcd808b07b06bf35f",
+    "0x92dae46525a3b930455a488582a64c9f3784932f08e4169af39fff7b6f6abe37",
+    "0x1ec37547d2d0e108a6cbd12ab320b12a205c3df2ecf65ecd52fc46c7c1195262",
+    "0xd31ff2e15aa60fe9c8f3a30ad9ee44eba752467e1ffb5e8b5d5d57fba4b7579c",
+    "0x30648ee26dd33b17cefc5a3dc7d96fef19e0ec5183ecb6b06652ed0e089913d7",
+    "0xc3e8f702cd7c8aa934bc6bc626cecbb42342d642127434a9a91fa71ee77ebbb4",
+    "0x7dcc3a2640f820319a9926a6c1534358d62afe7980cd3bf3700b79ca2f8dc03a",
+    "0x57acfb59a6fafd24e34dbff3fc95f6cac1b08bf902f952ae503172956a6ac7b9",
+    "0xa7f510732ea7a58aa8c92eaacf22299792588025efe57584ad2fb41ffdb752cd",
+    "0x64d40dc6dc576e1badc34bf488458aef62b422e55b895cae8aa71bdceb618552"
   ]
 }
