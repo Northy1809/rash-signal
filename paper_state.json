@@ -1,7 +1,7 @@
 {
   "started_at": 1788969492.0751202,
-  "last_rash_trade_ts": 1792354508,
-  "cash": 8759.374378263827,
+  "last_rash_trade_ts": 1792366206,
+  "cash": 8593.976338263827,
   "open_positions": [
     {
       "id": "D_1789646934_1098206692",
@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1792358134
+      "exit_at": 1792367445
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,7 +31,26 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1792358134
+      "exit_at": 1792367445
+    },
+    {
+      "id": "A_1792365453_8275547831",
+      "strategy": "A",
+      "asset": "82755478314692388645959666914074956949792672521441607705198678075266478516489",
+      "condition": "0x58ac36103e953085c8d7afc518aa34503823d66c1255f3b014e0b783cecf67a0",
+      "outcome": "FORZE Reload",
+      "title": "Counter-Strike: GenOne vs FORZE Reload (BO3) - NODWIN Clutch Series Group Stage",
+      "entry_price": 0.684,
+      "entry_time": 1792365453,
+      "fill_usdc": 165.39804,
+      "shares_gross": 241.81,
+      "fee_shares": 2.6132890319999995,
+      "net_shares": 239.196710968,
+      "rash_trade_price": 0.67,
+      "rash_trade_usdc": 1700.7146000000002,
+      "rash_trade_ts": 1792365299,
+      "kelly_target_usdc": 1053.2815249551313,
+      "exit_type": "resolution"
     }
   ],
   "closed_positions": [
@@ -1576,76 +1595,6 @@
     }
   ],
   "decisions": [
-    {
-      "ts": 1791888888,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791888888,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791889493,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791889493,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791914430,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791914431,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791915035,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791915035,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791915337,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.30 not in [0.6, 0.7] (Rash entry $3137 @ 0.330)"
-    },
-    {
-      "ts": 1791915639,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791915639,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791916244,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1791916244,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1791916848,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
     {
       "ts": 1791916848,
       "kind": "WAIT_D",
@@ -4095,9 +4044,82 @@
       "ts": 1792357534,
       "kind": "WAIT_D",
       "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792363822,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792363822,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792364426,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792364426,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792365030,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792365030,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792365453,
+      "kind": "FILL_A",
+      "msg": "BUY $165 @ 0.684 (best 0.680+slip, kelly target $1053) bucket 0.7 (241.8 shares) \u2014 Counter-Strike: GenOne vs FORZE Reload (BO3) - NODWIN Clutch",
+      "asset": "82755478314692388645",
+      "entry": 0.684,
+      "size": 165.39804
+    },
+    {
+      "ts": 1792365453,
+      "kind": "SKIP_A",
+      "msg": "bucket 0.40 not in [0.6, 0.7] (Rash entry $1898 @ 0.380)"
+    },
+    {
+      "ts": 1792365635,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792365635,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792366240,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792366240,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792366846,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792366846,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
     }
   ],
-  "iterations": 10090,
+  "iterations": 10145,
   "cum_pnl": -1073.885381736177,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
@@ -4120,14 +4142,6 @@
     "100498151814773672878708486124555165778476883635396850024661551517192144656651": 1790290571
   },
   "seen_tx_hashes": [
-    "0x91c022d6118e3b2e7b5ccf623036067ab3a4e7dd1a6b8bee33fa7dae664487b1",
-    "0x2397df06a102bd90b1a4d6a7a5dd7b6e1f99871c74e8d7394742d275d09ee6e1",
-    "0x3462af424357b955afec31a3467a689fb021d9325764c720e62852c0746e33aa",
-    "0xc3b0ac5426ba92e567ab1ef29ba071e0d5d45777b5b6519d64b8f0a70bc59d75",
-    "0x7da175ead6a2edc46cc61201692d6b443f28fe137beaf34a21c9cb132a999819",
-    "0x2dba92d7b3925e81ed8a7a306c2f5725a9f74f632d54dfd09a09eb2ccc0a67bb",
-    "0xb810ed414730ad65bbc2408a510b00e6874df0497832b7474542a3f76c949ca7",
-    "0xc4dc5464cac5578d5a7be8803a3b9bd16b124b4473e4b7e04523530005fddd77",
     "0x3b143bd32de418b9ecff7d87cfa052ad2484ceba9f54906f8ffd5ddd6b207b61",
     "0x84082277eea8bd55783435a9204af983876990af5d176d02d7839c56121778a6",
     "0xf38267e6bd8e2423c40dad8bcd7d77dd9cebbaae0bb6589cbbe04383c792e999",
@@ -6119,6 +6133,14 @@
     "0xe181c385c728cff9127e18dd7209109b3fda4c7556b8baf64e954a0d0bceed0c",
     "0xc3e50f2b6237d12206ce65a48fb2fc59bbc131e581a887f237aea029f5b86ab7",
     "0x18600badb463e220976c1e159a4ab93abeb78b3e1ee68c87580d2acc206cf434",
-    "0x33625aaaab6b6f0f94e7e7268d2c45ac0971de423509a1a12204b3ed9afbb44d"
+    "0x33625aaaab6b6f0f94e7e7268d2c45ac0971de423509a1a12204b3ed9afbb44d",
+    "0xc50538d3f928db81cd4406bd7b1e2768b008f2b239d092b194922ace7bf752e4",
+    "0x75d61de71b0b0292d6663ec53a4b243c51e6ee89192c2c77bc863c4ff1ce9abf",
+    "0x7d00946be111522dfa511c7e91224744dbd5cbcc529a7fc2abcb6fea1c0adec0",
+    "0x1c014b1184fa290cf32a9c731dfa2db4fda918b189de7dae4be26b3f0722f7d3",
+    "0x39a2e7a50ecc9dabee37f760184795e0997c1357880e85bdc0f35aa579b50a24",
+    "0x2ea40d9b0b13b5d710916f0d02c4d374b5c9ed6f86fc7b6ef60fe30a3f66aeff",
+    "0xeff018776ff5c1ca952e401823b8f5fb2d21a1c0459ccfade230180380ec1825",
+    "0xc044bc777c75b5629f7fb3e68f4a1341ab4c8eccdeae50aaa3c14e0a5401e7e3"
   ]
 }
