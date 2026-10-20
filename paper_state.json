@@ -16,7 +16,7 @@
       "crash_from": 0.745,
       "crash_to": 0.53,
       "exit_type": "time",
-      "exit_at": 1792511197
+      "exit_at": 1792526432
     },
     {
       "id": "D_1790114423_8199782729",
@@ -31,7 +31,7 @@
       "crash_from": 0.865,
       "crash_to": 0.105,
       "exit_type": "time",
-      "exit_at": 1792511197
+      "exit_at": 1792526432
     }
   ],
   "closed_positions": [
@@ -1598,69 +1598,6 @@
     }
   ],
   "decisions": [
-    {
-      "ts": 1792007610,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1792007610,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1792008215,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (1098206692)"
-    },
-    {
-      "ts": 1792008215,
-      "kind": "WAIT_D",
-      "msg": "no bid book, extending exit +10min (8199782729)"
-    },
-    {
-      "ts": 1792018866,
-      "kind": "FILL_A",
-      "msg": "BUY $902 @ 0.594 (best 0.590+slip, kelly target $902) bucket 0.6 (1518.5 shares) \u2014 Map Handicap: AUR (-1.5) vs NIP (+1.5)",
-      "asset": "48281087463416706783",
-      "entry": 0.594,
-      "size": 901.9793471777814
-    },
-    {
-      "ts": 1792018866,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.30 not in [0.6, 0.7] (Rash entry $2617 @ 0.290)"
-    },
-    {
-      "ts": 1792018866,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.30 not in [0.6, 0.7] (Rash entry $1792 @ 0.280)"
-    },
-    {
-      "ts": 1792018866,
-      "kind": "SKIP_A",
-      "msg": "already have position on 4828108746..."
-    },
-    {
-      "ts": 1792018866,
-      "kind": "SKIP_A",
-      "msg": "already have position on 4828108746..."
-    },
-    {
-      "ts": 1792018866,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.30 not in [0.6, 0.7] (Rash entry $3015 @ 0.280)"
-    },
-    {
-      "ts": 1792018866,
-      "kind": "SKIP_A",
-      "msg": "already have position on 4828108746..."
-    },
-    {
-      "ts": 1792018866,
-      "kind": "SKIP_A",
-      "msg": "bucket 0.30 not in [0.6, 0.7] (Rash entry $2950 @ 0.280)"
-    },
     {
       "ts": 1792018866,
       "kind": "SKIP_A",
@@ -4117,9 +4054,69 @@
       "ts": 1792510598,
       "kind": "WAIT_D",
       "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792522800,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792522800,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792523407,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792523407,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792524013,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792524013,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792524619,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792524619,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792525225,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792525226,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
+    },
+    {
+      "ts": 1792525832,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (1098206692)"
+    },
+    {
+      "ts": 1792525832,
+      "kind": "WAIT_D",
+      "msg": "no bid book, extending exit +10min (8199782729)"
     }
   ],
-  "iterations": 10585,
+  "iterations": 10640,
   "cum_pnl": -1000.0867107681769,
   "d_cooldowns": {
     "108679291048678284599992010831105859235345446510908003907670052117807763282614": 1789571506,
